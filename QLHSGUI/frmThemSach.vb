@@ -53,7 +53,7 @@ Public Class frmThemSach
         sach.MaSach = Convert.ToInt32(txtMaSach.Text)
         sach.TenSach = txtTenSach.Text
         sach.TacGia = txtTacGia.Text
-        sach.SoLuongTon = txtSoLuongTon.Text
+        sach.SoLuongTon = txtSoLuongTon.Text 
         sach.MaLoaiSach = Convert.ToInt32(cbbLoaiSach.SelectedValue)
 
         '2. Business .....

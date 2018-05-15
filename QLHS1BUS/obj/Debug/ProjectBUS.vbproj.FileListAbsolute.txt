@@ -16,3 +16,39 @@ C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\Q
 C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1BUS\obj\Debug\QLHS1BUS.dll
 C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1BUS\obj\Debug\QLHS1BUS.xml
 C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\Utility.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\Utility.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\bin\Debug\Utility.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\obj\Debug\ProjectBUS.vbprojResolveAssemblyReference.cache
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\obj\Debug\ProjectBUS.vbproj.GenerateResource.Cache
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project\Quan-Ly-Nha-Sach---SE104.I21.PMCL\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\Utility.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\Utility.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\bin\Debug\Utility.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\obj\Debug\ProjectBUS.vbprojResolveAssemblyReference.cache
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\obj\Debug\ProjectBUS.vbproj.GenerateResource.Cache
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHS1BUS\obj\Debug\QLHS1BUS.pdb

@@ -84,6 +84,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PhieuNhapDTO.vb" />
+    <Compile Include="QuyDinhDTO.vb" />
     <Compile Include="SachDTO.vb" />
   </ItemGroup>
   <ItemGroup>

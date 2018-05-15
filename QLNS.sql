@@ -86,10 +86,10 @@ GO
 
 CREATE TABLE [dbo].[tblQuyDinh](
 	[ID] [int] NOT NULL,
-	[LNTT] [int] NOT NULL,
-	[LTTD] [int] NOT NULL,
-	[TNTD] [int] NOT NULL,
-	[LTTT] [int] NOT NULL,
+	[LuongNhapToiThieu] [int] NOT NULL,
+	[LuongTonToiDa] [int] NOT NULL,
+	[TienNoToiDa] [int] NOT NULL,
+	[LuongTonToiThieu] [int] NOT NULL,
  CONSTRAINT [PK_tblQuyDinh] PRIMARY KEY CLUSTERED 
 (
 	[ID] ASC
@@ -334,7 +334,7 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblQuyDinh]([ID],[LNTT],[LTTD],[TNTD],[LTTT])VALUES(1,2,3,4,5)
+INSERT INTO [dbo].[tblQuyDinh]([ID],[LuongNhapToiThieu],[LuongTonToiDa],[TienNoToiDa],[LuongTonToiThieu])VALUES(1,150,300,20000,20)
 GO
 
 /******insert phieu nhap sach******/
@@ -407,9 +407,9 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblKhachHang]([MAKH],[HoTenKH],[TienNoKH],[DiaChi],[Email],[SDT])VALUES(20000001,N'Nguyễn Thúy Vy','100000',N'15/96 Võ Duy Ninh, P.22, Q.Bình Thạnh, TP.HCM',N'thuyvy123@gmail.com','0123456789')
+INSERT INTO [dbo].[tblKhachHang]([MAKH],[HoTenKH],[TienNoKH],[DiaChi],[Email],[SDT])VALUES(24000001,N'Nguyễn Thúy Vy','100000',N'15/96 Võ Duy Ninh, P.22, Q.Bình Thạnh, TP.HCM',N'thuyvy123@gmail.com','0123456789')
 GO
-INSERT INTO [dbo].[tblKhachHang]([MAKH],[HoTenKH],[TienNoKH],[DiaChi],[Email],[SDT])VALUES(20000002,N'Nguyễn Anh Tú','0',N'15/96 Võ Duy Ninh, P.22, Q.Bình Thạnh, TP.HCM',N'anhtu26396@gmail.com','0123456789')
+INSERT INTO [dbo].[tblKhachHang]([MAKH],[HoTenKH],[TienNoKH],[DiaChi],[Email],[SDT])VALUES(24000002,N'Nguyễn Anh Tú','0',N'15/96 Võ Duy Ninh, P.22, Q.Bình Thạnh, TP.HCM',N'anhtu26396@gmail.com','0123456789')
 GO
 
 /******insert bao cao ton******/

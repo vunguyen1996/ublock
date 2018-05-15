@@ -116,6 +116,12 @@
     <Compile Include="frmQLSach.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmQuyDinh.Designer.vb">
+      <DependentUpon>frmQuyDinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuyDinh.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmThemBaoCaoTon.Designer.vb">
       <DependentUpon>frmThemBaoCaoTon.vb</DependentUpon>
     </Compile>
@@ -189,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmQLSach.resx">
       <DependentUpon>frmQLSach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuyDinh.resx">
+      <DependentUpon>frmQuyDinh.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmThemBaoCaoTon.resx">
       <DependentUpon>frmThemBaoCaoTon.vb</DependentUpon>

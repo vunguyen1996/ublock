@@ -78,4 +78,10 @@ Public Class frmMain
         frm.MdiParent = Me
         frm.Show()
     End Sub
+
+    Private Sub QuyĐịnhToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuyĐịnhToolStripMenuItem.Click
+        Dim frm As frmQuyDinh = New frmQuyDinh
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
 End Class

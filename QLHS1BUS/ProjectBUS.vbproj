@@ -83,6 +83,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PhieuNhapBUS.vb" />
+    <Compile Include="QuyDinhBUS.vb" />
     <Compile Include="SachBUS.vb" />
   </ItemGroup>
   <ItemGroup>
