@@ -1,0 +1,180 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+D:\QLHS\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+D:\QLHS\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+D:\QLHS\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+D:\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+D:\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+D:\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+D:\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+D:\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+D:\QLHS\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+D:\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+D:\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+D:\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+D:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+D:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+D:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+D:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+D:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+D:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+F:\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+F:\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+F:\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+F:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+F:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+F:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+F:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+F:\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\bin\Debug\Utility.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DTO\obj\Debug\QLHS1DTO.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\Utility.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\Utility.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\Utility.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.vbprojResolveAssemblyReference.cache
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.vbproj.GenerateResource.Cache
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.pdb

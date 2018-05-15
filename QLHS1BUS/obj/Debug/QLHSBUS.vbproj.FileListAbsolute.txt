@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHSBUS.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHSBUS.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.pdb

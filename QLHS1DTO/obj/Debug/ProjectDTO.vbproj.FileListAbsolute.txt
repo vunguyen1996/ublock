@@ -1,0 +1,12 @@
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\QLHS1DTO.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\QLHS1DTO.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\QLHS1DTO.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\Utility.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\Utility.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\bin\Debug\Utility.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\ProjectDTO.vbprojResolveAssemblyReference.cache
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.Resources.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\ProjectDTO.vbproj.GenerateResource.Cache
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DTO\obj\Debug\QLHS1DTO.pdb

@@ -1,0 +1,264 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+D:\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+D:\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+D:\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+D:\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+D:\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+D:\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+D:\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+D:\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+D:\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+D:\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+D:\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+D:\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+D:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+D:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+D:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+D:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+D:\QLHS - O3\QLHS1DAL\bin\Debug\Utility.dll
+D:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+D:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+D:\QLHS - O3\QLHS1DAL\bin\Debug\Utility.pdb
+D:\QLHS - O3\QLHS1DAL\bin\Debug\Utility.xml
+D:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+D:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+D:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+D:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+D:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+D:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+F:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+F:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+F:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+F:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+F:\QLHS - O3\QLHS1DAL\bin\Debug\Utility.dll
+F:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+F:\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+F:\QLHS - O3\QLHS1DAL\bin\Debug\Utility.pdb
+F:\QLHS - O3\QLHS1DAL\bin\Debug\Utility.xml
+F:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+F:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+F:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+F:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+F:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+F:\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\Utility.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\Utility.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\bin\Debug\Utility.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\bin\Debug\Utility.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1DAL\obj\Debug\QLHS1DAL.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\Utility.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\Utility.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\bin\Debug\Utility.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\obj\Debug\QLHS1DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\obj\Debug\QLHS1DAL.vbproj.GenerateResource.Cache
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHS1DAL\obj\Debug\QLHS1DAL.pdb

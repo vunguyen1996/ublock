@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHSDAL.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHSDAL.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1DAL\obj\Debug\QLHS1DAL.pdb

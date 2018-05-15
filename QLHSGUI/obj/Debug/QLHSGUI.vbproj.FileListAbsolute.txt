@@ -1,0 +1,694 @@
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHSGUI.exe
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHSGUI.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHSGUI.xml
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.exe
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.xml
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+c:\users\administrator\documents\visual studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.frmHocSinhGUI.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.frmLoaiHocSinhGUI.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHSGUI\obj\Debug\QLHSGUI.frmDanhSachLoaiHocSinh.resources
+D:\QLHS\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.exe
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.xml
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.pdb
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.frmDanhSachLoaiHocSinh.resources
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.frmHocSinhGUI.resources
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.frmLoaiHocSinhGUI.resources
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+D:\QLHS\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+D:\QLHS\QLHSGUI\bin\Debug\QLHSGUI.exe
+D:\QLHS\QLHSGUI\bin\Debug\QLHSGUI.pdb
+D:\QLHS\QLHSGUI\bin\Debug\QLHSGUI.xml
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1BUS.dll
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1DAL.dll
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1DTO.dll
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1BUS.xml
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1DAL.xml
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+D:\QLHS\QLHSGUI\bin\Debug\QLHS1DTO.xml
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHSGUI.exe
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHSGUI.pdb
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHSGUI.xml
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1BUS.dll
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DTO.dll
+D:\QLHS - O3\QLHSGUI\bin\Debug\Utility.dll
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DAL.dll
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1BUS.xml
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DTO.xml
+D:\QLHS - O3\QLHSGUI\bin\Debug\Utility.pdb
+D:\QLHS - O3\QLHSGUI\bin\Debug\Utility.xml
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+D:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DAL.xml
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinhGUI.resources
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.exe
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.xml
+D:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.pdb
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.exe
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.xml
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.pdb
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHSGUI.exe
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHSGUI.pdb
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHSGUI.xml
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1BUS.dll
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DTO.dll
+F:\QLHS - O3\QLHSGUI\bin\Debug\Utility.dll
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DAL.dll
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1BUS.xml
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DTO.xml
+F:\QLHS - O3\QLHSGUI\bin\Debug\Utility.pdb
+F:\QLHS - O3\QLHSGUI\bin\Debug\Utility.xml
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+F:\QLHS - O3\QLHSGUI\bin\Debug\QLHS1DAL.xml
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinhGUI.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+F:\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHSGUI.exe
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHSGUI.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHSGUI.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1BUS.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1BUS.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\bin\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.exe
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHSGUI\obj\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHSGUI\obj\Debug\QLHSGUI.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHSGUI.exe
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHSGUI.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHSGUI.xml
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1BUS.dll
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\Utility.dll
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1DAL.dll
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1BUS.xml
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\Utility.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\Utility.xml
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\bin\Debug\QLHS1DAL.xml
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.exe
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.xml
+D:\Project QLHS - 3 Layers 8.0\QLHSGUI\obj\Debug\QLHSGUI.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 12.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHSGUI.exe
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHSGUI.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHSGUI.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmNhapDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuyDinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.frmXayDungChuongTrinhHocChuan.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.exe
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHSGUI\obj\Debug\QLHSGUI.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 15.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHSGUI.exe
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHSGUI.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHSGUI.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmNhapDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuyDinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHocChuan.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.exe
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuanLyChuongTrinh.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmNhapDiem.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuanLyChuongTrinh.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuyDinh.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHoc.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHocChuan.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHSGUI\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmApDungChuongTrinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmNhapDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuanLyChuongTrinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuyDinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.exe
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.exe
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmApDungChuongTrinh.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmNhapDiem.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuanLyChuongTrinh.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuyDinh.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHoc.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.exe
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.xml
+E:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.exe
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.xml
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.exe
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHSGUI.xml
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.dll
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.dll
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.dll
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1BUS.xml
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\Utility.xml
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\bin\Debug\QLHS1DAL.xml
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmApDungChuongTrinh.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmNhapDiem.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuanLyChuongTrinh.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuyDinh.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHoc.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+D:\Project QLHS - 3 Layers 21.0\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHSGUI.exe
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHSGUI.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHSGUI.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1BUS.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1BUS.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\bin\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmApDungChuongTrinh.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmNhapDiem.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuanLyChuongTrinh.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQuyDinh.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHoc.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.exe
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHSGUI\obj\Debug\QLHSGUI.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHSGUI.exe.config
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHSGUI.exe
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHSGUI.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHSGUI.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1BUS.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1DTO.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\Utility.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1DAL.dll
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1BUS.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1BUS.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1DTO.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1DTO.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\Utility.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\Utility.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1DAL.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1DAL.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.vbprojResolveAssemblyReference.cache
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmApDungChuongTrinh.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenHocKy.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmChuyenLop.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmNhapDiem.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocKy.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLLop.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLMonHoc.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQuanLyChuongTrinh.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQuyDinh.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemChuongTrinhHoc.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocKy.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemLop.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemMonHoc.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhoi.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiDiem.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLNamHoc.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLHocSinh.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLLoaiHocSinh.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemHocSinh.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemKhoi.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiDiem.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemLoaiHocSinhGUI.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmMain.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemNamHoc.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.Resources.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.vbproj.GenerateResource.Cache
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.exe
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.xml
+C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.pdb

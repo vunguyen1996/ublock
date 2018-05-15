@@ -1,0 +1,294 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+D:\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+D:\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+D:\QLHS\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+D:\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+D:\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+D:\QLHS\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+D:\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+D:\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+D:\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+D:\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+D:\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+D:\QLHS\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+D:\QLHS - O3\QLHS1BUS\bin\Debug\Utility.dll
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+D:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+D:\QLHS - O3\QLHS1BUS\bin\Debug\Utility.pdb
+D:\QLHS - O3\QLHS1BUS\bin\Debug\Utility.xml
+D:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+D:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+D:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+D:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+D:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+D:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+F:\QLHS - O3\QLHS1BUS\bin\Debug\Utility.dll
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+F:\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+F:\QLHS - O3\QLHS1BUS\bin\Debug\Utility.pdb
+F:\QLHS - O3\QLHS1BUS\bin\Debug\Utility.xml
+F:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+F:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+F:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+F:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+F:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+F:\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+D:\HoanNg\HOANNG\QLHS - O3\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+D:\HoanNg\HOANNG\QLHS - O3 - Fail\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 5.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 6.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 7.0\QLHS - O5\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\Utility.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\Utility.pdb
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\bin\Debug\Utility.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+D:\Project QLHS - 3 Layers 8.0\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 13.0\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 18.0\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+C:\Users\Administrator\Desktop\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.pdb
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+E:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.pdb
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\bin\Debug\Utility.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+D:\Project QLHS - 3 Layers 21.0\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1BUS.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1BUS.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1BUS.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1DAL.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1DTO.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\Utility.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1DAL.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1DAL.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1DTO.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\QLHS1DTO.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\Utility.pdb
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\bin\Debug\Utility.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbprojResolveAssemblyReference.cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\obj\Debug\QLHS1BUS.Resources.resources
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\obj\Debug\QLHS1BUS.vbproj.GenerateResource.Cache
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\obj\Debug\QLHS1BUS.dll
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\obj\Debug\QLHS1BUS.xml
+D:\HoanNg\HOANNG\Project QLHS - 3 Layers 22.0\QLHS1BUS\obj\Debug\QLHS1BUS.pdb
