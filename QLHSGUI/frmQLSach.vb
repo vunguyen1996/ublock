@@ -5,6 +5,7 @@ Imports Utility
 Public Class frmQLSach
     Private sachBus As SachBUS
     Private loaisachBus As LoaiSachBUS
+    Private sach As SachDTO
 
     Private Sub frmQLSach_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         sachBus = New SachBUS()
@@ -28,6 +29,19 @@ Public Class frmQLSach
         cbbLoaiSachCapNhat.DisplayMember = "TENLOAISACH"
         cbbLoaiSachCapNhat.ValueMember = "MALOAISACH"
     End Sub
+
+    'Private Sub frmSach_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    '    sachBus = New SachBUS
+    '    Dim listSach = New List(Of SachDTO)
+    '    Dim result = sachBus.selectAll(listSach)
+    '    If (result.FlagResult = False) Then
+    '        MessageBox.Show("Lấy thông tin Quy Định không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '        System.Console.WriteLine(result.SystemMessage)
+    '    End If
+    '    sachDTO = listSach(0)
+    '    cbbLoaiSachCapNhat.Text = Convert.
+    'End Sub
+
     Private Sub loadListSach()
         Dim listSach = New List(Of SachDTO)
         Dim result As Result
@@ -77,7 +91,7 @@ Public Class frmQLSach
         myCurrencyManager.Refresh()
     End Sub
 
-    Private Sub loadListSach(maLoaiSach As String)
+    Private Sub loadListSach_ByMaLoaiSach(maLoaiSach As String)
         Dim listSach = New List(Of SachDTO)
         Dim result As Result
         result = sachBus.selectALL_ByType(maLoaiSach, listSach)
@@ -125,13 +139,54 @@ Public Class frmQLSach
         myCurrencyManager.Refresh()
     End Sub
 
-    Private Sub cbbTheLoaiSach_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbLoaiSach.SelectedIndexChanged
-        Try
-            Dim maLoaiSach = Convert.ToInt32(cbbLoaiSach.SelectedValue)
-            loadListSach(maLoaiSach)
-        Catch ex As Exception
-        End Try
+    Private Sub loadListSach_ByTenSach(tenSach As String)
+        Dim listSach = New List(Of SachDTO)
+        Dim result As Result
+        result = sachBus.selectALL_ByName(tenSach, listSach)
+        If (result.FlagResult = False) Then
+            MessageBox.Show("Lấy danh sách sách theo tên sách không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            System.Console.WriteLine(result.SystemMessage)
+            Return
+        End If
+
+        'dgvListSach.SuspendLayout()
+        dgvListSach.Columns.Clear()
+        dgvListSach.DataSource = Nothing
+
+        dgvListSach.AutoGenerateColumns = False
+        dgvListSach.AllowUserToAddRows = False
+        dgvListSach.DataSource = listSach
+
+        Dim clMa = New DataGridViewTextBoxColumn()
+        clMa.Name = "MASACH"
+        clMa.HeaderText = "Mã Sách"
+        clMa.DataPropertyName = "MASACH"
+        dgvListSach.Columns.Add(clMa)
+
+        Dim clLoaiSach = New DataGridView()
+
+        Dim clTenSach = New DataGridViewTextBoxColumn()
+        clTenSach.Name = "TenSach"
+        clTenSach.HeaderText = "Tên Sách"
+        clTenSach.DataPropertyName = "TenSach"
+        dgvListSach.Columns.Add(clTenSach)
+
+        Dim clTacGia = New DataGridViewTextBoxColumn()
+        clTacGia.Name = "TacGia"
+        clTacGia.HeaderText = "Tác Giả"
+        clTacGia.DataPropertyName = "TacGia"
+        dgvListSach.Columns.Add(clTacGia)
+
+        Dim clSL = New DataGridViewTextBoxColumn()
+        clSL.Name = "SoLuongTon"
+        clSL.HeaderText = "Số Lượng Tồn"
+        clSL.DataPropertyName = "SoLuongTon"
+        dgvListSach.Columns.Add(clSL)
+
+        Dim myCurrencyManager As CurrencyManager = Me.BindingContext(dgvListSach.DataSource)
+        myCurrencyManager.Refresh()
     End Sub
+
 
     Private Sub dgvListSach_SELECTionChanged(sender As Object, e As EventArgs) Handles dgvListSach.SelectionChanged
         ' Get the current cell location.
@@ -180,7 +235,7 @@ Public Class frmQLSach
                 result = sachBus.update(sach)
                 If (result.FlagResult = True) Then
                     ' Re-Load sach list
-                    loadListSach(cbbLoaiSach.SelectedValue)
+                    loadListSach_ByMaLoaiSach(cbbLoaiSach.SelectedValue)
                     ' Hightlight the row has been updated on table
                     dgvListSach.Rows(currentRowIndex).Selected = True
 
@@ -208,7 +263,7 @@ Public Class frmQLSach
                         result = sachBus.delete(txtMaSach.Text)
                         If (result.FlagResult = True) Then
                             ' Re-Load LoaiHocSinh list
-                            loadListSach(cbbLoaiSach.SelectedValue)
+                            loadListSach_ByMaLoaiSach(cbbLoaiSach.SelectedValue)
                             ' Hightlight the next row on table
                             If (currentRowIndex >= dgvListSach.Rows.Count) Then
                                 currentRowIndex = currentRowIndex - 1
@@ -230,6 +285,14 @@ Public Class frmQLSach
         End If
     End Sub
 
+    Private Sub btTenSachTimKiem_Click(sender As Object, e As EventArgs) Handles btTenSachTimKiem.Click
+        Try
+            Dim tenSach = txtTenSachTimKiem.Text
+            loadListSach_ByTenSach(tenSach)
+        Catch ex As Exception
+        End Try
+    End Sub
+
     'txtTenSachTimKiem
     Public Sub New()
         InitializeComponent()
@@ -249,5 +312,13 @@ Public Class frmQLSach
             txtTenSachTimKiem.Text = "Vui Lòng Nhập Tên Sách Muốn Tra Cứu"
             txtTenSachTimKiem.ForeColor = Color.LightGray
         End If
+    End Sub
+
+    Private Sub cbbLoaiSach_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbLoaiSach.SelectedIndexChanged
+        Try
+            Dim maLoaiSach = Convert.ToInt32(cbbLoaiSach.SelectedValue)
+            loadListSach_ByMaLoaiSach(maLoaiSach)
+        Catch ex As Exception
+        End Try
     End Sub
 End Class

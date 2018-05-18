@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmQLKhachHang
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmQLKhachHang
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
@@ -37,12 +37,14 @@ Partial Class frmQLKhachHang
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtMaKH = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.cbbMaKH = New System.Windows.Forms.ComboBox()
         Me.dgvListKhachHang = New System.Windows.Forms.DataGridView()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.btTimKiemTheHoTen = New System.Windows.Forms.Button()
+        Me.btTimKiemTheoMAKH = New System.Windows.Forms.Button()
+        Me.txtMaKHTimKiem = New System.Windows.Forms.TextBox()
         Me.txtHoTenKHTimKiem = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.btCapNhatKhachHang = New System.Windows.Forms.Button()
@@ -62,11 +64,13 @@ Partial Class frmQLKhachHang
         Me.TabControl1.Location = New System.Drawing.Point(11, 295)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(644, 240)
+        Me.TabControl1.Size = New System.Drawing.Size(644, 267)
         Me.TabControl1.TabIndex = 18
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.btXoaKhachHang)
+        Me.TabPage1.Controls.Add(Me.btCapNhatKhachHang)
         Me.TabPage1.Controls.Add(Me.txtDiaChi)
         Me.TabPage1.Controls.Add(Me.txtSDT)
         Me.TabPage1.Controls.Add(Me.Label6)
@@ -82,7 +86,7 @@ Partial Class frmQLKhachHang
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(636, 214)
+        Me.TabPage1.Size = New System.Drawing.Size(636, 241)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Thông Tin Khách Hàng"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -195,14 +199,6 @@ Partial Class frmQLKhachHang
         Me.Label7.TabIndex = 28
         Me.Label7.Text = "Mã Khách Hàng"
         '
-        'cbbMaKH
-        '
-        Me.cbbMaKH.FormattingEnabled = True
-        Me.cbbMaKH.Location = New System.Drawing.Point(176, 6)
-        Me.cbbMaKH.Name = "cbbMaKH"
-        Me.cbbMaKH.Size = New System.Drawing.Size(294, 21)
-        Me.cbbMaKH.TabIndex = 29
-        '
         'dgvListKhachHang
         '
         Me.dgvListKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
@@ -242,10 +238,12 @@ Partial Class frmQLKhachHang
         '
         'TabPage4
         '
+        Me.TabPage4.Controls.Add(Me.btTimKiemTheHoTen)
+        Me.TabPage4.Controls.Add(Me.btTimKiemTheoMAKH)
+        Me.TabPage4.Controls.Add(Me.txtMaKHTimKiem)
         Me.TabPage4.Controls.Add(Me.txtHoTenKHTimKiem)
         Me.TabPage4.Controls.Add(Me.Label8)
         Me.TabPage4.Controls.Add(Me.Label7)
-        Me.TabPage4.Controls.Add(Me.cbbMaKH)
         Me.TabPage4.Location = New System.Drawing.Point(4, 22)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
@@ -253,6 +251,31 @@ Partial Class frmQLKhachHang
         Me.TabPage4.TabIndex = 1
         Me.TabPage4.Text = "Tìm Kiếm"
         Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'btTimKiemTheHoTen
+        '
+        Me.btTimKiemTheHoTen.Location = New System.Drawing.Point(476, 33)
+        Me.btTimKiemTheHoTen.Name = "btTimKiemTheHoTen"
+        Me.btTimKiemTheHoTen.Size = New System.Drawing.Size(75, 20)
+        Me.btTimKiemTheHoTen.TabIndex = 32
+        Me.btTimKiemTheHoTen.Text = "Tìm"
+        Me.btTimKiemTheHoTen.UseVisualStyleBackColor = True
+        '
+        'btTimKiemTheoMAKH
+        '
+        Me.btTimKiemTheoMAKH.Location = New System.Drawing.Point(476, 7)
+        Me.btTimKiemTheoMAKH.Name = "btTimKiemTheoMAKH"
+        Me.btTimKiemTheoMAKH.Size = New System.Drawing.Size(75, 20)
+        Me.btTimKiemTheoMAKH.TabIndex = 31
+        Me.btTimKiemTheoMAKH.Text = "Tìm"
+        Me.btTimKiemTheoMAKH.UseVisualStyleBackColor = True
+        '
+        'txtMaKHTimKiem
+        '
+        Me.txtMaKHTimKiem.Location = New System.Drawing.Point(176, 7)
+        Me.txtMaKHTimKiem.Name = "txtMaKHTimKiem"
+        Me.txtMaKHTimKiem.Size = New System.Drawing.Size(294, 20)
+        Me.txtMaKHTimKiem.TabIndex = 30
         '
         'txtHoTenKHTimKiem
         '
@@ -272,7 +295,7 @@ Partial Class frmQLKhachHang
         '
         'btCapNhatKhachHang
         '
-        Me.btCapNhatKhachHang.Location = New System.Drawing.Point(254, 541)
+        Me.btCapNhatKhachHang.Location = New System.Drawing.Point(239, 212)
         Me.btCapNhatKhachHang.Name = "btCapNhatKhachHang"
         Me.btCapNhatKhachHang.Size = New System.Drawing.Size(75, 23)
         Me.btCapNhatKhachHang.TabIndex = 31
@@ -281,7 +304,7 @@ Partial Class frmQLKhachHang
         '
         'btXoaKhachHang
         '
-        Me.btXoaKhachHang.Location = New System.Drawing.Point(335, 541)
+        Me.btXoaKhachHang.Location = New System.Drawing.Point(320, 212)
         Me.btXoaKhachHang.Name = "btXoaKhachHang"
         Me.btXoaKhachHang.Size = New System.Drawing.Size(75, 23)
         Me.btXoaKhachHang.TabIndex = 32
@@ -292,9 +315,7 @@ Partial Class frmQLKhachHang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(664, 570)
-        Me.Controls.Add(Me.btXoaKhachHang)
-        Me.Controls.Add(Me.btCapNhatKhachHang)
+        Me.ClientSize = New System.Drawing.Size(664, 574)
         Me.Controls.Add(Me.TabControl3)
         Me.Controls.Add(Me.TabControl2)
         Me.Controls.Add(Me.TabControl1)
@@ -330,7 +351,6 @@ Partial Class frmQLKhachHang
     Friend WithEvents TabControl2 As TabControl
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents Label7 As Label
-    Friend WithEvents cbbMaKH As ComboBox
     Friend WithEvents txtMaKH As TextBox
     Friend WithEvents TabControl3 As TabControl
     Friend WithEvents TabPage4 As TabPage
@@ -339,4 +359,7 @@ Partial Class frmQLKhachHang
     Friend WithEvents btCapNhatKhachHang As Button
     Friend WithEvents btXoaKhachHang As Button
     Friend WithEvents txtDiaChi As TextBox
+    Friend WithEvents txtMaKHTimKiem As TextBox
+    Friend WithEvents btTimKiemTheoMAKH As Button
+    Friend WithEvents btTimKiemTheHoTen As Button
 End Class

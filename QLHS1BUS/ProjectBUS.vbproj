@@ -65,6 +65,8 @@
   <ItemGroup>
     <Compile Include="BaoCaoTonBUS.vb" />
     <Compile Include="CTPhieuNhapBUS.vb" />
+    <Compile Include="CTBaoCaoTonBUS.vb" />
+    <Compile Include="HoaDonBUS.vb" />
     <Compile Include="KhachHangBUS.vb" />
     <Compile Include="LoaiSachBUS.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -83,6 +85,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PhieuNhapBUS.vb" />
+    <Compile Include="PhieuThuTienBUS.vb" />
     <Compile Include="QuyDinhBUS.vb" />
     <Compile Include="SachBUS.vb" />
   </ItemGroup>

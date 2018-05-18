@@ -1,20 +1,26 @@
 ﻿Public Class QuyDinhDTO
     Private iID As Integer
-    Private iLNTT As Integer
-    Private iLTTD As Integer
-    Private iTNTD As Integer
-    Private iLTTT As Integer
+    Private iLuongNhapToiThieu As Integer
+    Private iLuongTonToiDa As Integer
+    Private iTienNoToiDa As Integer
+    Private iLuongTonToiThieu As Integer
+    Private strApDung As String
 
     Public Sub New()
-
+        iID = 0
+        iLuongNhapToiThieu = 0
+        iLuongTonToiDa = 0
+        iTienNoToiDa = 0
+        iLuongNhapToiThieu = 0
     End Sub
 
-    Public Sub New(id As Integer, iLNTT As Integer, iLTTD As Integer, iTNTD As Integer, iLTTT As Integer)
+    Public Sub New(id As Integer, iLuongNhapToiThieu As Integer, iLuongTonToiDa As Integer, iTienNoToiDa As Integer, iLuongTonToiThieu As Integer, strApDung As String)
         Me.iID = id
-        Me.iLNTT = iLNTT
-        Me.iLTTD = iLTTD
-        Me.iTNTD = iTNTD
-        Me.iLTTT = iLTTT
+        Me.iLuongNhapToiThieu = iLuongNhapToiThieu
+        Me.iLuongTonToiDa = iLuongTonToiDa
+        Me.iTienNoToiDa = iTienNoToiDa
+        Me.iLuongTonToiThieu = iLuongTonToiThieu
+        Me.strApDung = strApDung
     End Sub
 
     Public Property ID() As Integer
@@ -28,37 +34,46 @@
 
     Public Property LuongNhapToiThieu() As Integer
         Get
-            Return iLNTT
+            Return iLuongNhapToiThieu
         End Get
         Set(value As Integer)
-            iLNTT = value
+            iLuongNhapToiThieu = value
         End Set
     End Property
 
     Public Property LuongTonToiDa() As Integer
         Get
-            Return iLTTD
+            Return iLuongTonToiDa
         End Get
         Set(value As Integer)
-            iLTTD = value
+            iLuongTonToiDa = value
         End Set
     End Property
 
     Public Property TienNoToiDa() As Integer
         Get
-            Return iTNTD
+            Return iTienNoToiDa
         End Get
         Set(value As Integer)
-            iTNTD = value
+            iTienNoToiDa = value
         End Set
     End Property
 
     Public Property LuongTonToiThieu() As Integer
         Get
-            Return iLTTT
+            Return iLuongTonToiThieu
         End Get
         Set(value As Integer)
-            iLTTT = value
+            iLuongTonToiThieu = value
+        End Set
+    End Property
+
+    Public Property ApDung() As String
+        Get
+            Return strApDung
+        End Get
+        Set(value As String)
+            strApDung = value
         End Set
     End Property
 End Class

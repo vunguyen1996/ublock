@@ -23,31 +23,57 @@ Public Class SachBUS
         '2. insert to DB
         Return sachDAL.insert(sach)
     End Function
+
     Public Function update(sach As SachDTO) As Result
         '1. verify data here!!
 
         '2. insert to DB
         Return sachDAL.update(sach)
     End Function
+
+    'Public Function update_SoLuongTon(sach As SachDTO) As Result
+    '    '1. verify data here!!
+
+    '    '2. insert to DB
+    '    Return sachDAL.update_SoLuongTon(sach)
+    'End Function
+
     Public Function delete(maSach As Integer) As Result
         '1. verify data here!!
 
         '2. insert to DB
         Return sachDAL.delete(maSach)
     End Function
+
     Public Function selectAll(ByRef listSach As List(Of SachDTO)) As Result
         '1. verify data here!!
 
         '2. insert to DB
         Return sachDAL.selectALL(listSach)
     End Function
+
     Public Function getNextID(ByRef nextID As Integer) As Result
         Return sachDAL.getNextID(nextID)
     End Function
+
     Public Function selectALL_ByType(maLoaiSach As Integer, ByRef listSach As List(Of SachDTO)) As Result
         '1. verify data here!!
 
         '2. insert to DB
         Return sachDAL.selectALL_ByType(maLoaiSach, listSach)
+    End Function
+
+    Public Function selectALL_ByMaSach(maSach As Integer, ByRef listSach As List(Of SachDTO)) As Result
+        '1. verify data here!!
+
+        '2. insert to DB
+        Return sachDAL.selectALL_ByMaSach(maSach, listSach)
+    End Function
+
+    Public Function selectALL_ByName(tensach As String, ByRef listSach As List(Of SachDTO)) As Result
+        '1. verify data here!!
+
+        '2. insert to DB
+        Return sachDAL.selectALL_ByName(tensach, listSach)
     End Function
 End Class

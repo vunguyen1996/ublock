@@ -154,6 +154,80 @@ Public Class LoaiSachDAL
         Return New Result(True) ' thanh cong
     End Function
 
+    Public Function selectALL_ByName(name As String, ByRef listLoaiSach As List(Of LoaiSachDTO)) As Result
+
+        Dim query As String = String.Empty
+        query &= " SELECT *"
+        query &= " FROM [tblLoaiSach]"
+        query &= " WHERE "
+        query &= " [TENLOAISACH] = @ten "
+
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@ten", name)
+                End With
+                Try
+                    conn.Open()
+                    Dim reader As SqlDataReader
+                    reader = comm.ExecuteReader()
+                    If reader.HasRows = True Then
+                        listLoaiSach.Clear()
+                        While reader.Read()
+                            listLoaiSach.Add(New LoaiSachDTO(reader("MALOAISACH"), reader("TENLOAISACH")))
+                        End While
+                    End If
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Lấy tất cả khách hàng không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
+
+    Public Function selectALL_ByMaLoaiSach(maLoai As Integer, ByRef listLoaiSach As List(Of LoaiSachDTO)) As Result
+
+        Dim query As String = String.Empty
+        query &= " SELECT *"
+        query &= " FROM [tblLoaiSach]"
+        query &= " WHERE "
+        query &= " [MALOAISACH] = @maLoai "
+
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@maLoai", maLoai)
+                End With
+                Try
+                    conn.Open()
+                    Dim reader As SqlDataReader
+                    reader = comm.ExecuteReader()
+                    If reader.HasRows = True Then
+                        listLoaiSach.Clear()
+                        While reader.Read()
+                            listLoaiSach.Add(New LoaiSachDTO(reader("MALOAISACH"), reader("TENLOAISACH")))
+                        End While
+                    End If
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Lấy tất cả khách hàng không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
+
     Public Function delete(maLoaiSach As Integer) As Result
 
         Dim query As String = String.Empty

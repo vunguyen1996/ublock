@@ -8,6 +8,9 @@ Public Class frmQLCTPhieuNhap
     Private ctphieunhapBus As CTPhieuNhapBUS
     Private sachBus As SachBUS
 
+    Private sach As SachDTO
+    Private loaiSach As LoaiSachDTO
+
     Private Sub frmQLCTPhieuNhap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         phieunhapBus = New PhieuNhapBUS()
         ctphieunhapBus = New CTPhieuNhapBUS()
@@ -23,9 +26,9 @@ Public Class frmQLCTPhieuNhap
             Return
         End If
 
-        cbbMaPN.DataSource = New BindingSource(listpn, String.Empty)
-        cbbMaPN.DisplayMember = "TENLOAISACH"
-        cbbMaPN.ValueMember = "MAPHIEUNHAP"
+        'cbbMaPN.DataSource = New BindingSource(listpn, String.Empty)
+        'cbbMaPN.DisplayMember = "TENLOAISACH"
+        'cbbMaPN.ValueMember = "MAPHIEUNHAP"
 
     End Sub
     Private Sub loadListCTPhieuNhap()
@@ -118,12 +121,31 @@ Public Class frmQLCTPhieuNhap
         myCurrencyManager.Refresh()
     End Sub
 
-    Private Sub cbbMaPhieuNhap_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbMaPN.SelectedIndexChanged
-        Try
-            Dim mapn = Convert.ToInt32(cbbMaPN.SelectedValue)
-            loadListCTPhieuNhap(mapn)
-        Catch ex As Exception
-        End Try
+    Private Sub loadListSach(maSach As String)
+        Dim sachBus = New SachBUS()
+        Dim listSach = New List(Of SachDTO)
+        Dim result = sachBus.selectALL_ByMaSach(maSach, listSach)
+        If (result.FlagResult = False) Then
+            MessageBox.Show("Lấy thông tin sách không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            System.Console.WriteLine(result.SystemMessage)
+        End If
+        sach = listSach(0)
+        txtSoLuongTon.Text = sach.SoLuongTon
+        txtTenSach.Text = sach.TenSach
+        txtTacGia.Text = sach.TacGia
+        txtTheLoai.Text = sach.MaLoaiSach
+    End Sub
+
+    Private Sub loadListLoaiSach(maLoai As String)
+        Dim loaisachBus = New LoaiSachBUS()
+        Dim listLoai = New List(Of LoaiSachDTO)
+        Dim result = loaisachBus.selectAll_ByMaLoaiSach(maLoai, listLoai)
+        If (result.FlagResult = False) Then
+            MessageBox.Show("Lấy thông tin loại sách thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            System.Console.WriteLine(result.SystemMessage)
+        End If
+        loaiSach = listLoai(0)
+        txtTheLoai.Text = loaiSach.TenLoaiSach
     End Sub
 
     Private Sub dgvListCTPhieuNhap_SELECTionChanged(sender As Object, e As EventArgs) Handles dgvListChiTietPhieuNhap.SelectionChanged
@@ -164,7 +186,7 @@ Public Class frmQLCTPhieuNhap
                 result = ctphieunhapBus.update(ctpn)
                 If (result.FlagResult = True) Then
                     ' Re-Load chi tiet phieu nhap list
-                    loadListCTPhieuNhap(cbbMaPN.SelectedValue)
+                    loadListCTPhieuNhap(txtMaPhieuNhapTimKiem.Text)
                     ' Hightlight the row has been updated on table
                     dgvListChiTietPhieuNhap.Rows(currentRowIndex).Selected = True
                     'Try
@@ -199,7 +221,7 @@ Public Class frmQLCTPhieuNhap
                         result = ctphieunhapBus.delete(txtMaCTPN.Text)
                         If (result.FlagResult = True) Then
                             ' Re-Load LoaiHocSinh list
-                            loadListCTPhieuNhap(cbbMaPN.SelectedValue)
+                            loadListCTPhieuNhap(txtMaPhieuNhapTimKiem.Text)
                             ' Hightlight the next row on table
                             If (currentRowIndex >= dgvListChiTietPhieuNhap.Rows.Count) Then
                                 currentRowIndex = currentRowIndex - 1
@@ -221,7 +243,29 @@ Public Class frmQLCTPhieuNhap
         End If
     End Sub
 
-    Private Sub txtMaSach_TextChanged(sender As Object, e As EventArgs) Handles txtMaSach.TextChanged
+    Private Sub txtMaPhieuNhapTimKiem_TextChanged(sender As Object, e As EventArgs) Handles txtMaPhieuNhapTimKiem.TextChanged
+        Try
+            Dim mapn = txtMaPhieuNhapTimKiem.Text
+            loadListCTPhieuNhap(mapn)
+        Catch ex As Exception
+        End Try
+    End Sub
 
+    Private Sub txtMaSach_TextChanged(sender As Object, e As EventArgs) Handles txtMaSach.TextChanged
+        Try
+            Dim maSach = txtMaSach.Text
+            loadListSach(maSach)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub txtTheLoai_TextChanged(sender As Object, e As EventArgs) Handles txtTheLoai.TextChanged
+        Try
+            Dim maLoai = txtTheLoai.Text
+            loadListLoaiSach(maLoai)
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class

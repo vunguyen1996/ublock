@@ -192,6 +192,15 @@ Public Class CTPhieuNhapDAL
         Return New Result(True) ' thanh cong
     End Function
 
+    'Public Function selectALL_ByMaPH(maPhieuNhap As Integer, ByRef listCTPhieuNhap As List(Of CTPhieuNhapDTO)) As Result
+    '    Dim query As String = String.Empty
+    '    query &= "SELECT [MACTPHIEUNHAP], [tblSach].[MASACH], [TenSach], [THELOAISACH], [TacGia], [SoLuongNhap], [SoLuongTon]"
+    '    query &= "FROM [tblCTPhieuNhap] "
+    '    query &= ",[tblSach]"
+    '    query &= ",[tblLoaiSach]"
+    '    query &= "WHERE [tblSach].[MASACH] = [tblCTPhieuNhap].[MASACH] AND [tblSach].[MALOAISACH] = [tblLoaiSach].[MALOAISACH] AND [MAPhi] "
+    'End Function
+
     Public Function delete(mactpn As Integer) As Result
 
         Dim query As String = String.Empty

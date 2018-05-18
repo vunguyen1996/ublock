@@ -25,11 +25,12 @@ Partial Class frmQLSach
         Me.dgvListSach = New System.Windows.Forms.DataGridView()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.cbbLoaiSach = New System.Windows.Forms.ComboBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.txtSoLuongTon = New System.Windows.Forms.TextBox()
+        Me.btCapNhatSach = New System.Windows.Forms.Button()
+        Me.btXoaSach = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.cbbLoaiSachCapNhat = New System.Windows.Forms.ComboBox()
@@ -39,11 +40,12 @@ Partial Class frmQLSach
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtMaSach = New System.Windows.Forms.TextBox()
-        Me.btCapNhatSach = New System.Windows.Forms.Button()
-        Me.btXoaSach = New System.Windows.Forms.Button()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.btTraCuu = New System.Windows.Forms.Button()
+        Me.cbbLoaiSach = New System.Windows.Forms.ComboBox()
+        Me.btLoaiSachTimKiem = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.btTenSachTimKiem = New System.Windows.Forms.Button()
         Me.txtTenSachTimKiem = New System.Windows.Forms.TextBox()
         CType(Me.dgvListSach, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
@@ -59,16 +61,16 @@ Partial Class frmQLSach
         Me.dgvListSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvListSach.Location = New System.Drawing.Point(6, 6)
         Me.dgvListSach.Name = "dgvListSach"
-        Me.dgvListSach.Size = New System.Drawing.Size(427, 138)
+        Me.dgvListSach.Size = New System.Drawing.Size(427, 257)
         Me.dgvListSach.TabIndex = 0
         '
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Location = New System.Drawing.Point(12, 78)
+        Me.TabControl1.Location = New System.Drawing.Point(12, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(447, 176)
+        Me.TabControl1.Size = New System.Drawing.Size(447, 295)
         Me.TabControl1.TabIndex = 1
         '
         'TabPage1
@@ -77,23 +79,15 @@ Partial Class frmQLSach
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(439, 150)
+        Me.TabPage1.Size = New System.Drawing.Size(439, 269)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Danh Sách Sách"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'cbbLoaiSach
-        '
-        Me.cbbLoaiSach.FormattingEnabled = True
-        Me.cbbLoaiSach.Location = New System.Drawing.Point(96, 6)
-        Me.cbbLoaiSach.Name = "cbbLoaiSach"
-        Me.cbbLoaiSach.Size = New System.Drawing.Size(254, 21)
-        Me.cbbLoaiSach.TabIndex = 17
-        '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(37, 9)
+        Me.Label6.Location = New System.Drawing.Point(45, 9)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(53, 13)
         Me.Label6.TabIndex = 16
@@ -102,15 +96,17 @@ Partial Class frmQLSach
         'TabControl2
         '
         Me.TabControl2.Controls.Add(Me.TabPage2)
-        Me.TabControl2.Location = New System.Drawing.Point(461, 78)
+        Me.TabControl2.Location = New System.Drawing.Point(461, 102)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(447, 176)
+        Me.TabControl2.Size = New System.Drawing.Size(447, 205)
         Me.TabControl2.TabIndex = 27
         '
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.txtSoLuongTon)
+        Me.TabPage2.Controls.Add(Me.btCapNhatSach)
+        Me.TabPage2.Controls.Add(Me.btXoaSach)
         Me.TabPage2.Controls.Add(Me.Label5)
         Me.TabPage2.Controls.Add(Me.Label4)
         Me.TabPage2.Controls.Add(Me.cbbLoaiSachCapNhat)
@@ -123,7 +119,7 @@ Partial Class frmQLSach
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(439, 150)
+        Me.TabPage2.Size = New System.Drawing.Size(439, 179)
         Me.TabPage2.TabIndex = 0
         Me.TabPage2.Text = "Thông Tin Sách"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -132,8 +128,26 @@ Partial Class frmQLSach
         '
         Me.txtSoLuongTon.Location = New System.Drawing.Point(125, 116)
         Me.txtSoLuongTon.Name = "txtSoLuongTon"
-        Me.txtSoLuongTon.Size = New System.Drawing.Size(254, 20)
+        Me.txtSoLuongTon.Size = New System.Drawing.Size(223, 20)
         Me.txtSoLuongTon.TabIndex = 33
+        '
+        'btCapNhatSach
+        '
+        Me.btCapNhatSach.Location = New System.Drawing.Point(150, 150)
+        Me.btCapNhatSach.Name = "btCapNhatSach"
+        Me.btCapNhatSach.Size = New System.Drawing.Size(75, 23)
+        Me.btCapNhatSach.TabIndex = 28
+        Me.btCapNhatSach.Text = "Cập nhật"
+        Me.btCapNhatSach.UseVisualStyleBackColor = True
+        '
+        'btXoaSach
+        '
+        Me.btXoaSach.Location = New System.Drawing.Point(231, 150)
+        Me.btXoaSach.Name = "btXoaSach"
+        Me.btXoaSach.Size = New System.Drawing.Size(75, 23)
+        Me.btXoaSach.TabIndex = 29
+        Me.btXoaSach.Text = "Xóa"
+        Me.btXoaSach.UseVisualStyleBackColor = True
         '
         'Label5
         '
@@ -158,14 +172,14 @@ Partial Class frmQLSach
         Me.cbbLoaiSachCapNhat.FormattingEnabled = True
         Me.cbbLoaiSachCapNhat.Location = New System.Drawing.Point(125, 63)
         Me.cbbLoaiSachCapNhat.Name = "cbbLoaiSachCapNhat"
-        Me.cbbLoaiSachCapNhat.Size = New System.Drawing.Size(254, 21)
+        Me.cbbLoaiSachCapNhat.Size = New System.Drawing.Size(223, 21)
         Me.cbbLoaiSachCapNhat.TabIndex = 30
         '
         'txtTacGia
         '
         Me.txtTacGia.Location = New System.Drawing.Point(125, 90)
         Me.txtTacGia.Name = "txtTacGia"
-        Me.txtTacGia.Size = New System.Drawing.Size(254, 20)
+        Me.txtTacGia.Size = New System.Drawing.Size(223, 20)
         Me.txtTacGia.TabIndex = 29
         '
         'Label3
@@ -181,7 +195,7 @@ Partial Class frmQLSach
         '
         Me.txtTenSach.Location = New System.Drawing.Point(125, 37)
         Me.txtTenSach.Name = "txtTenSach"
-        Me.txtTenSach.Size = New System.Drawing.Size(254, 20)
+        Me.txtTenSach.Size = New System.Drawing.Size(223, 20)
         Me.txtTenSach.TabIndex = 27
         '
         'Label2
@@ -204,78 +218,87 @@ Partial Class frmQLSach
         '
         'txtMaSach
         '
+        Me.txtMaSach.Enabled = False
         Me.txtMaSach.Location = New System.Drawing.Point(125, 11)
         Me.txtMaSach.Name = "txtMaSach"
         Me.txtMaSach.ReadOnly = True
-        Me.txtMaSach.Size = New System.Drawing.Size(254, 20)
+        Me.txtMaSach.Size = New System.Drawing.Size(223, 20)
         Me.txtMaSach.TabIndex = 25
         Me.txtMaSach.WordWrap = False
-        '
-        'btCapNhatSach
-        '
-        Me.btCapNhatSach.Location = New System.Drawing.Point(380, 256)
-        Me.btCapNhatSach.Name = "btCapNhatSach"
-        Me.btCapNhatSach.Size = New System.Drawing.Size(75, 23)
-        Me.btCapNhatSach.TabIndex = 28
-        Me.btCapNhatSach.Text = "Cập nhật"
-        Me.btCapNhatSach.UseVisualStyleBackColor = True
-        '
-        'btXoaSach
-        '
-        Me.btXoaSach.Location = New System.Drawing.Point(461, 256)
-        Me.btXoaSach.Name = "btXoaSach"
-        Me.btXoaSach.Size = New System.Drawing.Size(75, 23)
-        Me.btXoaSach.TabIndex = 29
-        Me.btXoaSach.Text = "Xóa"
-        Me.btXoaSach.UseVisualStyleBackColor = True
         '
         'TabControl3
         '
         Me.TabControl3.Controls.Add(Me.TabPage3)
-        Me.TabControl3.Location = New System.Drawing.Point(12, 12)
+        Me.TabControl3.Location = New System.Drawing.Point(461, 12)
         Me.TabControl3.Name = "TabControl3"
         Me.TabControl3.SelectedIndex = 0
-        Me.TabControl3.Size = New System.Drawing.Size(896, 60)
+        Me.TabControl3.Size = New System.Drawing.Size(447, 88)
         Me.TabControl3.TabIndex = 30
         '
         'TabPage3
         '
-        Me.TabPage3.Controls.Add(Me.btTraCuu)
-        Me.TabPage3.Controls.Add(Me.txtTenSachTimKiem)
         Me.TabPage3.Controls.Add(Me.cbbLoaiSach)
+        Me.TabPage3.Controls.Add(Me.btLoaiSachTimKiem)
+        Me.TabPage3.Controls.Add(Me.Label7)
+        Me.TabPage3.Controls.Add(Me.btTenSachTimKiem)
         Me.TabPage3.Controls.Add(Me.Label6)
+        Me.TabPage3.Controls.Add(Me.txtTenSachTimKiem)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(888, 34)
+        Me.TabPage3.Size = New System.Drawing.Size(439, 62)
         Me.TabPage3.TabIndex = 0
         Me.TabPage3.Text = "Tìm Kiếm"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'btTraCuu
+        'cbbLoaiSach
         '
-        Me.btTraCuu.Location = New System.Drawing.Point(493, 7)
-        Me.btTraCuu.Name = "btTraCuu"
-        Me.btTraCuu.Size = New System.Drawing.Size(75, 23)
-        Me.btTraCuu.TabIndex = 31
-        Me.btTraCuu.Text = "Tra Cứu"
-        Me.btTraCuu.UseVisualStyleBackColor = True
+        Me.cbbLoaiSach.FormattingEnabled = True
+        Me.cbbLoaiSach.Location = New System.Drawing.Point(125, 6)
+        Me.cbbLoaiSach.Name = "cbbLoaiSach"
+        Me.cbbLoaiSach.Size = New System.Drawing.Size(223, 21)
+        Me.cbbLoaiSach.TabIndex = 34
+        '
+        'btLoaiSachTimKiem
+        '
+        Me.btLoaiSachTimKiem.Location = New System.Drawing.Point(354, 7)
+        Me.btLoaiSachTimKiem.Name = "btLoaiSachTimKiem"
+        Me.btLoaiSachTimKiem.Size = New System.Drawing.Size(75, 20)
+        Me.btLoaiSachTimKiem.TabIndex = 37
+        Me.btLoaiSachTimKiem.Text = "Tìm"
+        Me.btLoaiSachTimKiem.UseVisualStyleBackColor = True
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(45, 36)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(54, 13)
+        Me.Label7.TabIndex = 34
+        Me.Label7.Text = "Tên Sách"
+        '
+        'btTenSachTimKiem
+        '
+        Me.btTenSachTimKiem.Location = New System.Drawing.Point(354, 33)
+        Me.btTenSachTimKiem.Name = "btTenSachTimKiem"
+        Me.btTenSachTimKiem.Size = New System.Drawing.Size(75, 20)
+        Me.btTenSachTimKiem.TabIndex = 36
+        Me.btTenSachTimKiem.Text = "Tìm"
+        Me.btTenSachTimKiem.UseVisualStyleBackColor = True
         '
         'txtTenSachTimKiem
         '
-        Me.txtTenSachTimKiem.Location = New System.Drawing.Point(574, 9)
+        Me.txtTenSachTimKiem.Location = New System.Drawing.Point(125, 33)
         Me.txtTenSachTimKiem.Name = "txtTenSachTimKiem"
-        Me.txtTenSachTimKiem.Size = New System.Drawing.Size(254, 20)
+        Me.txtTenSachTimKiem.Size = New System.Drawing.Size(223, 20)
         Me.txtTenSachTimKiem.TabIndex = 35
         '
         'frmQLSach
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(917, 285)
+        Me.ClientSize = New System.Drawing.Size(917, 318)
         Me.Controls.Add(Me.TabControl3)
-        Me.Controls.Add(Me.btXoaSach)
-        Me.Controls.Add(Me.btCapNhatSach)
         Me.Controls.Add(Me.TabControl2)
         Me.Controls.Add(Me.TabControl1)
         Me.Name = "frmQLSach"
@@ -310,11 +333,13 @@ Partial Class frmQLSach
     Friend WithEvents Label1 As Label
     Friend WithEvents txtMaSach As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents cbbLoaiSach As ComboBox
     Friend WithEvents btCapNhatSach As Button
     Friend WithEvents btXoaSach As Button
     Friend WithEvents TabControl3 As TabControl
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents txtTenSachTimKiem As TextBox
-    Friend WithEvents btTraCuu As Button
+    Friend WithEvents Label7 As Label
+    Friend WithEvents btTenSachTimKiem As Button
+    Friend WithEvents btLoaiSachTimKiem As Button
+    Friend WithEvents cbbLoaiSach As ComboBox
 End Class

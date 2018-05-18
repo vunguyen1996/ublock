@@ -32,19 +32,19 @@ Public Class frmThemKhachHang
         kh.Email = txtEmail.Text
         kh.SDT = txtSDT.Text
         '2. Business .....
+        'check name
         If (khbus.isValidName(kh) = False) Then
             MessageBox.Show("Tên khách hàng không đúng. Vui lòng kiểm tra lại", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             txtHoTenKH.Focus()
             Return
         End If
 
-        'If isValidEmail(txtEmail) = True Then
-        '    MessageBox.Show("Email hợp lệ.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        '    'proceed and save email
-        'Else
-        '    MessageBox.Show("Email không hợp lệ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-
-        'End If
+        'check email
+        If (khbus.IsValidEmailFormat(txtEmail.Text) = False) Then
+            MessageBox.Show("Địa chỉ email không đúng. Vui lòng kiểm tra lại", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            txtEmail.Focus()
+            Return
+        End If
 
         '3. Insert to DB
         Dim result As Result
@@ -65,26 +65,6 @@ Public Class frmThemKhachHang
         Else
             MessageBox.Show("Thêm khách hàng không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             System.Console.WriteLine(result.SystemMessage)
-        End If
-    End Sub
-
-    Public Sub New()
-        InitializeComponent()
-        txtEmail.ForeColor = Color.LightGray
-        txtEmail.Text = "example@gmail.com"
-    End Sub
-
-    Private Sub txtEmail_Enter(sender As Object, e As EventArgs) Handles txtEmail.Enter
-        If txtEmail.Text = "example@gmail.com" Then
-            txtEmail.Text = ""
-            txtEmail.ForeColor = Color.Black
-        End If
-    End Sub
-
-    Private Sub txtEmail_Leave(sender As Object, e As EventArgs) Handles txtEmail.Leave
-        If txtEmail.Text = "" Then
-            txtEmail.Text = "example@gmail.com"
-            txtEmail.ForeColor = Color.LightGray
         End If
     End Sub
 End Class

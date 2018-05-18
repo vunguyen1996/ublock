@@ -5,7 +5,9 @@
     Private iSoLuongNhap As Integer
 
     Public Sub New()
+
     End Sub
+
     Public Sub New(mactpn As Integer, mapn As Integer, masach As Integer, soluong As Integer)
         Me.iMaCTPN = mactpn
         Me.iMAPN = mapn

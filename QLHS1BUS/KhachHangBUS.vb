@@ -21,19 +21,14 @@ Public Class KhachHangBUS
         Return True
     End Function
 
-    'Public Function isValidEmail(emailAddress As KhachHangDTO) As Boolean
-    '    ' Dim email As New Regex("^(?<user>[^@]+)@(?<host>.+)$")
-    '    Dim email As New Regex("([\w-+]+(?:\.[\w-+]+)*@(?:[\w-]+\.)+[a-zA-Z]{2,7})")
-    '    If (email.IsMatch()) Then
-
-    '    End If
-
-    '    'If email.IsMatch(emailAddress) Then
-    '    '    Return True
-    '    'Else
-    '    '    Return False
-    '    'End If
-    'End Function
+    Function IsValidEmailFormat(ByVal adr As String) As Boolean
+        Try
+            Dim Email As New System.Net.Mail.MailAddress(adr)
+        Catch
+            Return False
+        End Try
+        Return True
+    End Function
 
     Public Function insert(kh As KhachHangDTO) As Result
         '1. verify data here!!
@@ -68,5 +63,9 @@ Public Class KhachHangBUS
 
         '2. insert to DB
         Return khDAL.selectALL_ByType(makh, listkh)
+    End Function
+
+    Public Function selectALL_ByName(name As String, ByRef listkh As List(Of KhachHangDTO)) As Result
+        Return khDAL.selectALL_ByName(name, listkh)
     End Function
 End Class

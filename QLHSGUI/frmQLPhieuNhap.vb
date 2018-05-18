@@ -10,9 +10,9 @@ Public Class frmQLPhieuNhap
     Private Sub frmQLPhieuNhap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pnBus = New PhieuNhapBUS()
         ' Load list phieu nhap
-        loadlistPhieuNhap()
-
+        ' loadlistPhieuNhap()
     End Sub
+
     Private Sub loadlistPhieuNhap()
         ' Load LoaiPhieuNhap list
         Dim listPhieuNhap = New List(Of PhieuNhapDTO)
@@ -24,6 +24,35 @@ Public Class frmQLPhieuNhap
             Return
         End If
 
+        dgvListPhieuNhap.Columns.Clear()
+        dgvListPhieuNhap.DataSource = Nothing
+
+        dgvListPhieuNhap.AutoGenerateColumns = False
+        dgvListPhieuNhap.AllowUserToAddRows = False
+        dgvListPhieuNhap.DataSource = listPhieuNhap
+
+        Dim clMaPhieuNhap = New DataGridViewTextBoxColumn()
+        clMaPhieuNhap.Name = "MAPHIEUNHAP"
+        clMaPhieuNhap.HeaderText = "Mã Phiếu"
+        clMaPhieuNhap.DataPropertyName = "MAPHIEUNHAP"
+        dgvListPhieuNhap.Columns.Add(clMaPhieuNhap)
+
+        Dim clNgayNhap = New DataGridViewTextBoxColumn()
+        clNgayNhap.Name = "NgayNhap"
+        clNgayNhap.HeaderText = "Ngày Nhập"
+        clNgayNhap.DataPropertyName = "NgayNhap"
+        dgvListPhieuNhap.Columns.Add(clNgayNhap)
+    End Sub
+
+    Private Sub loadlistPhieuNhap_ByNgayNhap(ngaynhap As DateTime)
+        Dim listPhieuNhap = New List(Of PhieuNhapDTO)
+        Dim result As Result
+        result = pnBus.selectAll_ByNgayNhap(ngaynhap, listPhieuNhap)
+        If (result.FlagResult = False) Then
+            MessageBox.Show("Lấy danh sách phiếu nhập theo ngày nhập không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            System.Console.WriteLine(result.SystemMessage)
+            Return
+        End If
         dgvListPhieuNhap.Columns.Clear()
         dgvListPhieuNhap.DataSource = Nothing
 
@@ -80,7 +109,7 @@ Public Class frmQLPhieuNhap
                 result = pnBus.update(phieunhap)
                 If (result.FlagResult = True) Then
                     ' Re-Load phieu nhap
-                    loadlistPhieuNhap()
+                    loadlistPhieuNhap_ByNgayNhap(dtpNgayNhap.Value)
                     ' Hightlight the row has been updated on table
                     dgvListPhieuNhap.Rows(currentRowIndex).Selected = True
                     Try
@@ -114,7 +143,7 @@ Public Class frmQLPhieuNhap
                         result = pnBus.delete(txtMaPhieuNhap.Text)
                         If (result.FlagResult = True) Then
                             ' Re-Load LoaiHocSinh list
-                            loadlistPhieuNhap()
+                            loadlistPhieuNhap_ByNgayNhap(dtpNgayNhap.Value)
                             ' Hightlight the next row on table
                             If (currentRowIndex >= dgvListPhieuNhap.Rows.Count) Then
                                 currentRowIndex = currentRowIndex - 1
@@ -146,4 +175,11 @@ Public Class frmQLPhieuNhap
         End If
     End Sub
 
+    Private Sub dtpNgayNhapTimKiem_ValueChanged(sender As Object, e As EventArgs) Handles dtpNgayNhapTimKiem.ValueChanged
+        Try
+            Dim ngaynhap = dtpNgayNhapTimKiem.Value
+            loadlistPhieuNhap_ByNgayNhap(ngaynhap)
+        Catch ex As Exception
+        End Try
+    End Sub
 End Class

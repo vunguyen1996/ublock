@@ -40,8 +40,38 @@ Public Class frmQLLoaiSach
         clTenLoai.HeaderText = "Tên Loại Sách"
         clTenLoai.DataPropertyName = "TENLOAISACH"
         dgvListSach.Columns.Add(clTenLoai)
-
     End Sub
+
+    Private Sub loadlistLoaiSach_ByTenLoaiSach(tenLoai As String)
+        Dim listLoaiSach = New List(Of LoaiSachDTO)
+        Dim result As Result
+        result = lsbus.selectAll_ByName(tenLoai, listLoaiSach)
+        If (result.FlagResult = False) Then
+            MessageBox.Show("Lấy danh sách loại sách theo tên loại sách không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            System.Console.WriteLine(result.SystemMessage)
+            Return
+        End If
+
+        dgvListSach.Columns.Clear()
+        dgvListSach.DataSource = Nothing
+
+        dgvListSach.AutoGenerateColumns = False
+        dgvListSach.AllowUserToAddRows = False
+        dgvListSach.DataSource = listLoaiSach
+
+        Dim clMaLoai = New DataGridViewTextBoxColumn()
+        clMaLoai.Name = "MALOAISACH"
+        clMaLoai.HeaderText = "Mã Loại Sách"
+        clMaLoai.DataPropertyName = "MALOAISACH"
+        dgvListSach.Columns.Add(clMaLoai)
+
+        Dim clTenLoai = New DataGridViewTextBoxColumn()
+        clTenLoai.Name = "TENLOAISACH"
+        clTenLoai.HeaderText = "Tên Loại Sách"
+        clTenLoai.DataPropertyName = "TENLOAISACH"
+        dgvListSach.Columns.Add(clTenLoai)
+    End Sub
+
     Private Sub btnCapNhat_Click(sender As Object, e As EventArgs) Handles btnCapNhat.Click
         ' Get the current cell location.
         Dim currentRowIndex As Integer = dgvListSach.CurrentCellAddress.Y 'current row selected
@@ -146,5 +176,13 @@ Public Class frmQLLoaiSach
                     Return
             End Select
         End If
+    End Sub
+
+    Private Sub txtTenLoaiSachTimKiem_TextChanged(sender As Object, e As EventArgs) Handles txtTenLoaiSachTimKiem.TextChanged
+        Try
+            Dim tenLoai = txtTenLoaiSachTimKiem.Text
+            loadlistLoaiSach_ByTenLoaiSach(tenLoai)
+        Catch ex As Exception
+        End Try
     End Sub
 End Class

@@ -10,19 +10,21 @@ Public Class QuyDinhDAL
         ' Read ConnectionString value from App.config file
         connectionString = ConfigurationManager.AppSettings("ConnectionString")
     End Sub
+
     Public Sub New(ConnectionString As String)
         Me.connectionString = ConnectionString
     End Sub
 
-    Public Function update(qd As QuyDinhDTO) As Result
+    Public Function update(quydinh As QuyDinhDTO) As Result
 
         Dim query As String = String.Empty
         query &= " UPDATE [tblQuyDinh] SET"
-        query &= " [LuongNhapToiThieu] = @nhapmin"
-        query &= " ,[LuongTonToiDa] = @tonmax"
-        query &= " ,[TienNoToiDa] = @nomax"
-        query &= " ,[LuongTonToiThieu] = @tonmin"
-        query &= "WHERE "
+        query &= " [LuongNhapToiThieu] = @LuongNhapToiThieu"
+        query &= " ,[LuongTonToiDa] = @LuongTonToiDa"
+        query &= " ,[TienNoToiDa] = @TienNoToiDa"
+        query &= " ,[LuongTonToiThieu] = @LuongTonToiThieu"
+        query &= " ,[ApDung] = @ApDung"
+        query &= " WHERE "
         query &= " [ID] = @id "
 
         Using conn As New SqlConnection(connectionString)
@@ -31,11 +33,13 @@ Public Class QuyDinhDAL
                     .Connection = conn
                     .CommandType = CommandType.Text
                     .CommandText = query
-                    .Parameters.AddWithValue("@id", qd.ID)
-                    .Parameters.AddWithValue("@nhapmin", qd.LuongNhapToiThieu)
-                    .Parameters.AddWithValue("@tonmax", qd.LuongTonToiDa)
-                    .Parameters.AddWithValue("@nomax", qd.TienNoToiDa)
-                    .Parameters.AddWithValue("@tonmin", qd.LuongTonToiThieu)
+
+                    .Parameters.AddWithValue("@LuongNhapToiThieu", quydinh.LuongNhapToiThieu)
+                    .Parameters.AddWithValue("@LuongTonToiDa", quydinh.LuongTonToiDa)
+                    .Parameters.AddWithValue("@TienNoToiDa", quydinh.TienNoToiDa)
+                    .Parameters.AddWithValue("@LuongTonToiThieu", quydinh.LuongTonToiThieu)
+                    .Parameters.AddWithValue("@ApDung", quydinh.ApDung)
+                    .Parameters.AddWithValue("@id", quydinh.ID)
                 End With
                 Try
                     conn.Open()
@@ -50,6 +54,7 @@ Public Class QuyDinhDAL
         End Using
         Return New Result(True) ' thanh cong
     End Function
+
     Public Function selectALL(ByRef quydinh As List(Of QuyDinhDTO)) As Result
 
         Dim query As String = String.Empty
@@ -71,7 +76,7 @@ Public Class QuyDinhDAL
                     If reader.HasRows = True Then
                         quydinh.Clear()
                         While reader.Read()
-                            quydinh.Add(New QuyDinhDTO(reader("ID"), reader("LuongNhapToithieu"), reader("LuongTonToiDa"), reader("TienNoToiDa"), reader("LuongTonToiThieu")))
+                            quydinh.Add(New QuyDinhDTO(reader("ID"), reader("LuongNhapToithieu"), reader("LuongTonToiDa"), reader("TienNoToiDa"), reader("LuongTonToiThieu"), reader("ApDung")))
                         End While
                     End If
                 Catch ex As Exception

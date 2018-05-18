@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="BaoCaoTonDAL.vb" />
     <Compile Include="CTPhieuNhapDAL.vb" />
+    <Compile Include="CTBaoCaoTonDAL.vb" />
+    <Compile Include="HoaDonDAL.vb" />
     <Compile Include="KhachHangDAL.vb" />
     <Compile Include="LoaiSachDAL.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -84,6 +86,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PhieuNhapDAL.vb" />
+    <Compile Include="PhieuThuTienDAL.vb" />
     <Compile Include="QuyDinhDAL.vb" />
     <Compile Include="SachDAL.vb" />
   </ItemGroup>

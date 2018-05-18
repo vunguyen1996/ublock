@@ -152,6 +152,82 @@ Public Class PhieuNhapDAL
         Return New Result(True) ' thanh cong
     End Function
 
+    Public Function selectALL_ByNgayNhap(ngaynhap As DateTime, ByRef listPhieuNhap As List(Of PhieuNhapDTO)) As Result
+
+        Dim query As String = String.Empty
+        query &= " SELECT *"
+        query &= " FROM [tblPhieuNhap]"
+        query &= "WHERE "
+        query &= "[NgayNhap] = @ngaynhap"
+
+
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@ngaynhap", ngaynhap)
+                End With
+                Try
+                    conn.Open()
+                    Dim reader As SqlDataReader
+                    reader = comm.ExecuteReader()
+                    If reader.HasRows = True Then
+                        listPhieuNhap.Clear()
+                        While reader.Read()
+                            listPhieuNhap.Add(New PhieuNhapDTO(reader("MAPHIEUNHAP"), reader("NgayNhap")))
+                        End While
+                    End If
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Lấy tất cả phiếu nhập không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
+
+    Public Function selectALL_ByMaPhieuNhap(maPhieuNhap As Integer, ByRef listPhieuNhap As List(Of PhieuNhapDTO)) As Result
+
+        Dim query As String = String.Empty
+        query &= " SELECT *"
+        query &= " FROM [tblPhieuNhap]"
+        query &= "WHERE "
+        query &= "[MAPHIEUNHAP] = @maphieunhap"
+
+
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@maphieunhap", maPhieuNhap)
+                End With
+                Try
+                    conn.Open()
+                    Dim reader As SqlDataReader
+                    reader = comm.ExecuteReader()
+                    If reader.HasRows = True Then
+                        listPhieuNhap.Clear()
+                        While reader.Read()
+                            listPhieuNhap.Add(New PhieuNhapDTO(reader("MAPHIEUNHAP"), reader("NgayNhap")))
+                        End While
+                    End If
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Lấy tất cả phiếu nhập không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
+
     Public Function delete(maphieu As Integer) As Result
 
         Dim query As String = String.Empty

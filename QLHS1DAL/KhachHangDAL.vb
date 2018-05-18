@@ -197,6 +197,43 @@ Public Class KhachHangDAL
         Return New Result(True) ' thanh cong
     End Function
 
+    Public Function selectALL_ByName(name As String, ByRef listkh As List(Of KhachHangDTO)) As Result
+
+        Dim query As String = String.Empty
+        query &= " SELECT *"
+        query &= " FROM [tblKhachHang]"
+        query &= " WHERE "
+        query &= " [HoTenKH] = @hoten "
+
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@hoten", name)
+                End With
+                Try
+                    conn.Open()
+                    Dim reader As SqlDataReader
+                    reader = comm.ExecuteReader()
+                    If reader.HasRows = True Then
+                        listkh.Clear()
+                        While reader.Read()
+                            listkh.Add(New KhachHangDTO(reader("MAKH"), reader("HoTenKH"), reader("TienNoKH"), reader("DiaChi"), reader("Email"), reader("SDT")))
+                        End While
+                    End If
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Lấy tất cả khách hàng không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
+
     Public Function delete(makh As Integer) As Result
         Dim query As String = String.Empty
         query &= " DELETE FROM [tblKhachHang] "
