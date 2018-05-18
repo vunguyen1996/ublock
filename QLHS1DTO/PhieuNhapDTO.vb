@@ -4,10 +4,12 @@
     Public Sub New()
 
     End Sub
+
     Public Sub New(mpn As Integer, dateNgayNhap As DateTime)
         Me.iMaPhieuNhap = mpn
         Me.dateNgayNhap = dateNgayNhap
     End Sub
+
     Property MaPhieuNhap() As Integer
         Get
             Return iMaPhieuNhap
@@ -16,6 +18,7 @@
             iMaPhieuNhap = Value
         End Set
     End Property
+
     Property NgayNhap() As DateTime
         Get
             Return dateNgayNhap

@@ -79,6 +79,12 @@
     <Compile Include="frmAbout.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmLapBaoCaoCongNo.Designer.vb">
+      <DependentUpon>frmLapBaoCaoCongNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapBaoCaoCongNo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmLapHoaDon.Designer.vb">
       <DependentUpon>frmLapHoaDon.vb</DependentUpon>
     </Compile>
@@ -91,6 +97,12 @@
     <Compile Include="frmLapPhieuThuTien.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmQLBaoCaoCongNo.Designer.vb">
+      <DependentUpon>frmQLBaoCaoCongNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLBaoCaoCongNo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmQLBaoCaoTon.Designer.vb">
       <DependentUpon>frmQLBaoCaoTon.vb</DependentUpon>
     </Compile>
@@ -101,6 +113,12 @@
       <DependentUpon>frmQLCTBaoCaoTon.vb</DependentUpon>
     </Compile>
     <Compile Include="frmQLCTBaoCaoTon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLCTHoaDon.Designer.vb">
+      <DependentUpon>frmQLCTHoaDon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLCTHoaDon.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmQLCTPhieuNhap.Designer.vb">
@@ -168,6 +186,12 @@
       <DependentUpon>frmThemCTBaoCaoTon.vb</DependentUpon>
     </Compile>
     <Compile Include="frmThemCTBaoCaoTon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemCTHoaDon.Designer.vb">
+      <DependentUpon>frmThemCTHoaDon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemCTHoaDon.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmThemCTPhieuNhap.Designer.vb">
@@ -264,6 +288,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmThemCTBaoCaoTon.resx">
       <DependentUpon>frmThemCTBaoCaoTon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemCTHoaDon.resx">
+      <DependentUpon>frmThemCTHoaDon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmThemCTPhieuNhap.resx">
       <DependentUpon>frmThemCTPhieuNhap.vb</DependentUpon>

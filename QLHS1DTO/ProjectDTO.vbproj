@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaoCaoTonDTO.vb" />
+    <Compile Include="CTHoaDonDTO.vb" />
     <Compile Include="CTPhieuNhapDTO.vb" />
     <Compile Include="CTBaoCaoTonDTO.vb" />
     <Compile Include="HoaDonDTO.vb" />

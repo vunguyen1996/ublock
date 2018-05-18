@@ -43,7 +43,6 @@ Partial Class frmQLSach
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.cbbLoaiSach = New System.Windows.Forms.ComboBox()
-        Me.btLoaiSachTimKiem = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.btTenSachTimKiem = New System.Windows.Forms.Button()
         Me.txtTenSachTimKiem = New System.Windows.Forms.TextBox()
@@ -238,7 +237,6 @@ Partial Class frmQLSach
         'TabPage3
         '
         Me.TabPage3.Controls.Add(Me.cbbLoaiSach)
-        Me.TabPage3.Controls.Add(Me.btLoaiSachTimKiem)
         Me.TabPage3.Controls.Add(Me.Label7)
         Me.TabPage3.Controls.Add(Me.btTenSachTimKiem)
         Me.TabPage3.Controls.Add(Me.Label6)
@@ -259,15 +257,6 @@ Partial Class frmQLSach
         Me.cbbLoaiSach.Size = New System.Drawing.Size(223, 21)
         Me.cbbLoaiSach.TabIndex = 34
         '
-        'btLoaiSachTimKiem
-        '
-        Me.btLoaiSachTimKiem.Location = New System.Drawing.Point(354, 7)
-        Me.btLoaiSachTimKiem.Name = "btLoaiSachTimKiem"
-        Me.btLoaiSachTimKiem.Size = New System.Drawing.Size(75, 20)
-        Me.btLoaiSachTimKiem.TabIndex = 37
-        Me.btLoaiSachTimKiem.Text = "Tìm"
-        Me.btLoaiSachTimKiem.UseVisualStyleBackColor = True
-        '
         'Label7
         '
         Me.Label7.AutoSize = True
@@ -283,7 +272,7 @@ Partial Class frmQLSach
         Me.btTenSachTimKiem.Name = "btTenSachTimKiem"
         Me.btTenSachTimKiem.Size = New System.Drawing.Size(75, 20)
         Me.btTenSachTimKiem.TabIndex = 36
-        Me.btTenSachTimKiem.Text = "Tìm"
+        Me.btTenSachTimKiem.Text = "Search"
         Me.btTenSachTimKiem.UseVisualStyleBackColor = True
         '
         'txtTenSachTimKiem
@@ -340,6 +329,5 @@ Partial Class frmQLSach
     Friend WithEvents txtTenSachTimKiem As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents btTenSachTimKiem As Button
-    Friend WithEvents btLoaiSachTimKiem As Button
     Friend WithEvents cbbLoaiSach As ComboBox
 End Class

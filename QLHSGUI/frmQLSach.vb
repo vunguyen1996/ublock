@@ -7,6 +7,8 @@ Public Class frmQLSach
     Private loaisachBus As LoaiSachBUS
     Private sach As SachDTO
 
+    Private loaisach As LoaiSachDTO
+
     Private Sub frmQLSach_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         sachBus = New SachBUS()
         loaisachBus = New LoaiSachBUS()
@@ -72,8 +74,6 @@ Public Class frmQLSach
         clTenSach.DataPropertyName = "TenSach"
         dgvListSach.Columns.Add(clTenSach)
 
-        Dim clLoaiSach = New DataGridView()
-
         Dim clTacGia = New DataGridViewTextBoxColumn()
         clTacGia.Name = "TacGia"
         clTacGia.HeaderText = "Tác Giả"
@@ -114,8 +114,6 @@ Public Class frmQLSach
         clMa.HeaderText = "Mã Sách"
         clMa.DataPropertyName = "MASACH"
         dgvListSach.Columns.Add(clMa)
-
-        Dim clLoaiSach = New DataGridView()
 
         Dim clTenSach = New DataGridViewTextBoxColumn()
         clTenSach.Name = "TenSach"
@@ -163,8 +161,6 @@ Public Class frmQLSach
         clMa.DataPropertyName = "MASACH"
         dgvListSach.Columns.Add(clMa)
 
-        Dim clLoaiSach = New DataGridView()
-
         Dim clTenSach = New DataGridViewTextBoxColumn()
         clTenSach.Name = "TenSach"
         clTenSach.HeaderText = "Tên Sách"
@@ -187,6 +183,30 @@ Public Class frmQLSach
         myCurrencyManager.Refresh()
     End Sub
 
+    'Private Sub loadTenLoaiSach_ByMaLoaiSach(maLoai As String)
+    '    Dim loaisachBus = New LoaiSachBUS()
+    '    Dim listLoai = New List(Of LoaiSachDTO)
+    '    Dim result = loaisachBus.selectAll_ByMaLoaiSach(maLoai, listLoai)
+    '    If (result.FlagResult = False) Then
+    '        MessageBox.Show("Lấy thông tin loại sách thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '        System.Console.WriteLine(result.SystemMessage)
+    '    End If
+    '    loaisach = listLoai(0)
+    '    cbbLoaiSachCapNhat.Text = loaisach.TenLoaiSach
+    'End Sub
+
+    'Private Sub loadMaLoaiSach_BymaSach(maSach As String)
+    '    Dim listSach = New List(Of SachDTO)
+    '    Dim result As Result
+    '    result = sachBus.selectALL_ByType(maSach, listSach)
+    '    If (result.FlagResult = False) Then
+    '        MessageBox.Show("Lấy danh sách sách theo loại sách không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '        System.Console.WriteLine(result.SystemMessage)
+    '        Return
+    '    End If
+    '    sach = listSach(0)
+    '    cbbLoaiSachCapNhat.Text = sach.MaLoaiSach
+    'End Sub
 
     Private Sub dgvListSach_SELECTionChanged(sender As Object, e As EventArgs) Handles dgvListSach.SelectionChanged
         ' Get the current cell location.
@@ -285,6 +305,15 @@ Public Class frmQLSach
         End If
     End Sub
 
+    Private Sub cbbLoaiSach_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbLoaiSach.SelectedIndexChanged
+        Try
+            Dim maLoai = Convert.ToInt32(cbbLoaiSach.SelectedValue)
+            loadListSach_ByMaLoaiSach(maLoai)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
     Private Sub btTenSachTimKiem_Click(sender As Object, e As EventArgs) Handles btTenSachTimKiem.Click
         Try
             Dim tenSach = txtTenSachTimKiem.Text
@@ -312,13 +341,5 @@ Public Class frmQLSach
             txtTenSachTimKiem.Text = "Vui Lòng Nhập Tên Sách Muốn Tra Cứu"
             txtTenSachTimKiem.ForeColor = Color.LightGray
         End If
-    End Sub
-
-    Private Sub cbbLoaiSach_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbLoaiSach.SelectedIndexChanged
-        Try
-            Dim maLoaiSach = Convert.ToInt32(cbbLoaiSach.SelectedValue)
-            loadListSach_ByMaLoaiSach(maLoaiSach)
-        Catch ex As Exception
-        End Try
     End Sub
 End Class

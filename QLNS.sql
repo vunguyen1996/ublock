@@ -219,9 +219,9 @@ CREATE TABLE [dbo].[tblCTHoaDon](
 	[MACTHD] [int] NOT NULL,
 	[MAHD] [int] NOT NULL,
 	[MASACH] [int] NOT NULL,
-	[SoLuongBan] [nchar](10) NOT NULL,
-	[DonGiaBan] [nchar](10) NOT NULL,
-	[ThanhTien] [nchar](10) NOT NULL,
+	[SoLuongBan] [int] NOT NULL,
+	[DonGiaBan] [int] NOT NULL,
+	[ThanhTien] [int] NOT NULL,
  CONSTRAINT [PK_tblCTHoaDon] PRIMARY KEY CLUSTERED 
 (
 	[MACTHD] ASC
@@ -430,6 +430,13 @@ GO
 INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH])VALUES(1,convert(datetime,'5/14/2018 00:00:00',101),1)
 GO
 INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH])VALUES(2,convert(datetime,'5/15/2018 00:00:00',101),2)
+GO
+
+/******insert chi tiet hoa don******/
+USE [QLNS]
+GO
+
+INSERT INTO [dbo].[tblCTHoaDon]([MACTHD],[MAHD],[MASACH],[SoLuongBan],[DonGiaBan],[ThanhTien])VALUES(1,1,1,3,15000,45000)
 GO
 
 /******insert phieu thu tien******/

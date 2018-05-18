@@ -111,3 +111,4 @@ C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.xml
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.pdb
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLPhieuThuTien.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThayDoiQuyDinh.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemCTHoaDon.resources

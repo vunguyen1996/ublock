@@ -190,6 +190,44 @@ Public Class HoaDonDAL
         Return New Result(True) ' thanh cong
     End Function
 
+    Public Function selectALL_ByMaHD(maHD As Integer, ByRef listHD As List(Of HoaDonDTO)) As Result
+
+        Dim query As String = String.Empty
+        query &= " SELECT *"
+        query &= " FROM [tblHoaDon]"
+        query &= "WHERE "
+        query &= "[MAHD] = @mahoadon"
+
+
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@mahoadon", maHD)
+                End With
+                Try
+                    conn.Open()
+                    Dim reader As SqlDataReader
+                    reader = comm.ExecuteReader()
+                    If reader.HasRows = True Then
+                        listHD.Clear()
+                        While reader.Read()
+                            listHD.Add(New HoaDonDTO(reader("MAHD"), reader("NgayHoaDon"), reader("MAKH")))
+                        End While
+                    End If
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Lấy tất cả phiếu nhập không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
+
     Public Function delete(mahd As Integer) As Result
 
         Dim query As String = String.Empty

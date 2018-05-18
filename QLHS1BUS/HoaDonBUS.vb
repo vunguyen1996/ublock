@@ -43,4 +43,11 @@ Public Class HoaDonBUS
         '2. insert to DB
         Return hdDAL.selectALL_ByNgayHD(ngayHD, listhd)
     End Function
+
+    Public Function selectAll_ByMaHD(maHD As Integer, ByRef listhd As List(Of HoaDonDTO)) As Result
+        '1. verify data here!!
+
+        '2. insert to DB
+        Return hdDAL.selectALL_ByMaHD(maHD, listhd)
+    End Function
 End Class
