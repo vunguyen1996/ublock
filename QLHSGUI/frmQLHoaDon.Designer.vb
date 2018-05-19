@@ -27,7 +27,12 @@ Partial Class frmQLHoaDon
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtTriGia = New System.Windows.Forms.TextBox()
+        Me.txtDiaChi = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.btXoaHoaDon = New System.Windows.Forms.Button()
+        Me.btCapNhatHoaDon = New System.Windows.Forms.Button()
         Me.txtTienNo = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txtSDT = New System.Windows.Forms.TextBox()
@@ -42,13 +47,10 @@ Partial Class frmQLHoaDon
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtMaHD = New System.Windows.Forms.TextBox()
-        Me.btCapNhatHoaDon = New System.Windows.Forms.Button()
-        Me.btXoaHoaDon = New System.Windows.Forms.Button()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.dtpNgayHoaDonTimKiem = New System.Windows.Forms.DateTimePicker()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtDiaChi = New System.Windows.Forms.TextBox()
         CType(Me.dgvListHoaDon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -63,7 +65,7 @@ Partial Class frmQLHoaDon
         Me.dgvListHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvListHoaDon.Location = New System.Drawing.Point(6, 6)
         Me.dgvListHoaDon.Name = "dgvListHoaDon"
-        Me.dgvListHoaDon.Size = New System.Drawing.Size(337, 224)
+        Me.dgvListHoaDon.Size = New System.Drawing.Size(402, 250)
         Me.dgvListHoaDon.TabIndex = 0
         '
         'TabControl1
@@ -72,7 +74,7 @@ Partial Class frmQLHoaDon
         Me.TabControl1.Location = New System.Drawing.Point(12, 71)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(357, 262)
+        Me.TabControl1.Size = New System.Drawing.Size(422, 288)
         Me.TabControl1.TabIndex = 1
         '
         'TabPage1
@@ -81,7 +83,7 @@ Partial Class frmQLHoaDon
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(349, 236)
+        Me.TabPage1.Size = New System.Drawing.Size(414, 262)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Danh Sách Hóa Đơn"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -89,14 +91,16 @@ Partial Class frmQLHoaDon
         'TabControl2
         '
         Me.TabControl2.Controls.Add(Me.TabPage2)
-        Me.TabControl2.Location = New System.Drawing.Point(371, 12)
+        Me.TabControl2.Location = New System.Drawing.Point(436, 12)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(388, 321)
+        Me.TabControl2.Size = New System.Drawing.Size(388, 347)
         Me.TabControl2.TabIndex = 3
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Label10)
+        Me.TabPage2.Controls.Add(Me.txtTriGia)
         Me.TabPage2.Controls.Add(Me.txtDiaChi)
         Me.TabPage2.Controls.Add(Me.Label9)
         Me.TabPage2.Controls.Add(Me.btXoaHoaDon)
@@ -118,10 +122,36 @@ Partial Class frmQLHoaDon
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(380, 295)
+        Me.TabPage2.Size = New System.Drawing.Size(380, 321)
         Me.TabPage2.TabIndex = 0
         Me.TabPage2.Text = "Thông Tin Hóa Đơn"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(6, 266)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(38, 13)
+        Me.Label10.TabIndex = 36
+        Me.Label10.Text = "Trị Giá"
+        '
+        'txtTriGia
+        '
+        Me.txtTriGia.Location = New System.Drawing.Point(118, 263)
+        Me.txtTriGia.Name = "txtTriGia"
+        Me.txtTriGia.Size = New System.Drawing.Size(246, 20)
+        Me.txtTriGia.TabIndex = 35
+        '
+        'txtDiaChi
+        '
+        Me.txtDiaChi.BackColor = System.Drawing.SystemColors.Control
+        Me.txtDiaChi.Location = New System.Drawing.Point(118, 85)
+        Me.txtDiaChi.Multiline = True
+        Me.txtDiaChi.Name = "txtDiaChi"
+        Me.txtDiaChi.ReadOnly = True
+        Me.txtDiaChi.Size = New System.Drawing.Size(246, 67)
+        Me.txtDiaChi.TabIndex = 34
         '
         'Label9
         '
@@ -131,6 +161,24 @@ Partial Class frmQLHoaDon
         Me.Label9.Size = New System.Drawing.Size(45, 13)
         Me.Label9.TabIndex = 33
         Me.Label9.Text = "Tiền Nợ"
+        '
+        'btXoaHoaDon
+        '
+        Me.btXoaHoaDon.Location = New System.Drawing.Point(202, 292)
+        Me.btXoaHoaDon.Name = "btXoaHoaDon"
+        Me.btXoaHoaDon.Size = New System.Drawing.Size(75, 23)
+        Me.btXoaHoaDon.TabIndex = 5
+        Me.btXoaHoaDon.Text = "Xóa"
+        Me.btXoaHoaDon.UseVisualStyleBackColor = True
+        '
+        'btCapNhatHoaDon
+        '
+        Me.btCapNhatHoaDon.Location = New System.Drawing.Point(121, 292)
+        Me.btCapNhatHoaDon.Name = "btCapNhatHoaDon"
+        Me.btCapNhatHoaDon.Size = New System.Drawing.Size(75, 23)
+        Me.btCapNhatHoaDon.TabIndex = 4
+        Me.btCapNhatHoaDon.Text = "Cập nhật"
+        Me.btCapNhatHoaDon.UseVisualStyleBackColor = True
         '
         'txtTienNo
         '
@@ -258,31 +306,13 @@ Partial Class frmQLHoaDon
         Me.txtMaHD.TabIndex = 18
         Me.txtMaHD.WordWrap = False
         '
-        'btCapNhatHoaDon
-        '
-        Me.btCapNhatHoaDon.Location = New System.Drawing.Point(120, 266)
-        Me.btCapNhatHoaDon.Name = "btCapNhatHoaDon"
-        Me.btCapNhatHoaDon.Size = New System.Drawing.Size(75, 23)
-        Me.btCapNhatHoaDon.TabIndex = 4
-        Me.btCapNhatHoaDon.Text = "Cập nhật"
-        Me.btCapNhatHoaDon.UseVisualStyleBackColor = True
-        '
-        'btXoaHoaDon
-        '
-        Me.btXoaHoaDon.Location = New System.Drawing.Point(201, 266)
-        Me.btXoaHoaDon.Name = "btXoaHoaDon"
-        Me.btXoaHoaDon.Size = New System.Drawing.Size(75, 23)
-        Me.btXoaHoaDon.TabIndex = 5
-        Me.btXoaHoaDon.Text = "Xóa"
-        Me.btXoaHoaDon.UseVisualStyleBackColor = True
-        '
         'TabControl3
         '
         Me.TabControl3.Controls.Add(Me.TabPage3)
         Me.TabControl3.Location = New System.Drawing.Point(12, 12)
         Me.TabControl3.Name = "TabControl3"
         Me.TabControl3.SelectedIndex = 0
-        Me.TabControl3.Size = New System.Drawing.Size(357, 57)
+        Me.TabControl3.Size = New System.Drawing.Size(422, 57)
         Me.TabControl3.TabIndex = 6
         '
         'TabPage3
@@ -292,7 +322,7 @@ Partial Class frmQLHoaDon
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(349, 31)
+        Me.TabPage3.Size = New System.Drawing.Size(414, 31)
         Me.TabPage3.TabIndex = 0
         Me.TabPage3.Text = "Tìm Kiếm"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -316,21 +346,11 @@ Partial Class frmQLHoaDon
         Me.Label4.TabIndex = 24
         Me.Label4.Text = "Ngày Hóa Đơn"
         '
-        'txtDiaChi
-        '
-        Me.txtDiaChi.BackColor = System.Drawing.SystemColors.Control
-        Me.txtDiaChi.Location = New System.Drawing.Point(118, 85)
-        Me.txtDiaChi.Multiline = True
-        Me.txtDiaChi.Name = "txtDiaChi"
-        Me.txtDiaChi.ReadOnly = True
-        Me.txtDiaChi.Size = New System.Drawing.Size(246, 67)
-        Me.txtDiaChi.TabIndex = 34
-        '
         'frmQLHoaDon
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(771, 345)
+        Me.ClientSize = New System.Drawing.Size(836, 371)
         Me.Controls.Add(Me.TabControl3)
         Me.Controls.Add(Me.TabControl2)
         Me.Controls.Add(Me.TabControl1)
@@ -377,4 +397,6 @@ Partial Class frmQLHoaDon
     Friend WithEvents txtSDT As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents txtDiaChi As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents txtTriGia As TextBox
 End Class

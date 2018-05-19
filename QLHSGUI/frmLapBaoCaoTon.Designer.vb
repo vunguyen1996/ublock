@@ -24,11 +24,11 @@ Partial Class frmLapBaoCaoTon
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.btThemBaoCaoTon = New System.Windows.Forms.Button()
         Me.dtbThangBaoCaoTon = New System.Windows.Forms.DateTimePicker()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtMaBaoCaoTon = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btThemBaoCaoTon = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.SuspendLayout()
@@ -57,6 +57,15 @@ Partial Class frmLapBaoCaoTon
         Me.TabPage1.Text = "Thông Tin Báo Cáo Tồn"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'btThemBaoCaoTon
+        '
+        Me.btThemBaoCaoTon.Location = New System.Drawing.Point(113, 67)
+        Me.btThemBaoCaoTon.Name = "btThemBaoCaoTon"
+        Me.btThemBaoCaoTon.Size = New System.Drawing.Size(75, 23)
+        Me.btThemBaoCaoTon.TabIndex = 1
+        Me.btThemBaoCaoTon.Text = "Thêm"
+        Me.btThemBaoCaoTon.UseVisualStyleBackColor = True
+        '
         'dtbThangBaoCaoTon
         '
         Me.dtbThangBaoCaoTon.CustomFormat = "MM/yyyy"
@@ -78,6 +87,7 @@ Partial Class frmLapBaoCaoTon
         '
         'txtMaBaoCaoTon
         '
+        Me.txtMaBaoCaoTon.Enabled = False
         Me.txtMaBaoCaoTon.Location = New System.Drawing.Point(113, 6)
         Me.txtMaBaoCaoTon.Name = "txtMaBaoCaoTon"
         Me.txtMaBaoCaoTon.ReadOnly = True
@@ -93,15 +103,6 @@ Partial Class frmLapBaoCaoTon
         Me.Label1.Size = New System.Drawing.Size(88, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Mã Báo Cáo Tồn"
-        '
-        'btThemBaoCaoTon
-        '
-        Me.btThemBaoCaoTon.Location = New System.Drawing.Point(113, 67)
-        Me.btThemBaoCaoTon.Name = "btThemBaoCaoTon"
-        Me.btThemBaoCaoTon.Size = New System.Drawing.Size(75, 23)
-        Me.btThemBaoCaoTon.TabIndex = 1
-        Me.btThemBaoCaoTon.Text = "Thêm"
-        Me.btThemBaoCaoTon.UseVisualStyleBackColor = True
         '
         'frmLapBaoCaoTon
         '

@@ -104,4 +104,24 @@ Public Class frmLapHoaDon
 
         End Try
     End Sub
+
+    Public Sub New()
+        InitializeComponent()
+        txtTongTriGiaHoaDon.ForeColor = Color.LightGray
+        txtTongTriGiaHoaDon.Text = "0"
+    End Sub
+
+    Private Sub txtTongTriGiaHoaDon_Enter(sender As Object, e As EventArgs) Handles txtTongTriGiaHoaDon.Enter
+        If txtTongTriGiaHoaDon.Text = "0" Then
+            txtTongTriGiaHoaDon.Text = ""
+            txtTongTriGiaHoaDon.ForeColor = Color.Black
+        End If
+    End Sub
+
+    Private Sub txtTongTriGiaHoaDon_Leave(sender As Object, e As EventArgs) Handles txtTongTriGiaHoaDon.Leave
+        If txtTongTriGiaHoaDon.Text = "" Then
+            txtTongTriGiaHoaDon.Text = "0"
+            txtTongTriGiaHoaDon.ForeColor = Color.LightGray
+        End If
+    End Sub
 End Class

@@ -17,6 +17,8 @@ Public Class frmThemCTPhieuNhap
 
     Private Sub frmThemPhieuNhap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ctpnBus = New CTPhieuNhapBUS
+        sachBus = New SachBUS()
+
         ' Get Next ID
         Dim nextID As Integer
         Dim result As Result
@@ -51,7 +53,7 @@ Public Class frmThemCTPhieuNhap
             System.Console.WriteLine(result.SystemMessage)
         End If
         sach = listSach(0)
-        txtSoLuongTon.Text = sach.SoLuongTon
+        txtSoLuongTonBanDau.Text = sach.SoLuongTon
         txtTenSach.Text = sach.TenSach
         txtTacGia.Text = sach.TacGia
         txtTheLoai.Text = sach.MaLoaiSach
@@ -85,6 +87,7 @@ Public Class frmThemCTPhieuNhap
         Dim ctphieunhap As CTPhieuNhapDTO
         ctphieunhap = New CTPhieuNhapDTO()
 
+
         '1. Mapping data from GUI control
         ctphieunhap.MaChiTietPhieuNhap = Convert.ToInt32(txtMaCTPN.Text)
         ctphieunhap.MaPhieuNhap = txtMaPhieuNhap.Text
@@ -94,12 +97,15 @@ Public Class frmThemCTPhieuNhap
         '3. Insert to DB
         Dim SoLuongNhap = Integer.Parse(txtSoLuongNhap.Text)
         Dim SoLuongNhapToiThieu = Integer.Parse(txtSoLuongNhapToiThieu.Text)
-        Dim SoLuongTon = Integer.Parse(txtSoLuongTon.Text)
+        Dim SoLuongTon = Integer.Parse(txtSoLuongTonBanDau.Text)
         Dim SoLuongTonToiDa = txtSoLuongTonToiDa.Text
+
         If (SoLuongNhap >= SoLuongNhapToiThieu) Then
             If (SoLuongTon < SoLuongTonToiDa) Then
                 Dim result As Result
                 result = ctpnBus.insert(ctphieunhap)
+
+                'result = sachBus.update(SachDTO)
                 If (result.FlagResult = True) Then
                     MessageBox.Show("Thêm chi tiết phiếu nhập thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     txtMaCTPN.Text = String.Empty
@@ -126,6 +132,23 @@ Public Class frmThemCTPhieuNhap
             MessageBox.Show("Thêm chi tiết phiếu nhập không thành công ! Vui lòng kiểm tra lại", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             txtSoLuongNhap.Focus()
         End If
+    End Sub
+
+    Private Sub updateSoluongTonSauKhiNhap_Click(sender As Object, e As EventArgs) Handles btThemCTPN.Click
+        Try
+            Dim sach As SachDTO
+            sach = New SachDTO()
+
+            '1. Mapping data from GUI control
+            sach.MaSach = txtMaSach.Text
+            sach.SoLuongTon = txtSoLuongTonSauKhiNhap.Text
+            '2. Business .....
+            '3. Insert to DB
+            Dim result As Result
+            result = sachBus.update_SoLuongTon(sach)
+        Catch ex As Exception
+            Console.WriteLine(ex.StackTrace)
+        End Try
     End Sub
 
     Private Sub txtMaSach_TextChanged(sender As Object, e As EventArgs) Handles txtMaSach.TextChanged
@@ -156,41 +179,10 @@ Public Class frmThemCTPhieuNhap
     End Sub
 
     Private Sub txtSoLuongNhap_TextChanged(sender As Object, e As EventArgs) Handles txtSoLuongNhap.TextChanged
-        Dim soluongtontruockhinhap = Integer.Parse(txtSoLuongTon.Text)
+        Dim soluongtontruockhinhap = Integer.Parse(txtSoLuongTonBanDau.Text)
         Dim soluongnhap = Integer.Parse(txtSoLuongNhap.Text)
         Dim soluongtoncuoi = soluongtontruockhinhap + soluongnhap
         txtSoLuongTonSauKhiNhap.Text = soluongtoncuoi
     End Sub
-
-    'Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-    '    sach = New SachDTO()
-    '    '1. Mapping data from GUI control
-    '    sach.MaSach = txtMaSach.Text
-    '    sach.SoLuongTon = txtSoLuongTonSauKhiNhap.Text
-    '    '2. Business .....
-    '    '3. Insert to DB
-    '    Dim result = sachBus.update_SoLuongTon(sach)
-    '    If (result.FlagResult = True) Then
-    '        MessageBox.Show("Cập nhật sách thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-    '    Else
-    '        MessageBox.Show("Cập nhật sách không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-    '        System.Console.WriteLine(result.SystemMessage)
-    '    End If
-    'End Sub
-
-    'Private Sub loadSoLuongTonSauKhiNhap_ByMaSach(maSach As String)
-    '    sachBus = New SachBUS()
-    '    Dim listSach = New List(Of SachDTO)
-    '    Dim result = sachBus.selectALL_ByMaSach(maSach, listSach)
-    '    If (result.FlagResult = False) Then
-    '        MessageBox.Show("Lấy thông tin sách không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-    '        System.Console.WriteLine(result.SystemMessage)
-    '    End If
-    '    sach = listSach(0)
-    '    txtSoLuongTon.Text = sach.SoLuongTon
-    '    txtTenSach.Text = sach.TenSach
-    '    txtTacGia.Text = sach.TacGia
-    '    txtTheLoai.Text = sach.MaLoaiSach
-    'End Sub
 
 End Class

@@ -53,6 +53,7 @@ Partial Class frmLapPhieuNhapSach
         '
         'txtMaPhieuNhapSach
         '
+        Me.txtMaPhieuNhapSach.Enabled = False
         Me.txtMaPhieuNhapSach.Location = New System.Drawing.Point(103, 6)
         Me.txtMaPhieuNhapSach.Name = "txtMaPhieuNhapSach"
         Me.txtMaPhieuNhapSach.ReadOnly = True

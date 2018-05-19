@@ -50,6 +50,12 @@ Public Class frmQLHoaDon
         clNgayHoaDon.HeaderText = "Ngày Hóa Đơn"
         clNgayHoaDon.DataPropertyName = "NgayHoaDon"
         dgvListHoaDon.Columns.Add(clNgayHoaDon)
+
+        Dim clTriGia = New DataGridViewTextBoxColumn()
+        clTriGia.Name = "TongTriGia"
+        clTriGia.HeaderText = "Trị Giá"
+        clTriGia.DataPropertyName = "TongTriGia"
+        dgvListHoaDon.Columns.Add(clTriGia)
     End Sub
 
     Private Sub loadlistHoaDon_ByNgayHoaDon(ngayHD As DateTime)
@@ -86,6 +92,12 @@ Public Class frmQLHoaDon
         clNgayHoaDon.HeaderText = "Ngày Hóa Đơn"
         clNgayHoaDon.DataPropertyName = "NgayHoaDon"
         dgvListHoaDon.Columns.Add(clNgayHoaDon)
+
+        Dim clTriGia = New DataGridViewTextBoxColumn()
+        clTriGia.Name = "TongTriGia"
+        clTriGia.HeaderText = "Trị Giá"
+        clTriGia.DataPropertyName = "TongTriGia"
+        dgvListHoaDon.Columns.Add(clTriGia)
     End Sub
 
     Private Sub loadListKhachHang_ByMaKH(maKH As String)
@@ -117,52 +129,14 @@ Public Class frmQLHoaDon
                 txtMaHD.Text = hd.MaHoaDon
                 dtpNgayLapHD.Value = hd.NgayHoaDon
                 txtMaKH.Text = hd.MaKhachHang
+                txtTriGia.Text = hd.TongTriGia
             Catch ex As Exception
                 Console.WriteLine(ex.StackTrace)
             End Try
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btCapNhatHoaDon.Click
-        ' Get the current cell location.
-        Dim currentRowIndex As Integer = dgvListHoaDon.CurrentCellAddress.Y 'current row selected
-        'Verify that indexing OK
-        If (-1 < currentRowIndex And currentRowIndex < dgvListHoaDon.RowCount) Then
-            Try
-                Dim hoadon As HoaDonDTO
-                hoadon = New HoaDonDTO()
 
-                '1. Mapping data from GUI control
-                hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
-                hoadon.NgayHoaDon = dtpNgayLapHD.Value
-                hoadon.MaKhachHang = Convert.ToInt32(txtMaKH.Text)
-                '2. Business .....
-                '3. Insert to DB
-                Dim result As Result
-                result = hdBus.update(hoadon)
-                If (result.FlagResult = True) Then
-                    ' Re-Load phieu nhap
-                    loadlistHoaDon_ByNgayHoaDon(dtpNgayLapHD.Value)
-                    ' Hightlight the row has been updated on table
-                    dgvListHoaDon.Rows(currentRowIndex).Selected = True
-                    Try
-                        hoadon = CType(dgvListHoaDon.Rows(currentRowIndex).DataBoundItem, HoaDonDTO)
-                        txtMaHD.Text = hoadon.MaHoaDon
-                        dtpNgayLapHD.Value = hoadon.NgayHoaDon
-                        txtMaKH.Text = hoadon.MaKhachHang
-                    Catch ex As Exception
-                        Console.WriteLine(ex.StackTrace)
-                    End Try
-                    MessageBox.Show("Cập nhật hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                Else
-                    MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                    System.Console.WriteLine(result.SystemMessage)
-                End If
-            Catch ex As Exception
-                Console.WriteLine(ex.StackTrace)
-            End Try
-        End If
-    End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btXoaHoaDon.Click
         ' Get the current cell location.
@@ -177,7 +151,7 @@ Public Class frmQLHoaDon
                         result = hdBus.delete(txtMaHD.Text)
                         If (result.FlagResult = True) Then
                             ' Re-Load LoaiHocSinh list
-                            loadlistHoaDon_ByNgayHoaDon(dtpNgayLapHD.Value)
+                            loadlistHoaDon()
                             ' Hightlight the next row on table
                             If (currentRowIndex >= dgvListHoaDon.Rows.Count) Then
                                 currentRowIndex = currentRowIndex - 1
@@ -226,5 +200,48 @@ Public Class frmQLHoaDon
         Catch ex As Exception
 
         End Try
+    End Sub
+
+    Private Sub btCapNhatHoaDon_Click(sender As Object, e As EventArgs) Handles btCapNhatHoaDon.Click
+        ' Get the current cell location.
+        Dim currentRowIndex As Integer = dgvListHoaDon.CurrentCellAddress.Y 'current row selected
+        'Verify that indexing OK
+        If (-1 < currentRowIndex And currentRowIndex < dgvListHoaDon.RowCount) Then
+            Try
+                Dim hoadon As HoaDonDTO
+                hoadon = New HoaDonDTO()
+
+                '1. Mapping data from GUI control
+                hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
+                hoadon.NgayHoaDon = dtpNgayLapHD.Value
+                hoadon.MaKhachHang = Convert.ToInt32(txtMaKH.Text)
+                hoadon.TongTriGia = txtTriGia.Text
+                '2. Business .....
+                '3. Insert to DB
+                Dim result As Result
+                result = hdBus.update(hoadon)
+                If (result.FlagResult = True) Then
+                    ' Re-Load phieu nhap
+                    loadlistHoaDon_ByNgayHoaDon(dtpNgayLapHD.Value)
+                    ' Hightlight the row has been updated on table
+                    dgvListHoaDon.Rows(currentRowIndex).Selected = True
+                    Try
+                        hoadon = CType(dgvListHoaDon.Rows(currentRowIndex).DataBoundItem, HoaDonDTO)
+                        txtMaHD.Text = hoadon.MaHoaDon
+                        dtpNgayLapHD.Value = hoadon.NgayHoaDon
+                        txtMaKH.Text = hoadon.MaKhachHang
+                        txtTriGia.Text = hoadon.TongTriGia
+                    Catch ex As Exception
+                        Console.WriteLine(ex.StackTrace)
+                    End Try
+                    MessageBox.Show("Cập nhật hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Else
+                    MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    System.Console.WriteLine(result.SystemMessage)
+                End If
+            Catch ex As Exception
+                Console.WriteLine(ex.StackTrace)
+            End Try
+        End If
     End Sub
 End Class

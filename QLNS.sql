@@ -187,7 +187,7 @@ GO
 USE [QLNS]
 GO
 
-/****** Object:  Table [dbo].[tblHoaDon]    Script Date: 5/11/2018 12:49:08 PM ******/
+/****** Object:  Table [dbo].[tblHoaDon]    Script Date: 5/19/2018 1:23:10 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -198,12 +198,14 @@ CREATE TABLE [dbo].[tblHoaDon](
 	[MAHD] [int] NOT NULL,
 	[NgayHoaDon] [datetime2](7) NOT NULL,
 	[MAKH] [int] NOT NULL,
+	[TongTriGiaHD] [int] NOT NULL,
  CONSTRAINT [PK_tblHoaDon] PRIMARY KEY CLUSTERED 
 (
 	[MAHD] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
+
 
 USE [QLNS]
 GO
@@ -427,9 +429,9 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH])VALUES(1,convert(datetime,'5/14/2018 00:00:00',101),1)
+INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(1,convert(datetime,'05/14/2018 00:00:00',101),1,0)
 GO
-INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH])VALUES(2,convert(datetime,'5/15/2018 00:00:00',101),2)
+INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(2,convert(datetime,'05/15/2018 00:00:00',101),2,0)
 GO
 
 /******insert chi tiet hoa don******/

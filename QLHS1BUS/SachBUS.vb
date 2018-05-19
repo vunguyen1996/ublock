@@ -31,12 +31,12 @@ Public Class SachBUS
         Return sachDAL.update(sach)
     End Function
 
-    'Public Function update_SoLuongTon(sach As SachDTO) As Result
-    '    '1. verify data here!!
+    Public Function update_SoLuongTon(sach As SachDTO) As Result
+        '1. verify data here!!
 
-    '    '2. insert to DB
-    '    Return sachDAL.update_SoLuongTon(sach)
-    'End Function
+        '2. insert to DB
+        Return sachDAL.update_SoLuongTon(sach)
+    End Function
 
     Public Function delete(maSach As Integer) As Result
         '1. verify data here!!

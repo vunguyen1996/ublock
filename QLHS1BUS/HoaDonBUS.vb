@@ -19,11 +19,11 @@ Public Class HoaDonBUS
         '2. insert to DB
         Return hdDAL.insert(pn)
     End Function
-    Public Function update(pn As HoaDonDTO) As Result
+    Public Function update(hoadon As HoaDonDTO) As Result
         '1. verify data here!!
 
         '2. insert to DB
-        Return hdDAL.update(pn)
+        Return hdDAL.update(hoadon)
     End Function
     Public Function delete(mahd As Integer) As Result
         '1. verify data here!!

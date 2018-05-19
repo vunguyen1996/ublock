@@ -4,14 +4,17 @@ Imports Utility
 
 Public Class frmThemCTHoaDon
     Private cthdBus As CTHoaDonBUS
+    Private sachBus As SachBUS
 
     Private hoadon As HoaDonDTO
     Private sach As SachDTO
     Private khachhang As KhachHangDTO
     Private loaisach As LoaiSachDTO
+    Private quydinh As QuyDinhDTO
 
     Private Sub frmThemCTHoaDon_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         cthdBus = New CTHoaDonBUS
+        sachBus = New SachBUS()
 
         ' Get Next ID
         Dim nextID As Integer
@@ -36,6 +39,7 @@ Public Class frmThemCTHoaDon
         hoadon = listHD(0)
         dtpNgayLapHD.Value = hoadon.NgayHoaDon
         txtMaKH.Text = hoadon.MaKhachHang
+        txtTongTriGiaHD.Text = hoadon.TongTriGia
     End Sub
 
     Private Sub loadListSach_byMaSach(maSach As String)
@@ -79,6 +83,18 @@ Public Class frmThemCTHoaDon
         End If
         loaisach = listLoai(0)
         txtTheLoai.Text = loaisach.TenLoaiSach
+    End Sub
+
+    Private Sub loadQuyDinh_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim qdBus = New QuyDinhBUS()
+        Dim listQuyDinh = New List(Of QuyDinhDTO)
+        Dim result = qdBus.selectALL(listQuyDinh)
+        If (result.FlagResult = False) Then
+            MessageBox.Show("Lấy thông tin Quy Định không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            System.Console.WriteLine(result.SystemMessage)
+        End If
+        quydinh = listQuyDinh(0)
+        txtLuongTonToiThieu.Text = quydinh.LuongTonToiThieu
     End Sub
 
     Private Sub txtMaHD_TextChanged(sender As Object, e As EventArgs) Handles txtMaHD.TextChanged
@@ -128,6 +144,15 @@ Public Class frmThemCTHoaDon
         Dim cthd As CTHoaDonDTO
         cthd = New CTHoaDonDTO()
 
+        Dim tongTriGia = Convert.ToInt32(txtTongTriGiaHD.Text)
+        Dim thanhtien = Convert.ToInt32(txtThanhTien.Text)
+        Dim tongtrigiaUpdate = Convert.ToInt32(tongTriGia + thanhtien)
+        txtTongTriGiaHD.Text = Convert.ToInt32(tongtrigiaUpdate)
+
+        Dim soluongton = Convert.ToInt32(txtSoLuongTon.Text)
+        Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)
+
+
         '1. Mapping data from GUI control
         cthd.MaChiTietHD = Convert.ToInt32(txtMaCTHD.Text)
         cthd.MaHD = Convert.ToInt32(txtMaHD.Text)
@@ -137,23 +162,72 @@ Public Class frmThemCTHoaDon
         cthd.ThanhTien = txtThanhTien.Text
         '2. Business .....
         '3. Insert to DB
-        Dim result As Result
-        result = cthdBus.insert(cthd)
-        If (result.FlagResult = True) Then
-            MessageBox.Show("Thêm chi tiết hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-
-            ' Get Next ID
-            Dim nextID As Integer
-            result = cthdBus.getNextID(nextID)
+        Dim luongtontoithieu = Convert.ToInt32(txtLuongTonToiThieu.Text)
+        If (soluongton >= luongtontoithieu) Then
+            txtSoLuongTon.Text = soluongton - soluongban
+            Dim result As Result
+            result = cthdBus.insert(cthd)
             If (result.FlagResult = True) Then
-                txtMaCTHD.Text = nextID.ToString()
+                MessageBox.Show("Thêm chi tiết hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                ' Get Next ID
+                Dim nextID As Integer
+                result = cthdBus.getNextID(nextID)
+                If (result.FlagResult = True) Then
+                    txtMaCTHD.Text = nextID.ToString()
+                Else
+                    MessageBox.Show("Lấy ID kế tiếp của chi tiết hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    System.Console.WriteLine(result.SystemMessage)
+                End If
             Else
-                MessageBox.Show("Lấy ID kế tiếp của chi tiết hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                MessageBox.Show("Thêm chi tiết hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 System.Console.WriteLine(result.SystemMessage)
             End If
         Else
-            MessageBox.Show("Thêm chi tiết hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            System.Console.WriteLine(result.SystemMessage)
+            MessageBox.Show("Thêm chi tiết hóa đơn không thành công do số lượng tồn bé hơn quy định.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
+
+    Private Sub btUpdateSoLuongTonSauKhiBan_Click(sender As Object, e As EventArgs) Handles btThemCTHD.Click
+        Try
+            Dim sach As SachDTO
+            sach = New SachDTO()
+
+            '1. Mapping data from GUI control
+            sach.MaSach = txtMaSach.Text
+            sach.SoLuongTon = txtSoLuongTon.Text
+            '2. Business .....
+            '3. Insert to DB
+            Dim result As Result
+            result = sachBus.update_SoLuongTon(sach)
+        Catch ex As Exception
+            Console.WriteLine(ex.StackTrace)
+        End Try
+    End Sub
+
+    'Private Sub btTUpdateTongTriGia_Click(sender As Object, e As EventArgs) Handles btThemCTHD.Click
+    '    Try
+    '        Dim hoadon As HoaDonDTO
+    '        hoadon = New HoaDonDTO()
+    '        Dim hdBus = New HoaDonBUS()
+
+    '        '1. Mapping data from GUI control
+    '        hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
+    '        hoadon.NgayHoaDon = dtpNgayLapHD.Value
+    '        hoadon.MaKhachHang = Convert.ToInt32(txtMaKH.Text)
+    '        hoadon.TongTriGia = txtTongTriGiaHD.Text
+    '        '2. Business .....
+    '        '3. Insert to DB
+    '        Dim result As Result
+    '        result = hdBus.update(hoadon)
+    '        If (result.FlagResult = True) Then
+    '            MessageBox.Show("Cập nhật hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    '        Else
+    '            MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '            System.Console.WriteLine(result.SystemMessage)
+    '        End If
+    '    Catch ex As Exception
+    '        Console.WriteLine(ex.StackTrace)
+    '    End Try
+    'End Sub
 End Class

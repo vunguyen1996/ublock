@@ -127,36 +127,36 @@ Public Class SachDAL
         Return New Result(True) ' thanh cong
     End Function
 
-    'Public Function update_SoLuongTon(sach As SachDTO) As Result
+    Public Function update_SoLuongTon(sach As SachDTO) As Result
 
-    '    Dim query As String = String.Empty
-    '    query &= " UPDATE [tblSach] SET"
-    '    query &= " [SOLUONGTON] = @soluongtonsaukhinhap "
-    '    query &= "WHERE "
-    '    query &= " [MASACH] = @masach "
+        Dim query As String = String.Empty
+        query &= " UPDATE [tblSach] SET"
+        query &= "[SOLUONGTON] = @soluongton "
+        query &= "WHERE "
+        query &= " [MASACH] = @masach "
 
-    '    Using conn As New SqlConnection(connectionString)
-    '        Using comm As New SqlCommand()
-    '            With comm
-    '                .Connection = conn
-    '                .CommandType = CommandType.Text
-    '                .CommandText = query
-    '                .Parameters.AddWithValue("@masach", sach.MaSach)
-    '                .Parameters.AddWithValue("@soluongtonsaukhinhap", sach.SoLuongTon)
-    '            End With
-    '            Try
-    '                conn.Open()
-    '                comm.ExecuteNonQuery()
-    '            Catch ex As Exception
-    '                Console.WriteLine(ex.StackTrace)
-    '                conn.Close()
-    '                ' them that bai!!!
-    '                Return New Result(False, "Cập nhật sách không thành công", ex.StackTrace)
-    '            End Try
-    '        End Using
-    '    End Using
-    '    Return New Result(True) ' thanh cong
-    'End Function
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@masach", sach.MaSach)
+                    .Parameters.AddWithValue("@soluongton", sach.SoLuongTon)
+                End With
+                Try
+                    conn.Open()
+                    comm.ExecuteNonQuery()
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Cập nhật sách không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
 
     Public Function selectALL(ByRef listSach As List(Of SachDTO)) As Result
 

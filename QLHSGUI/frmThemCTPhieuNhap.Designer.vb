@@ -40,7 +40,7 @@ Partial Class frmThemCTPhieuNhap
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtMaSach = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.txtSoLuongTon = New System.Windows.Forms.TextBox()
+        Me.txtSoLuongTonBanDau = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtSoLuongNhapToiThieu = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -80,7 +80,7 @@ Partial Class frmThemCTPhieuNhap
         Me.TabPage1.Controls.Add(Me.Label6)
         Me.TabPage1.Controls.Add(Me.txtMaSach)
         Me.TabPage1.Controls.Add(Me.Label5)
-        Me.TabPage1.Controls.Add(Me.txtSoLuongTon)
+        Me.TabPage1.Controls.Add(Me.txtSoLuongTonBanDau)
         Me.TabPage1.Controls.Add(Me.Label4)
         Me.TabPage1.Controls.Add(Me.txtSoLuongNhapToiThieu)
         Me.TabPage1.Controls.Add(Me.Label7)
@@ -108,6 +108,7 @@ Partial Class frmThemCTPhieuNhap
         '
         'txtSoLuongTonSauKhiNhap
         '
+        Me.txtSoLuongTonSauKhiNhap.Enabled = False
         Me.txtSoLuongTonSauKhiNhap.Location = New System.Drawing.Point(155, 240)
         Me.txtSoLuongTonSauKhiNhap.Name = "txtSoLuongTonSauKhiNhap"
         Me.txtSoLuongTonSauKhiNhap.ReadOnly = True
@@ -135,6 +136,7 @@ Partial Class frmThemCTPhieuNhap
         '
         'txtSoLuongTonToiDa
         '
+        Me.txtSoLuongTonToiDa.Enabled = False
         Me.txtSoLuongTonToiDa.Location = New System.Drawing.Point(155, 292)
         Me.txtSoLuongTonToiDa.Name = "txtSoLuongTonToiDa"
         Me.txtSoLuongTonToiDa.ReadOnly = True
@@ -153,6 +155,7 @@ Partial Class frmThemCTPhieuNhap
         '
         'txtTheLoai
         '
+        Me.txtTheLoai.Enabled = False
         Me.txtTheLoai.Location = New System.Drawing.Point(155, 136)
         Me.txtTheLoai.Name = "txtTheLoai"
         Me.txtTheLoai.ReadOnly = True
@@ -197,6 +200,7 @@ Partial Class frmThemCTPhieuNhap
         '
         'txtTacGia
         '
+        Me.txtTacGia.Enabled = False
         Me.txtTacGia.Location = New System.Drawing.Point(155, 162)
         Me.txtTacGia.Name = "txtTacGia"
         Me.txtTacGia.ReadOnly = True
@@ -206,6 +210,7 @@ Partial Class frmThemCTPhieuNhap
         '
         'txtTenSach
         '
+        Me.txtTenSach.Enabled = False
         Me.txtTenSach.Location = New System.Drawing.Point(155, 110)
         Me.txtTenSach.Name = "txtTenSach"
         Me.txtTenSach.ReadOnly = True
@@ -238,14 +243,15 @@ Partial Class frmThemCTPhieuNhap
         Me.Label5.TabIndex = 32
         Me.Label5.Text = "Số Lượng Tồn Ban Đầu"
         '
-        'txtSoLuongTon
+        'txtSoLuongTonBanDau
         '
-        Me.txtSoLuongTon.Location = New System.Drawing.Point(155, 188)
-        Me.txtSoLuongTon.Name = "txtSoLuongTon"
-        Me.txtSoLuongTon.ReadOnly = True
-        Me.txtSoLuongTon.Size = New System.Drawing.Size(224, 20)
-        Me.txtSoLuongTon.TabIndex = 31
-        Me.txtSoLuongTon.WordWrap = False
+        Me.txtSoLuongTonBanDau.Enabled = False
+        Me.txtSoLuongTonBanDau.Location = New System.Drawing.Point(155, 188)
+        Me.txtSoLuongTonBanDau.Name = "txtSoLuongTonBanDau"
+        Me.txtSoLuongTonBanDau.ReadOnly = True
+        Me.txtSoLuongTonBanDau.Size = New System.Drawing.Size(224, 20)
+        Me.txtSoLuongTonBanDau.TabIndex = 31
+        Me.txtSoLuongTonBanDau.WordWrap = False
         '
         'Label4
         '
@@ -258,6 +264,7 @@ Partial Class frmThemCTPhieuNhap
         '
         'txtSoLuongNhapToiThieu
         '
+        Me.txtSoLuongNhapToiThieu.Enabled = False
         Me.txtSoLuongNhapToiThieu.Location = New System.Drawing.Point(155, 266)
         Me.txtSoLuongNhapToiThieu.Name = "txtSoLuongNhapToiThieu"
         Me.txtSoLuongNhapToiThieu.ReadOnly = True
@@ -301,6 +308,7 @@ Partial Class frmThemCTPhieuNhap
         '
         'txtMaCTPN
         '
+        Me.txtMaCTPN.Enabled = False
         Me.txtMaCTPN.Location = New System.Drawing.Point(155, 6)
         Me.txtMaCTPN.Name = "txtMaCTPN"
         Me.txtMaCTPN.ReadOnly = True
@@ -344,7 +352,7 @@ Partial Class frmThemCTPhieuNhap
     Friend WithEvents btThemCTPN As Button
     Friend WithEvents txtSoLuongNhapToiThieu As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents txtSoLuongTon As TextBox
+    Friend WithEvents txtSoLuongTonBanDau As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents txtTenSach As TextBox
     Friend WithEvents Label6 As Label

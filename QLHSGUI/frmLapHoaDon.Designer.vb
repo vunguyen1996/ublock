@@ -25,6 +25,10 @@ Partial Class frmLapHoaDon
         Me.btThemHoaDon = New System.Windows.Forms.Button()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtTongTriGiaHoaDon = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtTienNoToiDa = New System.Windows.Forms.TextBox()
         Me.txtMaKH = New System.Windows.Forms.TextBox()
         Me.txtDiaChi = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -41,15 +45,13 @@ Partial Class frmLapHoaDon
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtMaHD = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtTienNoToiDa = New System.Windows.Forms.TextBox()
         Me.TabControl2.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
         'btThemHoaDon
         '
-        Me.btThemHoaDon.Location = New System.Drawing.Point(154, 301)
+        Me.btThemHoaDon.Location = New System.Drawing.Point(155, 326)
         Me.btThemHoaDon.Name = "btThemHoaDon"
         Me.btThemHoaDon.Size = New System.Drawing.Size(75, 23)
         Me.btThemHoaDon.TabIndex = 3
@@ -62,11 +64,13 @@ Partial Class frmLapHoaDon
         Me.TabControl2.Location = New System.Drawing.Point(12, 12)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(390, 356)
+        Me.TabControl2.Size = New System.Drawing.Size(390, 381)
         Me.TabControl2.TabIndex = 4
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Label10)
+        Me.TabPage2.Controls.Add(Me.txtTongTriGiaHoaDon)
         Me.TabPage2.Controls.Add(Me.Label4)
         Me.TabPage2.Controls.Add(Me.txtTienNoToiDa)
         Me.TabPage2.Controls.Add(Me.txtMaKH)
@@ -89,10 +93,45 @@ Partial Class frmLapHoaDon
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(382, 330)
+        Me.TabPage2.Size = New System.Drawing.Size(382, 355)
         Me.TabPage2.TabIndex = 0
         Me.TabPage2.Text = "Thông Tin Hóa Đơn"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(6, 292)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(66, 13)
+        Me.Label10.TabIndex = 39
+        Me.Label10.Text = "Tổng Trị Giá"
+        '
+        'txtTongTriGiaHoaDon
+        '
+        Me.txtTongTriGiaHoaDon.Location = New System.Drawing.Point(118, 289)
+        Me.txtTongTriGiaHoaDon.Name = "txtTongTriGiaHoaDon"
+        Me.txtTongTriGiaHoaDon.Size = New System.Drawing.Size(246, 20)
+        Me.txtTongTriGiaHoaDon.TabIndex = 38
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(6, 240)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(80, 13)
+        Me.Label4.TabIndex = 37
+        Me.Label4.Text = "Tiền Nợ Tối Đa"
+        '
+        'txtTienNoToiDa
+        '
+        Me.txtTienNoToiDa.Enabled = False
+        Me.txtTienNoToiDa.Location = New System.Drawing.Point(118, 237)
+        Me.txtTienNoToiDa.Name = "txtTienNoToiDa"
+        Me.txtTienNoToiDa.ReadOnly = True
+        Me.txtTienNoToiDa.Size = New System.Drawing.Size(246, 20)
+        Me.txtTienNoToiDa.TabIndex = 36
+        Me.txtTienNoToiDa.WordWrap = False
         '
         'txtMaKH
         '
@@ -104,6 +143,7 @@ Partial Class frmLapHoaDon
         'txtDiaChi
         '
         Me.txtDiaChi.BackColor = System.Drawing.SystemColors.Control
+        Me.txtDiaChi.Enabled = False
         Me.txtDiaChi.Location = New System.Drawing.Point(118, 85)
         Me.txtDiaChi.Multiline = True
         Me.txtDiaChi.Name = "txtDiaChi"
@@ -122,6 +162,7 @@ Partial Class frmLapHoaDon
         '
         'txtTienNo
         '
+        Me.txtTienNo.Enabled = False
         Me.txtTienNo.Location = New System.Drawing.Point(118, 211)
         Me.txtTienNo.Name = "txtTienNo"
         Me.txtTienNo.ReadOnly = True
@@ -140,6 +181,7 @@ Partial Class frmLapHoaDon
         '
         'txtSDT
         '
+        Me.txtSDT.Enabled = False
         Me.txtSDT.Location = New System.Drawing.Point(118, 185)
         Me.txtSDT.Name = "txtSDT"
         Me.txtSDT.ReadOnly = True
@@ -167,6 +209,7 @@ Partial Class frmLapHoaDon
         '
         'txtEmail
         '
+        Me.txtEmail.Enabled = False
         Me.txtEmail.Location = New System.Drawing.Point(118, 159)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.ReadOnly = True
@@ -176,6 +219,7 @@ Partial Class frmLapHoaDon
         '
         'txtHoTenKH
         '
+        Me.txtHoTenKH.Enabled = False
         Me.txtHoTenKH.Location = New System.Drawing.Point(118, 59)
         Me.txtHoTenKH.Name = "txtHoTenKH"
         Me.txtHoTenKH.ReadOnly = True
@@ -200,6 +244,7 @@ Partial Class frmLapHoaDon
         Me.dtpNgayLapHD.Name = "dtpNgayLapHD"
         Me.dtpNgayLapHD.Size = New System.Drawing.Size(246, 20)
         Me.dtpNgayLapHD.TabIndex = 22
+        Me.dtpNgayLapHD.Value = New Date(2018, 5, 19, 0, 0, 0, 0)
         '
         'Label3
         '
@@ -230,6 +275,7 @@ Partial Class frmLapHoaDon
         '
         'txtMaHD
         '
+        Me.txtMaHD.Enabled = False
         Me.txtMaHD.Location = New System.Drawing.Point(118, 7)
         Me.txtMaHD.Name = "txtMaHD"
         Me.txtMaHD.ReadOnly = True
@@ -237,29 +283,11 @@ Partial Class frmLapHoaDon
         Me.txtMaHD.TabIndex = 18
         Me.txtMaHD.WordWrap = False
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 240)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(80, 13)
-        Me.Label4.TabIndex = 37
-        Me.Label4.Text = "Tiền Nợ Tối Đa"
-        '
-        'txtTienNoToiDa
-        '
-        Me.txtTienNoToiDa.Location = New System.Drawing.Point(118, 237)
-        Me.txtTienNoToiDa.Name = "txtTienNoToiDa"
-        Me.txtTienNoToiDa.ReadOnly = True
-        Me.txtTienNoToiDa.Size = New System.Drawing.Size(246, 20)
-        Me.txtTienNoToiDa.TabIndex = 36
-        Me.txtTienNoToiDa.WordWrap = False
-        '
         'frmLapHoaDon
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(414, 380)
+        Me.ClientSize = New System.Drawing.Size(414, 405)
         Me.Controls.Add(Me.TabControl2)
         Me.Name = "frmLapHoaDon"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -292,4 +320,6 @@ Partial Class frmLapHoaDon
     Friend WithEvents txtMaKH As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents txtTienNoToiDa As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents txtTongTriGiaHoaDon As TextBox
 End Class

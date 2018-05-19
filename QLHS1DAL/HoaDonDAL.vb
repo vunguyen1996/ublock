@@ -53,8 +53,8 @@ Public Class HoaDonDAL
     Public Function insert(hd As HoaDonDTO) As Result
 
         Dim query As String = String.Empty
-        query &= "INSERT INTO [tblHoaDon] ([MAHD], [NgayHoaDon],[MAKH])"
-        query &= "VALUES (@MAHD,@ngayhoadon,@MAKH)"
+        query &= "INSERT INTO [tblHoaDon] ([MAHD], [NgayHoaDon], [MAKH], [TongTriGiaHD])"
+        query &= "VALUES (@MAHD,@ngayhoadon,@MAKH,@trigia)"
 
         Dim nextID = 0
         Dim result As Result
@@ -72,6 +72,7 @@ Public Class HoaDonDAL
                     .Parameters.AddWithValue("@MAHD", hd.MaHoaDon)
                     .Parameters.AddWithValue("@ngayhoadon", hd.NgayHoaDon)
                     .Parameters.AddWithValue("@MAKH", hd.MaKhachHang)
+                    .Parameters.AddWithValue("@trigia", hd.TongTriGia)
                 End With
                 Try
                     conn.Open()
@@ -86,13 +87,15 @@ Public Class HoaDonDAL
         Return New Result(True) ' thanh cong
     End Function
 
-    Public Function update(hd As HoaDonDTO) As Result
+    Public Function update(hoadon As HoaDonDTO) As Result
 
         Dim query As String = String.Empty
         query &= " UPDATE [tblHoaDon] SET"
-        query &= " [NgayHoaDon] = @ngayhoadon "
-        query &= "WHERE "
-        query &= " [MAHD] = @MAHD "
+        query &= " [NgayHoaDon] = @ngayhoadon"
+        query &= ",[MAKH] = @makh"
+        query &= ",[TongTriGiaHD] = @trigia"
+        query &= "WHERE"
+        query &= " [MAHD] = @mahd "
 
         Using conn As New SqlConnection(connectionString)
             Using comm As New SqlCommand()
@@ -100,8 +103,10 @@ Public Class HoaDonDAL
                     .Connection = conn
                     .CommandType = CommandType.Text
                     .CommandText = query
-                    .Parameters.AddWithValue("@MAHD", hd.MaHoaDon)
-                    .Parameters.AddWithValue("@ngayhoadon", hd.NgayHoaDon)
+                    .Parameters.AddWithValue("@ngayhoadon", hoadon.NgayHoaDon)
+                    .Parameters.AddWithValue("@makh", hoadon.MaKhachHang)
+                    .Parameters.AddWithValue("@trigia", hoadon.TongTriGia)
+                    .Parameters.AddWithValue("@mahd", hoadon.MaHoaDon)
                 End With
                 Try
                     conn.Open()
@@ -138,7 +143,7 @@ Public Class HoaDonDAL
                     If reader.HasRows = True Then
                         listHoaDon.Clear()
                         While reader.Read()
-                            listHoaDon.Add(New HoaDonDTO(reader("MAHD"), reader("NgayHoaDon"), reader("MAKH")))
+                            listHoaDon.Add(New HoaDonDTO(reader("MAHD"), reader("NgayHoaDon"), reader("MAKH"), reader("TongTriGiaHD")))
                         End While
                     End If
                 Catch ex As Exception
@@ -176,7 +181,7 @@ Public Class HoaDonDAL
                     If reader.HasRows = True Then
                         listHD.Clear()
                         While reader.Read()
-                            listHD.Add(New HoaDonDTO(reader("MAHD"), reader("NgayHoaDon"), reader("MAKH")))
+                            listHD.Add(New HoaDonDTO(reader("MAHD"), reader("NgayHoaDon"), reader("MAKH"), reader("TongTriGiaHD")))
                         End While
                     End If
                 Catch ex As Exception
@@ -214,7 +219,7 @@ Public Class HoaDonDAL
                     If reader.HasRows = True Then
                         listHD.Clear()
                         While reader.Read()
-                            listHD.Add(New HoaDonDTO(reader("MAHD"), reader("NgayHoaDon"), reader("MAKH")))
+                            listHD.Add(New HoaDonDTO(reader("MAHD"), reader("NgayHoaDon"), reader("MAKH"), reader("TongTriGiaHD")))
                         End While
                     End If
                 Catch ex As Exception
