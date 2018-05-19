@@ -25,6 +25,7 @@ Partial Class frmThemKhachHang
         Me.txtMaKH = New System.Windows.Forms.TextBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.txtDiaChi = New System.Windows.Forms.TextBox()
         Me.txtSDT = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtEmail = New System.Windows.Forms.TextBox()
@@ -36,13 +37,13 @@ Partial Class frmThemKhachHang
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btThemKhachHang = New System.Windows.Forms.Button()
-        Me.txtDiaChi = New System.Windows.Forms.TextBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.SuspendLayout()
         '
         'txtMaKH
         '
+        Me.txtMaKH.Enabled = False
         Me.txtMaKH.Location = New System.Drawing.Point(120, 6)
         Me.txtMaKH.Name = "txtMaKH"
         Me.txtMaKH.ReadOnly = True
@@ -80,6 +81,14 @@ Partial Class frmThemKhachHang
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Thông Tin Khách Hàng"
         Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'txtDiaChi
+        '
+        Me.txtDiaChi.Location = New System.Drawing.Point(120, 84)
+        Me.txtDiaChi.Multiline = True
+        Me.txtDiaChi.Name = "txtDiaChi"
+        Me.txtDiaChi.Size = New System.Drawing.Size(294, 67)
+        Me.txtDiaChi.TabIndex = 33
         '
         'txtSDT
         '
@@ -171,14 +180,6 @@ Partial Class frmThemKhachHang
         Me.btThemKhachHang.TabIndex = 18
         Me.btThemKhachHang.Text = "Thêm"
         Me.btThemKhachHang.UseVisualStyleBackColor = True
-        '
-        'txtDiaChi
-        '
-        Me.txtDiaChi.Location = New System.Drawing.Point(120, 84)
-        Me.txtDiaChi.Multiline = True
-        Me.txtDiaChi.Name = "txtDiaChi"
-        Me.txtDiaChi.Size = New System.Drawing.Size(294, 67)
-        Me.txtDiaChi.TabIndex = 33
         '
         'frmThemKhachHang
         '

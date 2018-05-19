@@ -24,6 +24,8 @@ Partial Class frmQLKhachHang
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.btXoaKhachHang = New System.Windows.Forms.Button()
+        Me.btCapNhatKhachHang = New System.Windows.Forms.Button()
         Me.txtDiaChi = New System.Windows.Forms.TextBox()
         Me.txtSDT = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -47,8 +49,6 @@ Partial Class frmQLKhachHang
         Me.txtMaKHTimKiem = New System.Windows.Forms.TextBox()
         Me.txtHoTenKHTimKiem = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.btCapNhatKhachHang = New System.Windows.Forms.Button()
-        Me.btXoaKhachHang = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.dgvListKhachHang, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -90,6 +90,24 @@ Partial Class frmQLKhachHang
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Thông Tin Khách Hàng"
         Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'btXoaKhachHang
+        '
+        Me.btXoaKhachHang.Location = New System.Drawing.Point(320, 212)
+        Me.btXoaKhachHang.Name = "btXoaKhachHang"
+        Me.btXoaKhachHang.Size = New System.Drawing.Size(75, 23)
+        Me.btXoaKhachHang.TabIndex = 32
+        Me.btXoaKhachHang.Text = "Xóa"
+        Me.btXoaKhachHang.UseVisualStyleBackColor = True
+        '
+        'btCapNhatKhachHang
+        '
+        Me.btCapNhatKhachHang.Location = New System.Drawing.Point(239, 212)
+        Me.btCapNhatKhachHang.Name = "btCapNhatKhachHang"
+        Me.btCapNhatKhachHang.Size = New System.Drawing.Size(75, 23)
+        Me.btCapNhatKhachHang.TabIndex = 31
+        Me.btCapNhatKhachHang.Text = "Cập nhật"
+        Me.btCapNhatKhachHang.UseVisualStyleBackColor = True
         '
         'txtDiaChi
         '
@@ -183,6 +201,7 @@ Partial Class frmQLKhachHang
         '
         'txtMaKH
         '
+        Me.txtMaKH.Enabled = False
         Me.txtMaKH.Location = New System.Drawing.Point(175, 7)
         Me.txtMaKH.Name = "txtMaKH"
         Me.txtMaKH.ReadOnly = True
@@ -258,7 +277,7 @@ Partial Class frmQLKhachHang
         Me.btTimKiemTheHoTen.Name = "btTimKiemTheHoTen"
         Me.btTimKiemTheHoTen.Size = New System.Drawing.Size(75, 20)
         Me.btTimKiemTheHoTen.TabIndex = 32
-        Me.btTimKiemTheHoTen.Text = "Tìm"
+        Me.btTimKiemTheHoTen.Text = "Search"
         Me.btTimKiemTheHoTen.UseVisualStyleBackColor = True
         '
         'btTimKiemTheoMAKH
@@ -267,7 +286,7 @@ Partial Class frmQLKhachHang
         Me.btTimKiemTheoMAKH.Name = "btTimKiemTheoMAKH"
         Me.btTimKiemTheoMAKH.Size = New System.Drawing.Size(75, 20)
         Me.btTimKiemTheoMAKH.TabIndex = 31
-        Me.btTimKiemTheoMAKH.Text = "Tìm"
+        Me.btTimKiemTheoMAKH.Text = "Search"
         Me.btTimKiemTheoMAKH.UseVisualStyleBackColor = True
         '
         'txtMaKHTimKiem
@@ -292,24 +311,6 @@ Partial Class frmQLKhachHang
         Me.Label8.Size = New System.Drawing.Size(106, 13)
         Me.Label8.TabIndex = 29
         Me.Label8.Text = "Họ Tên Khách Hàng"
-        '
-        'btCapNhatKhachHang
-        '
-        Me.btCapNhatKhachHang.Location = New System.Drawing.Point(239, 212)
-        Me.btCapNhatKhachHang.Name = "btCapNhatKhachHang"
-        Me.btCapNhatKhachHang.Size = New System.Drawing.Size(75, 23)
-        Me.btCapNhatKhachHang.TabIndex = 31
-        Me.btCapNhatKhachHang.Text = "Cập nhật"
-        Me.btCapNhatKhachHang.UseVisualStyleBackColor = True
-        '
-        'btXoaKhachHang
-        '
-        Me.btXoaKhachHang.Location = New System.Drawing.Point(320, 212)
-        Me.btXoaKhachHang.Name = "btXoaKhachHang"
-        Me.btXoaKhachHang.Size = New System.Drawing.Size(75, 23)
-        Me.btXoaKhachHang.TabIndex = 32
-        Me.btXoaKhachHang.Text = "Xóa"
-        Me.btXoaKhachHang.UseVisualStyleBackColor = True
         '
         'frmQLKhachHang
         '

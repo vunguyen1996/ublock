@@ -31,6 +31,7 @@ Public Class frmQLCTPhieuNhap
         'cbbMaPN.ValueMember = "MAPHIEUNHAP"
 
     End Sub
+
     Private Sub loadListCTPhieuNhap()
         Dim listctpn = New List(Of CTPhieuNhapDTO)
         Dim result As Result

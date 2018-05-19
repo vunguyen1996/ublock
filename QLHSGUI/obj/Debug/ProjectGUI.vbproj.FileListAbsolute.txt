@@ -103,6 +103,7 @@ C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQ
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLSach.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmLapBaoCaoTon.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThayDoiQuyDinh.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemCTBaoCaoCongNo.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemCTBaoCaoTon.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemCTHoaDon.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmThemCTPhieuNhap.resources
@@ -115,3 +116,4 @@ C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\ProjectGUI.v
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.exe
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.xml
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLCTBaoCaoCongNo.resources

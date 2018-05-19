@@ -132,6 +132,7 @@ Partial Class frmThemCTBaoCaoTon
         '
         'txtTheLoai
         '
+        Me.txtTheLoai.Enabled = False
         Me.txtTheLoai.Location = New System.Drawing.Point(155, 136)
         Me.txtTheLoai.Name = "txtTheLoai"
         Me.txtTheLoai.ReadOnly = True
@@ -176,6 +177,7 @@ Partial Class frmThemCTBaoCaoTon
         '
         'txtTacGia
         '
+        Me.txtTacGia.Enabled = False
         Me.txtTacGia.Location = New System.Drawing.Point(155, 162)
         Me.txtTacGia.Name = "txtTacGia"
         Me.txtTacGia.ReadOnly = True
@@ -185,6 +187,7 @@ Partial Class frmThemCTBaoCaoTon
         '
         'txtTenSach
         '
+        Me.txtTenSach.Enabled = False
         Me.txtTenSach.Location = New System.Drawing.Point(155, 110)
         Me.txtTenSach.Name = "txtTenSach"
         Me.txtTenSach.ReadOnly = True
@@ -253,6 +256,7 @@ Partial Class frmThemCTBaoCaoTon
         '
         'txtMaCTBCT
         '
+        Me.txtMaCTBCT.Enabled = False
         Me.txtMaCTBCT.Location = New System.Drawing.Point(155, 6)
         Me.txtMaCTBCT.Name = "txtMaCTBCT"
         Me.txtMaCTBCT.ReadOnly = True

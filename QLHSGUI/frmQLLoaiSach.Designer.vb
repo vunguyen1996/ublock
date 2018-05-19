@@ -135,6 +135,7 @@ Partial Class frmQLLoaiSach
         '
         'txtMaLoaiSach
         '
+        Me.txtMaLoaiSach.Enabled = False
         Me.txtMaLoaiSach.Location = New System.Drawing.Point(83, 11)
         Me.txtMaLoaiSach.Name = "txtMaLoaiSach"
         Me.txtMaLoaiSach.ReadOnly = True

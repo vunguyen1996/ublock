@@ -150,4 +150,16 @@ Public Class frmMain
         frm.MdiParent = Me
         frm.Show()
     End Sub
+
+    Private Sub ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem.Click
+        Dim frm As frmThemCTBaoCaoCongNo = New frmThemCTBaoCaoCongNo
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
+
+    Private Sub QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem.Click
+        Dim frm As frmQLCTBaoCaoCongNo = New frmQLCTBaoCaoCongNo
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
 End Class

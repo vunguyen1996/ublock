@@ -96,6 +96,7 @@ Partial Class frmQLPhieuNhap
         '
         'txtMaPhieuNhap
         '
+        Me.txtMaPhieuNhap.Enabled = False
         Me.txtMaPhieuNhap.Location = New System.Drawing.Point(93, 170)
         Me.txtMaPhieuNhap.Name = "txtMaPhieuNhap"
         Me.txtMaPhieuNhap.ReadOnly = True

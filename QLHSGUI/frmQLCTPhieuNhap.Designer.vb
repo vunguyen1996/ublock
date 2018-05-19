@@ -107,6 +107,7 @@ Partial Class frmQLCTPhieuNhap
         '
         'txtMaSach
         '
+        Me.txtMaSach.Enabled = False
         Me.txtMaSach.Location = New System.Drawing.Point(124, 32)
         Me.txtMaSach.Name = "txtMaSach"
         Me.txtMaSach.ReadOnly = True
@@ -116,6 +117,7 @@ Partial Class frmQLCTPhieuNhap
         '
         'txtMaCTPN
         '
+        Me.txtMaCTPN.Enabled = False
         Me.txtMaCTPN.Location = New System.Drawing.Point(124, 6)
         Me.txtMaCTPN.Name = "txtMaCTPN"
         Me.txtMaCTPN.ReadOnly = True
@@ -241,6 +243,7 @@ Partial Class frmQLCTPhieuNhap
         '
         'txtTheLoai
         '
+        Me.txtTheLoai.Enabled = False
         Me.txtTheLoai.Location = New System.Drawing.Point(124, 84)
         Me.txtTheLoai.Name = "txtTheLoai"
         Me.txtTheLoai.ReadOnly = True
@@ -250,6 +253,7 @@ Partial Class frmQLCTPhieuNhap
         '
         'txtSoLuongTon
         '
+        Me.txtSoLuongTon.Enabled = False
         Me.txtSoLuongTon.Location = New System.Drawing.Point(124, 135)
         Me.txtSoLuongTon.Name = "txtSoLuongTon"
         Me.txtSoLuongTon.ReadOnly = True
@@ -259,6 +263,7 @@ Partial Class frmQLCTPhieuNhap
         '
         'txtTacGia
         '
+        Me.txtTacGia.Enabled = False
         Me.txtTacGia.Location = New System.Drawing.Point(124, 109)
         Me.txtTacGia.Name = "txtTacGia"
         Me.txtTacGia.ReadOnly = True
@@ -268,6 +273,7 @@ Partial Class frmQLCTPhieuNhap
         '
         'txtTenSach
         '
+        Me.txtTenSach.Enabled = False
         Me.txtTenSach.Location = New System.Drawing.Point(124, 58)
         Me.txtTenSach.Name = "txtTenSach"
         Me.txtTenSach.ReadOnly = True

@@ -138,6 +138,7 @@ Partial Class frmLapPhieuThuTien
         '
         'txtTienNo
         '
+        Me.txtTienNo.Enabled = False
         Me.txtTienNo.Location = New System.Drawing.Point(169, 210)
         Me.txtTienNo.Name = "txtTienNo"
         Me.txtTienNo.ReadOnly = True
@@ -156,6 +157,7 @@ Partial Class frmLapPhieuThuTien
         '
         'txtSDT
         '
+        Me.txtSDT.Enabled = False
         Me.txtSDT.Location = New System.Drawing.Point(169, 184)
         Me.txtSDT.Name = "txtSDT"
         Me.txtSDT.ReadOnly = True
@@ -165,6 +167,7 @@ Partial Class frmLapPhieuThuTien
         '
         'txtEmail
         '
+        Me.txtEmail.Enabled = False
         Me.txtEmail.Location = New System.Drawing.Point(169, 158)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.ReadOnly = True
@@ -200,6 +203,7 @@ Partial Class frmLapPhieuThuTien
         'txtDiaChi
         '
         Me.txtDiaChi.BackColor = System.Drawing.SystemColors.Control
+        Me.txtDiaChi.Enabled = False
         Me.txtDiaChi.Location = New System.Drawing.Point(169, 85)
         Me.txtDiaChi.Multiline = True
         Me.txtDiaChi.Name = "txtDiaChi"
@@ -227,6 +231,7 @@ Partial Class frmLapPhieuThuTien
         '
         'txtHoTenKH
         '
+        Me.txtHoTenKH.Enabled = False
         Me.txtHoTenKH.Location = New System.Drawing.Point(169, 59)
         Me.txtHoTenKH.Name = "txtHoTenKH"
         Me.txtHoTenKH.ReadOnly = True
@@ -272,6 +277,7 @@ Partial Class frmLapPhieuThuTien
         '
         'txtMaPhieuThuTien
         '
+        Me.txtMaPhieuThuTien.Enabled = False
         Me.txtMaPhieuThuTien.Location = New System.Drawing.Point(169, 6)
         Me.txtMaPhieuThuTien.Name = "txtMaPhieuThuTien"
         Me.txtMaPhieuThuTien.ReadOnly = True

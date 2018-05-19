@@ -112,6 +112,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtThanhTien
         '
+        Me.txtThanhTien.Enabled = False
         Me.txtThanhTien.Location = New System.Drawing.Point(119, 263)
         Me.txtThanhTien.Name = "txtThanhTien"
         Me.txtThanhTien.ReadOnly = True
@@ -148,6 +149,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtMaCTHD
         '
+        Me.txtMaCTHD.Enabled = False
         Me.txtMaCTHD.Location = New System.Drawing.Point(119, 133)
         Me.txtMaCTHD.Name = "txtMaCTHD"
         Me.txtMaCTHD.ReadOnly = True
@@ -244,6 +246,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtTongTriGiaHD
         '
+        Me.txtTongTriGiaHD.Enabled = False
         Me.txtTongTriGiaHD.Location = New System.Drawing.Point(124, 58)
         Me.txtTongTriGiaHD.Name = "txtTongTriGiaHD"
         Me.txtTongTriGiaHD.ReadOnly = True
@@ -261,6 +264,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtMaKH
         '
+        Me.txtMaKH.Enabled = False
         Me.txtMaKH.Location = New System.Drawing.Point(124, 32)
         Me.txtMaKH.Name = "txtMaKH"
         Me.txtMaKH.ReadOnly = True
@@ -326,6 +330,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtTienNo
         '
+        Me.txtTienNo.Enabled = False
         Me.txtTienNo.Location = New System.Drawing.Point(124, 157)
         Me.txtTienNo.Name = "txtTienNo"
         Me.txtTienNo.ReadOnly = True
@@ -352,6 +357,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtSDT
         '
+        Me.txtSDT.Enabled = False
         Me.txtSDT.Location = New System.Drawing.Point(124, 131)
         Me.txtSDT.Name = "txtSDT"
         Me.txtSDT.ReadOnly = True
@@ -360,6 +366,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtEmail
         '
+        Me.txtEmail.Enabled = False
         Me.txtEmail.Location = New System.Drawing.Point(124, 105)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.ReadOnly = True
@@ -377,6 +384,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtDiaChi
         '
+        Me.txtDiaChi.Enabled = False
         Me.txtDiaChi.Location = New System.Drawing.Point(124, 32)
         Me.txtDiaChi.Multiline = True
         Me.txtDiaChi.Name = "txtDiaChi"
@@ -395,6 +403,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtHoTenKH
         '
+        Me.txtHoTenKH.Enabled = False
         Me.txtHoTenKH.Location = New System.Drawing.Point(124, 6)
         Me.txtHoTenKH.Name = "txtHoTenKH"
         Me.txtHoTenKH.ReadOnly = True
@@ -450,6 +459,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtLuongTonToiThieu
         '
+        Me.txtLuongTonToiThieu.Enabled = False
         Me.txtLuongTonToiThieu.Location = New System.Drawing.Point(124, 110)
         Me.txtLuongTonToiThieu.Name = "txtLuongTonToiThieu"
         Me.txtLuongTonToiThieu.ReadOnly = True
@@ -458,6 +468,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtTheLoai
         '
+        Me.txtTheLoai.Enabled = False
         Me.txtTheLoai.Location = New System.Drawing.Point(124, 32)
         Me.txtTheLoai.Name = "txtTheLoai"
         Me.txtTheLoai.ReadOnly = True
@@ -466,6 +477,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtSoLuongTon
         '
+        Me.txtSoLuongTon.Enabled = False
         Me.txtSoLuongTon.Location = New System.Drawing.Point(124, 84)
         Me.txtSoLuongTon.Name = "txtSoLuongTon"
         Me.txtSoLuongTon.ReadOnly = True
@@ -492,6 +504,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtTacGia
         '
+        Me.txtTacGia.Enabled = False
         Me.txtTacGia.Location = New System.Drawing.Point(124, 58)
         Me.txtTacGia.Name = "txtTacGia"
         Me.txtTacGia.ReadOnly = True
@@ -509,6 +522,7 @@ Partial Class frmThemCTHoaDon
         '
         'txtTenSach
         '
+        Me.txtTenSach.Enabled = False
         Me.txtTenSach.Location = New System.Drawing.Point(124, 6)
         Me.txtTenSach.Name = "txtTenSach"
         Me.txtTenSach.ReadOnly = True

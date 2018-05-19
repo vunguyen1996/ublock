@@ -109,6 +109,12 @@
     <Compile Include="frmQLBaoCaoTon.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmQLCTBaoCaoCongNo.Designer.vb">
+      <DependentUpon>frmQLCTBaoCaoCongNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLCTBaoCaoCongNo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmQLCTBaoCaoTon.Designer.vb">
       <DependentUpon>frmQLCTBaoCaoTon.vb</DependentUpon>
     </Compile>
@@ -180,6 +186,12 @@
       <DependentUpon>frmThayDoiQuyDinh.vb</DependentUpon>
     </Compile>
     <Compile Include="frmThayDoiQuyDinh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemCTBaoCaoCongNo.Designer.vb">
+      <DependentUpon>frmThemCTBaoCaoCongNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemCTBaoCaoCongNo.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmThemCTBaoCaoTon.Designer.vb">
@@ -259,6 +271,9 @@
     <EmbeddedResource Include="frmQLBaoCaoTon.resx">
       <DependentUpon>frmQLBaoCaoTon.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQLCTBaoCaoCongNo.resx">
+      <DependentUpon>frmQLCTBaoCaoCongNo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmQLCTBaoCaoTon.resx">
       <DependentUpon>frmQLCTBaoCaoTon.vb</DependentUpon>
     </EmbeddedResource>
@@ -294,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmThayDoiQuyDinh.resx">
       <DependentUpon>frmThayDoiQuyDinh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemCTBaoCaoCongNo.resx">
+      <DependentUpon>frmThemCTBaoCaoCongNo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmThemCTBaoCaoTon.resx">
       <DependentUpon>frmThemCTBaoCaoTon.vb</DependentUpon>

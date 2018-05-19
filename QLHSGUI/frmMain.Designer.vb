@@ -22,7 +22,6 @@ Partial Class frmMain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuảnLýToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -57,23 +56,18 @@ Partial Class frmMain
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
         Me.ThêmChiTiếtBáoCáoTồnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator()
+        Me.LậpBáoCáoCôngNợToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.QuảnLýBáoCáoCôngNợToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator9 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LậpBáoCáoCôngNợToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.QuảnLýBáoCáoCôngNợToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.QuảnLýToolStripMenuItem, Me.SáchToolStripMenuItem, Me.KháchHàngToolStripMenuItem, Me.BáoCáoToolStripMenuItem, Me.AboutToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(609, 24)
-        Me.MenuStrip1.TabIndex = 1
-        Me.MenuStrip1.Text = "MenuStrip1"
         '
         'FileToolStripMenuItem
         '
@@ -243,7 +237,7 @@ Partial Class frmMain
         '
         'BáoCáoToolStripMenuItem
         '
-        Me.BáoCáoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ThêmBáoCáoTồnToolStripMenuItem, Me.QuảnLýBáoCáoTồnToolStripMenuItem, Me.ToolStripSeparator3, Me.ThêmChiTiếtBáoCáoTồnToolStripMenuItem, Me.QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem, Me.ToolStripSeparator8, Me.LậpBáoCáoCôngNợToolStripMenuItem, Me.QuảnLýBáoCáoCôngNợToolStripMenuItem})
+        Me.BáoCáoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ThêmBáoCáoTồnToolStripMenuItem, Me.QuảnLýBáoCáoTồnToolStripMenuItem, Me.ToolStripSeparator3, Me.ThêmChiTiếtBáoCáoTồnToolStripMenuItem, Me.QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem, Me.ToolStripSeparator8, Me.LậpBáoCáoCôngNợToolStripMenuItem, Me.QuảnLýBáoCáoCôngNợToolStripMenuItem, Me.ToolStripSeparator9, Me.ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem, Me.QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem})
         Me.BáoCáoToolStripMenuItem.Name = "BáoCáoToolStripMenuItem"
         Me.BáoCáoToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
         Me.BáoCáoToolStripMenuItem.Text = "Báo Cáo"
@@ -251,31 +245,65 @@ Partial Class frmMain
         'ThêmBáoCáoTồnToolStripMenuItem
         '
         Me.ThêmBáoCáoTồnToolStripMenuItem.Name = "ThêmBáoCáoTồnToolStripMenuItem"
-        Me.ThêmBáoCáoTồnToolStripMenuItem.Size = New System.Drawing.Size(232, 22)
+        Me.ThêmBáoCáoTồnToolStripMenuItem.Size = New System.Drawing.Size(259, 22)
         Me.ThêmBáoCáoTồnToolStripMenuItem.Text = "Lập Báo Cáo Tồn"
         '
         'QuảnLýBáoCáoTồnToolStripMenuItem
         '
         Me.QuảnLýBáoCáoTồnToolStripMenuItem.Name = "QuảnLýBáoCáoTồnToolStripMenuItem"
-        Me.QuảnLýBáoCáoTồnToolStripMenuItem.Size = New System.Drawing.Size(232, 22)
+        Me.QuảnLýBáoCáoTồnToolStripMenuItem.Size = New System.Drawing.Size(259, 22)
         Me.QuảnLýBáoCáoTồnToolStripMenuItem.Text = "Quản Lý Báo Cáo Tồn"
         '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(229, 6)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(256, 6)
         '
         'ThêmChiTiếtBáoCáoTồnToolStripMenuItem
         '
         Me.ThêmChiTiếtBáoCáoTồnToolStripMenuItem.Name = "ThêmChiTiếtBáoCáoTồnToolStripMenuItem"
-        Me.ThêmChiTiếtBáoCáoTồnToolStripMenuItem.Size = New System.Drawing.Size(232, 22)
+        Me.ThêmChiTiếtBáoCáoTồnToolStripMenuItem.Size = New System.Drawing.Size(259, 22)
         Me.ThêmChiTiếtBáoCáoTồnToolStripMenuItem.Text = "Thêm Chi Tiết Báo Cáo Tồn"
         '
         'QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem
         '
         Me.QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem.Name = "QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem"
-        Me.QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem.Size = New System.Drawing.Size(232, 22)
+        Me.QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem.Size = New System.Drawing.Size(259, 22)
         Me.QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem.Text = "Quản Lý Chi Tiết Báo Cáo Tồn"
+        '
+        'ToolStripSeparator8
+        '
+        Me.ToolStripSeparator8.Name = "ToolStripSeparator8"
+        Me.ToolStripSeparator8.Size = New System.Drawing.Size(256, 6)
+        '
+        'LậpBáoCáoCôngNợToolStripMenuItem
+        '
+        Me.LậpBáoCáoCôngNợToolStripMenuItem.Name = "LậpBáoCáoCôngNợToolStripMenuItem"
+        Me.LậpBáoCáoCôngNợToolStripMenuItem.Size = New System.Drawing.Size(259, 22)
+        Me.LậpBáoCáoCôngNợToolStripMenuItem.Text = "Lập Báo Cáo Công Nợ"
+        '
+        'QuảnLýBáoCáoCôngNợToolStripMenuItem
+        '
+        Me.QuảnLýBáoCáoCôngNợToolStripMenuItem.Name = "QuảnLýBáoCáoCôngNợToolStripMenuItem"
+        Me.QuảnLýBáoCáoCôngNợToolStripMenuItem.Size = New System.Drawing.Size(259, 22)
+        Me.QuảnLýBáoCáoCôngNợToolStripMenuItem.Text = "Quản Lý Báo Cáo Công Nợ"
+        '
+        'ToolStripSeparator9
+        '
+        Me.ToolStripSeparator9.Name = "ToolStripSeparator9"
+        Me.ToolStripSeparator9.Size = New System.Drawing.Size(256, 6)
+        '
+        'ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem
+        '
+        Me.ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem.Name = "ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem"
+        Me.ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem.Size = New System.Drawing.Size(259, 22)
+        Me.ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem.Text = "Thêm Chi Tiết Báo Cáo Công Nợ"
+        '
+        'QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem
+        '
+        Me.QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem.Name = "QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem"
+        Me.QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem.Size = New System.Drawing.Size(259, 22)
+        Me.QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem.Text = "Quản Lý Chi Tiết Báo Cáo Công Nợ"
         '
         'AboutToolStripMenuItem
         '
@@ -296,28 +324,20 @@ Partial Class frmMain
         Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem1.Text = "About"
         '
-        'LậpBáoCáoCôngNợToolStripMenuItem
+        'MenuStrip1
         '
-        Me.LậpBáoCáoCôngNợToolStripMenuItem.Name = "LậpBáoCáoCôngNợToolStripMenuItem"
-        Me.LậpBáoCáoCôngNợToolStripMenuItem.Size = New System.Drawing.Size(232, 22)
-        Me.LậpBáoCáoCôngNợToolStripMenuItem.Text = "Lập Báo Cáo Công Nợ"
-        '
-        'QuảnLýBáoCáoCôngNợToolStripMenuItem
-        '
-        Me.QuảnLýBáoCáoCôngNợToolStripMenuItem.Name = "QuảnLýBáoCáoCôngNợToolStripMenuItem"
-        Me.QuảnLýBáoCáoCôngNợToolStripMenuItem.Size = New System.Drawing.Size(232, 22)
-        Me.QuảnLýBáoCáoCôngNợToolStripMenuItem.Text = "Quản Lý Báo Cáo Công Nợ"
-        '
-        'ToolStripSeparator8
-        '
-        Me.ToolStripSeparator8.Name = "ToolStripSeparator8"
-        Me.ToolStripSeparator8.Size = New System.Drawing.Size(229, 6)
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.QuảnLýToolStripMenuItem, Me.SáchToolStripMenuItem, Me.KháchHàngToolStripMenuItem, Me.BáoCáoToolStripMenuItem, Me.AboutToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1328, 24)
+        Me.MenuStrip1.TabIndex = 1
+        Me.MenuStrip1.Text = "MenuStrip1"
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(609, 262)
+        Me.ClientSize = New System.Drawing.Size(1328, 517)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
@@ -330,14 +350,8 @@ Partial Class frmMain
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AboutToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents BáoCáoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ThêmPhiếuNhậpSáchToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýPhiếuNhậpSáchToolStripMenuItem As ToolStripMenuItem
@@ -345,6 +359,16 @@ Partial Class frmMain
     Friend WithEvents ThêmChiTiếtPhiếuNhậpToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýChiTiếtPhiếuNhậpToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents LậpHóaĐơnBánSáchToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents QuảnLýHóaĐơnBánSáchToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator5 As ToolStripSeparator
+    Friend WithEvents ThêmChiTiếtHóaĐơnToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents QuảnLýChiTiếtHóaĐơnToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator7 As ToolStripSeparator
+    Friend WithEvents LậpPhiếuThuTiềnToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents QuảnLýPhiếuThuTiềnToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator6 As ToolStripSeparator
+    Friend WithEvents QuyĐịnhToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SáchToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ThêmLoạiSáchToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýLoạiSáchToolStripMenuItem As ToolStripMenuItem
@@ -354,22 +378,20 @@ Partial Class frmMain
     Friend WithEvents KháchHàngToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ThêmKháchHàngToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýKháchHàngToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BáoCáoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ThêmBáoCáoTồnToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýBáoCáoTồnToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents QuyĐịnhToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents LậpHóaĐơnBánSáchToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents QuảnLýHóaĐơnBánSáchToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripSeparator5 As ToolStripSeparator
-    Friend WithEvents LậpPhiếuThuTiềnToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents QuảnLýPhiếuThuTiềnToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripSeparator6 As ToolStripSeparator
     Friend WithEvents ToolStripSeparator3 As ToolStripSeparator
     Friend WithEvents ThêmChiTiếtBáoCáoTồnToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýChiTiếtBáoCáoTồnToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ThêmChiTiếtHóaĐơnToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents QuảnLýChiTiếtHóaĐơnToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripSeparator7 As ToolStripSeparator
     Friend WithEvents ToolStripSeparator8 As ToolStripSeparator
     Friend WithEvents LậpBáoCáoCôngNợToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuảnLýBáoCáoCôngNợToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator9 As ToolStripSeparator
+    Friend WithEvents ThêmChiTiếtBáoCáoCôngNợToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents QuảnLýChiTiếtBáoCáoCôngNợToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AboutToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents MenuStrip1 As MenuStrip
 End Class

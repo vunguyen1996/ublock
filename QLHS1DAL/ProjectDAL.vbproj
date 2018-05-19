@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="BaoCaoCongNoDAL.vb" />
     <Compile Include="BaoCaoTonDAL.vb" />
+    <Compile Include="CTBaoCaoCongNoDAL.vb" />
     <Compile Include="CTHoaDonDAL.vb" />
     <Compile Include="CTPhieuNhapDAL.vb" />
     <Compile Include="CTBaoCaoTonDAL.vb" />

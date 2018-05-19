@@ -140,7 +140,6 @@ C:\Users\Nguyen Anh Tu\Desktop\Project QLHS - 3 Layers 22.0\Project_QLNS_Final\U
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\bin\Debug\Utility.dll
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\bin\Debug\Utility.pdb
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\bin\Debug\Utility.xml
-C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.vbprojResolveAssemblyReference.cache
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.Resources.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.vbproj.GenerateResource.Cache
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.dll

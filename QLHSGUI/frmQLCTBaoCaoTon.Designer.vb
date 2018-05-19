@@ -155,6 +155,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         'txtTheLoai
         '
+        Me.txtTheLoai.Enabled = False
         Me.txtTheLoai.Location = New System.Drawing.Point(155, 136)
         Me.txtTheLoai.Name = "txtTheLoai"
         Me.txtTheLoai.ReadOnly = True
@@ -183,6 +184,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         'txtMaBaoCaoTon
         '
+        Me.txtMaBaoCaoTon.Enabled = False
         Me.txtMaBaoCaoTon.Location = New System.Drawing.Point(155, 32)
         Me.txtMaBaoCaoTon.Name = "txtMaBaoCaoTon"
         Me.txtMaBaoCaoTon.ReadOnly = True
@@ -200,6 +202,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         'txtTacGia
         '
+        Me.txtTacGia.Enabled = False
         Me.txtTacGia.Location = New System.Drawing.Point(155, 162)
         Me.txtTacGia.Name = "txtTacGia"
         Me.txtTacGia.ReadOnly = True
@@ -209,6 +212,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         'txtTenSach
         '
+        Me.txtTenSach.Enabled = False
         Me.txtTenSach.Location = New System.Drawing.Point(155, 110)
         Me.txtTenSach.Name = "txtTenSach"
         Me.txtTenSach.ReadOnly = True
@@ -228,6 +232,7 @@ Partial Class frmQLCTBaoCaoTon
         'txtMaSach
         '
         Me.txtMaSach.BackColor = System.Drawing.SystemColors.Control
+        Me.txtMaSach.Enabled = False
         Me.txtMaSach.Location = New System.Drawing.Point(155, 84)
         Me.txtMaSach.Name = "txtMaSach"
         Me.txtMaSach.ReadOnly = True
@@ -279,6 +284,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         'txtMaCTBCT
         '
+        Me.txtMaCTBCT.Enabled = False
         Me.txtMaCTBCT.Location = New System.Drawing.Point(155, 6)
         Me.txtMaCTBCT.Name = "txtMaCTBCT"
         Me.txtMaCTBCT.ReadOnly = True

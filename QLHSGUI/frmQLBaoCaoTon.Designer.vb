@@ -106,6 +106,7 @@ Partial Class frmQLBaoCaoTon
         '
         'txtMaBaoCaoTon
         '
+        Me.txtMaBaoCaoTon.Enabled = False
         Me.txtMaBaoCaoTon.Location = New System.Drawing.Point(100, 213)
         Me.txtMaBaoCaoTon.Name = "txtMaBaoCaoTon"
         Me.txtMaBaoCaoTon.ReadOnly = True

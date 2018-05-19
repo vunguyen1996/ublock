@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="BaoCaoCongNoBUS.vb" />
     <Compile Include="BaoCaoTonBUS.vb" />
+    <Compile Include="CTBaoCaoCongNoBUS.vb" />
     <Compile Include="CTHoaDonBUS.vb" />
     <Compile Include="CTPhieuNhapBUS.vb" />
     <Compile Include="CTBaoCaoTonBUS.vb" />

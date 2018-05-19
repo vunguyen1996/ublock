@@ -61,10 +61,10 @@ Partial Class frmQLPhieuThuTien
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Location = New System.Drawing.Point(369, 81)
+        Me.TabControl1.Location = New System.Drawing.Point(365, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(447, 331)
+        Me.TabControl1.Size = New System.Drawing.Size(401, 331)
         Me.TabControl1.TabIndex = 1
         '
         'TabPage1
@@ -90,14 +90,14 @@ Partial Class frmQLPhieuThuTien
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(439, 305)
+        Me.TabPage1.Size = New System.Drawing.Size(393, 305)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Thông Tin Phiếu Thu Tiền"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
         'btXoaPhieuThuTien
         '
-        Me.btXoaPhieuThuTien.Location = New System.Drawing.Point(230, 276)
+        Me.btXoaPhieuThuTien.Location = New System.Drawing.Point(201, 273)
         Me.btXoaPhieuThuTien.Name = "btXoaPhieuThuTien"
         Me.btXoaPhieuThuTien.Size = New System.Drawing.Size(75, 23)
         Me.btXoaPhieuThuTien.TabIndex = 43
@@ -107,7 +107,7 @@ Partial Class frmQLPhieuThuTien
         'txtMaKH
         '
         Me.txtMaKH.Enabled = False
-        Me.txtMaKH.Location = New System.Drawing.Point(172, 6)
+        Me.txtMaKH.Location = New System.Drawing.Point(121, 6)
         Me.txtMaKH.Name = "txtMaKH"
         Me.txtMaKH.ReadOnly = True
         Me.txtMaKH.Size = New System.Drawing.Size(261, 20)
@@ -115,7 +115,7 @@ Partial Class frmQLPhieuThuTien
         '
         'btCapNhatPhieuThuTien
         '
-        Me.btCapNhatPhieuThuTien.Location = New System.Drawing.Point(149, 276)
+        Me.btCapNhatPhieuThuTien.Location = New System.Drawing.Point(120, 273)
         Me.btCapNhatPhieuThuTien.Name = "btCapNhatPhieuThuTien"
         Me.btCapNhatPhieuThuTien.Size = New System.Drawing.Size(75, 23)
         Me.btCapNhatPhieuThuTien.TabIndex = 1
@@ -125,7 +125,7 @@ Partial Class frmQLPhieuThuTien
         'txtTienNo
         '
         Me.txtTienNo.Enabled = False
-        Me.txtTienNo.Location = New System.Drawing.Point(172, 184)
+        Me.txtTienNo.Location = New System.Drawing.Point(121, 184)
         Me.txtTienNo.Name = "txtTienNo"
         Me.txtTienNo.ReadOnly = True
         Me.txtTienNo.Size = New System.Drawing.Size(261, 20)
@@ -144,7 +144,7 @@ Partial Class frmQLPhieuThuTien
         'txtSDT
         '
         Me.txtSDT.Enabled = False
-        Me.txtSDT.Location = New System.Drawing.Point(172, 158)
+        Me.txtSDT.Location = New System.Drawing.Point(121, 158)
         Me.txtSDT.Name = "txtSDT"
         Me.txtSDT.ReadOnly = True
         Me.txtSDT.Size = New System.Drawing.Size(261, 20)
@@ -154,7 +154,7 @@ Partial Class frmQLPhieuThuTien
         'txtEmail
         '
         Me.txtEmail.Enabled = False
-        Me.txtEmail.Location = New System.Drawing.Point(172, 132)
+        Me.txtEmail.Location = New System.Drawing.Point(121, 132)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.ReadOnly = True
         Me.txtEmail.Size = New System.Drawing.Size(261, 20)
@@ -164,7 +164,7 @@ Partial Class frmQLPhieuThuTien
         'txtSoTienThu
         '
         Me.txtSoTienThu.BackColor = System.Drawing.SystemColors.Window
-        Me.txtSoTienThu.Location = New System.Drawing.Point(172, 210)
+        Me.txtSoTienThu.Location = New System.Drawing.Point(121, 210)
         Me.txtSoTienThu.Name = "txtSoTienThu"
         Me.txtSoTienThu.Size = New System.Drawing.Size(261, 20)
         Me.txtSoTienThu.TabIndex = 37
@@ -191,7 +191,7 @@ Partial Class frmQLPhieuThuTien
         '
         Me.txtDiaChi.BackColor = System.Drawing.SystemColors.Control
         Me.txtDiaChi.Enabled = False
-        Me.txtDiaChi.Location = New System.Drawing.Point(172, 59)
+        Me.txtDiaChi.Location = New System.Drawing.Point(121, 59)
         Me.txtDiaChi.Multiline = True
         Me.txtDiaChi.Name = "txtDiaChi"
         Me.txtDiaChi.ReadOnly = True
@@ -219,7 +219,7 @@ Partial Class frmQLPhieuThuTien
         'txtHoTenKH
         '
         Me.txtHoTenKH.Enabled = False
-        Me.txtHoTenKH.Location = New System.Drawing.Point(172, 33)
+        Me.txtHoTenKH.Location = New System.Drawing.Point(121, 33)
         Me.txtHoTenKH.Name = "txtHoTenKH"
         Me.txtHoTenKH.ReadOnly = True
         Me.txtHoTenKH.Size = New System.Drawing.Size(261, 20)
@@ -239,7 +239,7 @@ Partial Class frmQLPhieuThuTien
         '
         Me.dtpNgayThu.CustomFormat = "MM/dd/yyyy"
         Me.dtpNgayThu.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpNgayThu.Location = New System.Drawing.Point(172, 236)
+        Me.dtpNgayThu.Location = New System.Drawing.Point(121, 236)
         Me.dtpNgayThu.Name = "dtpNgayThu"
         Me.dtpNgayThu.Size = New System.Drawing.Size(261, 20)
         Me.dtpNgayThu.TabIndex = 20
@@ -264,9 +264,9 @@ Partial Class frmQLPhieuThuTien
         '
         'txtMaPhieuThuTienTimKiem
         '
-        Me.txtMaPhieuThuTienTimKiem.Location = New System.Drawing.Point(172, 9)
+        Me.txtMaPhieuThuTienTimKiem.Location = New System.Drawing.Point(110, 9)
         Me.txtMaPhieuThuTienTimKiem.Name = "txtMaPhieuThuTienTimKiem"
-        Me.txtMaPhieuThuTienTimKiem.Size = New System.Drawing.Size(261, 20)
+        Me.txtMaPhieuThuTienTimKiem.Size = New System.Drawing.Size(135, 20)
         Me.txtMaPhieuThuTienTimKiem.TabIndex = 17
         Me.txtMaPhieuThuTienTimKiem.WordWrap = False
         '
@@ -282,10 +282,10 @@ Partial Class frmQLPhieuThuTien
         'TabControl2
         '
         Me.TabControl2.Controls.Add(Me.TabPage2)
-        Me.TabControl2.Location = New System.Drawing.Point(12, 12)
+        Me.TabControl2.Location = New System.Drawing.Point(12, 81)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(351, 400)
+        Me.TabControl2.Size = New System.Drawing.Size(351, 262)
         Me.TabControl2.TabIndex = 2
         '
         'TabPage2
@@ -294,7 +294,7 @@ Partial Class frmQLPhieuThuTien
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(343, 374)
+        Me.TabPage2.Size = New System.Drawing.Size(343, 236)
         Me.TabPage2.TabIndex = 0
         Me.TabPage2.Text = "Danh Sách Phiếu Thu Tiền"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -304,16 +304,16 @@ Partial Class frmQLPhieuThuTien
         Me.dgvListPhieuThuTien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvListPhieuThuTien.Location = New System.Drawing.Point(6, 6)
         Me.dgvListPhieuThuTien.Name = "dgvListPhieuThuTien"
-        Me.dgvListPhieuThuTien.Size = New System.Drawing.Size(331, 362)
+        Me.dgvListPhieuThuTien.Size = New System.Drawing.Size(331, 224)
         Me.dgvListPhieuThuTien.TabIndex = 0
         '
         'TabControl3
         '
         Me.TabControl3.Controls.Add(Me.TabPage3)
-        Me.TabControl3.Location = New System.Drawing.Point(369, 12)
+        Me.TabControl3.Location = New System.Drawing.Point(12, 12)
         Me.TabControl3.Name = "TabControl3"
         Me.TabControl3.SelectedIndex = 0
-        Me.TabControl3.Size = New System.Drawing.Size(447, 63)
+        Me.TabControl3.Size = New System.Drawing.Size(351, 63)
         Me.TabControl3.TabIndex = 3
         '
         'TabPage3
@@ -323,7 +323,7 @@ Partial Class frmQLPhieuThuTien
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(439, 37)
+        Me.TabPage3.Size = New System.Drawing.Size(343, 37)
         Me.TabPage3.TabIndex = 0
         Me.TabPage3.Text = "Tìm Kiếm"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -332,7 +332,7 @@ Partial Class frmQLPhieuThuTien
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(825, 418)
+        Me.ClientSize = New System.Drawing.Size(775, 351)
         Me.Controls.Add(Me.TabControl3)
         Me.Controls.Add(Me.TabControl2)
         Me.Controls.Add(Me.TabControl1)

@@ -50,6 +50,7 @@ Partial Class frmThemSach
         '
         'txtMaSach
         '
+        Me.txtMaSach.Enabled = False
         Me.txtMaSach.Location = New System.Drawing.Point(87, 6)
         Me.txtMaSach.Name = "txtMaSach"
         Me.txtMaSach.ReadOnly = True

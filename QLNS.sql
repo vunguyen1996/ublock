@@ -311,9 +311,9 @@ CREATE TABLE [dbo].[tblCTBaoCaoCongNo](
 	[MACTBAOCAOCONGNO] [int] NOT NULL,
 	[MAKH] [int] NOT NULL,
 	[MABAOCAOCONGNO] [int] NOT NULL,
-	[SoTienNoDau] [nchar](10) NOT NULL,
-	[SoTienPhatSinh] [nchar](10) NOT NULL,
-	[SoTienNoCuoi] [nchar](10) NOT NULL,
+	[SoTienNoDau] [text] NOT NULL,
+	[SoTienPhatSinh] [text] NOT NULL,
+	[SoTienNoCuoi] [text] NOT NULL,
  CONSTRAINT [PK_tblCTBaoCaoCongNo] PRIMARY KEY CLUSTERED 
 (
 	[MACTBAOCAOCONGNO] ASC
@@ -475,7 +475,7 @@ GO
 INSERT INTO [dbo].[tblCTBaoCaoTon]([MACTBAOCAOTON],[MASACH],[MABAOCAOTON],[SoLuongTonDau],[PhatSinh],[SoLuongTonCuoi])VALUES(9,19,3,300,2,50)
 GO
 
-/******insert CT Bao Cao Cong No******/
+/******insert Bao Cao Cong No******/
 USE [QLNS]
 GO
 
@@ -488,7 +488,14 @@ GO
 INSERT INTO [dbo].[tblBaoCaoCongNo]([MABAOCAOCONGNO],[ThangBaoCaoCongNo])VALUES(4,convert(datetime,'04/19/2018',101))
 GO
 
-select *
-from tblBaoCaoCongNo 
-where month(ThangBaoCaoCongNo) = '4'
+/******insert CT Bao Cao Cong No******/
+USE [QLNS]
+GO
+
+INSERT INTO [dbo].[tblCTBaoCaoCongNo]([MACTBAOCAOCONGNO],[MAKH],[MABAOCAOCONGNO],[SoTienNoDau],[SoTienPhatSinh],[SoTienNoCuoi])VALUES(1,2,1,'0','0','0')
+GO
+
+--select *
+--from tblBaoCaoCongNo 
+--where month(ThangBaoCaoCongNo) = '4'
 
