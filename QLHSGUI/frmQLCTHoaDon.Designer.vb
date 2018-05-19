@@ -22,8 +22,17 @@ Partial Class frmQLCTHoaDon
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'frmQLCTHoaDon
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Text = "frmQLCTHoaDon"
+        Me.ClientSize = New System.Drawing.Size(535, 261)
+        Me.Name = "frmQLCTHoaDon"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Quản Lý Chi Tiết Hóa Đơn"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class

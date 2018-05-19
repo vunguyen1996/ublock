@@ -190,6 +190,44 @@ Public Class BaoCaoTonDAL
         Return New Result(True) ' thanh cong
     End Function
 
+    Public Function selectALL_byThangBaoCao(thangBaoCao As DateTime, ByRef listBaoCaoTon As List(Of BaoCaoTonDTO)) As Result
+
+        Dim query As String = String.Empty
+        query &= " SELECT *"
+        query &= " FROM [tblBaoCaoTon]"
+        query &= " WHERE "
+        query &= " [ThangBaoCaoTon] = @thang"
+
+
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@thang", thangBaoCao)
+                End With
+                Try
+                    conn.Open()
+                    Dim reader As SqlDataReader
+                    reader = comm.ExecuteReader()
+                    If reader.HasRows = True Then
+                        listBaoCaoTon.Clear()
+                        While reader.Read()
+                            listBaoCaoTon.Add(New BaoCaoTonDTO(reader("MABAOCAOTON"), reader("ThangBaoCaoTon")))
+                        End While
+                    End If
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Lấy tất danh sách báo cáo không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
+
     Public Function delete(mabct As Integer) As Result
 
         Dim query As String = String.Empty

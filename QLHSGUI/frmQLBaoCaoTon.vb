@@ -41,9 +41,40 @@ Public Class frmQLBaoCaoTon
         clThangBCT.DataPropertyName = "ThangBaoCao"
         dgvListBaoCaoTon.Columns.Add(clThangBCT)
 
+    End Sub
 
+    Private Sub loadlistBaoCaoTon_byThangBaoCaoTon(thangBaoCao As DateTime)
+        ' Load danh sach bao cao ton len datagridview
+        Dim listBaoCaoTon = New List(Of BaoCaoTonDTO)
+        Dim result As Result
+        result = bctBus.selectAll_byThangBaoCao(thangBaoCao, listBaoCaoTon)
+        If (result.FlagResult = False) Then
+            MessageBox.Show("Lấy danh sách báo cáo không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            System.Console.WriteLine(result.SystemMessage)
+            Return
+        End If
+
+        dgvListBaoCaoTon.Columns.Clear()
+        dgvListBaoCaoTon.DataSource = Nothing
+
+        dgvListBaoCaoTon.AutoGenerateColumns = False
+        dgvListBaoCaoTon.AllowUserToAddRows = False
+        dgvListBaoCaoTon.DataSource = listBaoCaoTon
+
+        Dim clMaBCT = New DataGridViewTextBoxColumn()
+        clMaBCT.Name = "MABAOCAOTON"
+        clMaBCT.HeaderText = "Mã Báo Cáo Tồn"
+        clMaBCT.DataPropertyName = "MABAOCAOTON"
+        dgvListBaoCaoTon.Columns.Add(clMaBCT)
+
+        Dim clThangBCT = New DataGridViewTextBoxColumn()
+        clThangBCT.Name = "ThangBaoCao"
+        clThangBCT.HeaderText = "Tháng Báo Cáo"
+        clThangBCT.DataPropertyName = "ThangBaoCao"
+        dgvListBaoCaoTon.Columns.Add(clThangBCT)
 
     End Sub
+
     Private Sub btnCapNhat_Click(sender As Object, e As EventArgs) Handles btCapNhatBaoCaoTon.Click
         ' Get the current cell location.
         Dim currentRowIndex As Integer = dgvListBaoCaoTon.CurrentCellAddress.Y 'current row selected
@@ -143,5 +174,14 @@ Public Class frmQLBaoCaoTon
                     Return
             End Select
         End If
+    End Sub
+
+    Private Sub dtpThangBaoCaoTonTimKiem_ValueChanged(sender As Object, e As EventArgs) Handles dtpThangBaoCaoTonTimKiem.ValueChanged
+        Try
+            Dim thangBaoCao = dtpThangBaoCaoTonTimKiem.Value
+            loadlistBaoCaoTon_byThangBaoCaoTon(thangBaoCao)
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class

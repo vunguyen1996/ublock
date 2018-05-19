@@ -63,6 +63,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaoCaoCongNoBUS.vb" />
     <Compile Include="BaoCaoTonBUS.vb" />
     <Compile Include="CTHoaDonBUS.vb" />
     <Compile Include="CTPhieuNhapBUS.vb" />

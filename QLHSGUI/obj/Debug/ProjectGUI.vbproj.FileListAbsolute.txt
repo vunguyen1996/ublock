@@ -86,10 +86,13 @@ C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1DAL.pdb
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\bin\Debug\QLHS1DAL.xml
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\ProjectGUI.vbprojResolveAssemblyReference.cache
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmAbout.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmLapBaoCaoCongNo.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmLapHoaDon.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmLapPhieuThuTien.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLBaoCaoCongNo.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLBaoCaoTon.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLCTBaoCaoTon.resources
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLCTHoaDon.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLCTPhieuNhap.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLHoaDon.resources
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\QLHSGUI\obj\Debug\QLHSGUI.frmQLKhachHang.resources

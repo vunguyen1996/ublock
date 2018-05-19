@@ -40,11 +40,11 @@ Partial Class frmLapHoaDon
         Me.txtEmail = New System.Windows.Forms.TextBox()
         Me.txtHoTenKH = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.dtpNgayLapHD = New System.Windows.Forms.DateTimePicker()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtMaHD = New System.Windows.Forms.TextBox()
+        Me.dtpNgayLapHD = New System.Windows.Forms.DateTimePicker()
         Me.TabControl2.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
@@ -69,6 +69,7 @@ Partial Class frmLapHoaDon
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.dtpNgayLapHD)
         Me.TabPage2.Controls.Add(Me.Label10)
         Me.TabPage2.Controls.Add(Me.txtTongTriGiaHoaDon)
         Me.TabPage2.Controls.Add(Me.Label4)
@@ -85,7 +86,6 @@ Partial Class frmLapHoaDon
         Me.TabPage2.Controls.Add(Me.txtEmail)
         Me.TabPage2.Controls.Add(Me.txtHoTenKH)
         Me.TabPage2.Controls.Add(Me.Label5)
-        Me.TabPage2.Controls.Add(Me.dtpNgayLapHD)
         Me.TabPage2.Controls.Add(Me.Label3)
         Me.TabPage2.Controls.Add(Me.Label2)
         Me.TabPage2.Controls.Add(Me.Label1)
@@ -236,16 +236,6 @@ Partial Class frmLapHoaDon
         Me.Label5.TabIndex = 24
         Me.Label5.Text = "Họ Tên Khách Hàng"
         '
-        'dtpNgayLapHD
-        '
-        Me.dtpNgayLapHD.CustomFormat = "MM/dd/yyyy"
-        Me.dtpNgayLapHD.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpNgayLapHD.Location = New System.Drawing.Point(118, 263)
-        Me.dtpNgayLapHD.Name = "dtpNgayLapHD"
-        Me.dtpNgayLapHD.Size = New System.Drawing.Size(246, 20)
-        Me.dtpNgayLapHD.TabIndex = 22
-        Me.dtpNgayLapHD.Value = New Date(2018, 5, 19, 0, 0, 0, 0)
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -283,6 +273,15 @@ Partial Class frmLapHoaDon
         Me.txtMaHD.TabIndex = 18
         Me.txtMaHD.WordWrap = False
         '
+        'dtpNgayLapHD
+        '
+        Me.dtpNgayLapHD.CustomFormat = "MM/dd/yyyy"
+        Me.dtpNgayLapHD.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpNgayLapHD.Location = New System.Drawing.Point(118, 263)
+        Me.dtpNgayLapHD.Name = "dtpNgayLapHD"
+        Me.dtpNgayLapHD.Size = New System.Drawing.Size(246, 20)
+        Me.dtpNgayLapHD.TabIndex = 40
+        '
         'frmLapHoaDon
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -312,7 +311,6 @@ Partial Class frmLapHoaDon
     Friend WithEvents txtEmail As TextBox
     Friend WithEvents txtHoTenKH As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents dtpNgayLapHD As DateTimePicker
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -322,4 +320,5 @@ Partial Class frmLapHoaDon
     Friend WithEvents txtTienNoToiDa As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents txtTongTriGiaHoaDon As TextBox
+    Friend WithEvents dtpNgayLapHD As DateTimePicker
 End Class

@@ -5,6 +5,7 @@ Imports Utility
 Public Class frmThemCTHoaDon
     Private cthdBus As CTHoaDonBUS
     Private sachBus As SachBUS
+    Private hoadonBus As HoaDonBUS
 
     Private hoadon As HoaDonDTO
     Private sach As SachDTO
@@ -13,8 +14,9 @@ Public Class frmThemCTHoaDon
     Private quydinh As QuyDinhDTO
 
     Private Sub frmThemCTHoaDon_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        cthdBus = New CTHoaDonBUS
+        cthdBus = New CTHoaDonBUS()
         sachBus = New SachBUS()
+        hoadonBus = New HoaDonBUS()
 
         ' Get Next ID
         Dim nextID As Integer
@@ -205,29 +207,20 @@ Public Class frmThemCTHoaDon
         End Try
     End Sub
 
-    'Private Sub btTUpdateTongTriGia_Click(sender As Object, e As EventArgs) Handles btThemCTHD.Click
-    '    Try
-    '        Dim hoadon As HoaDonDTO
-    '        hoadon = New HoaDonDTO()
-    '        Dim hdBus = New HoaDonBUS()
+    Private Sub btUpdateTriGiaHoaDon_Click(sender As Object, e As EventArgs) Handles btThemCTHD.Click
+        Try
+            Dim hoadon As HoaDonDTO
+            hoadon = New HoaDonDTO()
 
-    '        '1. Mapping data from GUI control
-    '        hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
-    '        hoadon.NgayHoaDon = dtpNgayLapHD.Value
-    '        hoadon.MaKhachHang = Convert.ToInt32(txtMaKH.Text)
-    '        hoadon.TongTriGia = txtTongTriGiaHD.Text
-    '        '2. Business .....
-    '        '3. Insert to DB
-    '        Dim result As Result
-    '        result = hdBus.update(hoadon)
-    '        If (result.FlagResult = True) Then
-    '            MessageBox.Show("Cập nhật hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-    '        Else
-    '            MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-    '            System.Console.WriteLine(result.SystemMessage)
-    '        End If
-    '    Catch ex As Exception
-    '        Console.WriteLine(ex.StackTrace)
-    '    End Try
-    'End Sub
+            hoadon.MaHoaDon = txtMaHD.Text
+            hoadon.TongTriGia = txtTongTriGiaHD.Text
+            Dim result As Result
+            result = hoadonBus.update_TriGiaHoaDon(hoadon)
+            If (result.FlagResult = False) Then
+                MessageBox.Show("Code Ngu")
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Class

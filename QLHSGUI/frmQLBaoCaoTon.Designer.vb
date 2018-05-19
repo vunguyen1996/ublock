@@ -24,6 +24,8 @@ Partial Class frmQLBaoCaoTon
     Private Sub InitializeComponent()
         Me.tcListBaoCaoTon = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.dtpThangBaoCaoTonTimKiem = New System.Windows.Forms.DateTimePicker()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.dtpThangBaoCaoTon = New System.Windows.Forms.DateTimePicker()
         Me.btXoaBaoCaoTon = New System.Windows.Forms.Button()
         Me.txtMaBaoCaoTon = New System.Windows.Forms.TextBox()
@@ -47,6 +49,8 @@ Partial Class frmQLBaoCaoTon
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.dtpThangBaoCaoTonTimKiem)
+        Me.TabPage1.Controls.Add(Me.Label3)
         Me.TabPage1.Controls.Add(Me.dtpThangBaoCaoTon)
         Me.TabPage1.Controls.Add(Me.btXoaBaoCaoTon)
         Me.TabPage1.Controls.Add(Me.txtMaBaoCaoTon)
@@ -61,6 +65,25 @@ Partial Class frmQLBaoCaoTon
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Danh Sách Phiếu Báo Cáo Tồn"
         Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'dtpThangBaoCaoTonTimKiem
+        '
+        Me.dtpThangBaoCaoTonTimKiem.CustomFormat = "MM/yyyy"
+        Me.dtpThangBaoCaoTonTimKiem.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpThangBaoCaoTonTimKiem.Location = New System.Drawing.Point(100, 6)
+        Me.dtpThangBaoCaoTonTimKiem.Name = "dtpThangBaoCaoTonTimKiem"
+        Me.dtpThangBaoCaoTonTimKiem.Size = New System.Drawing.Size(140, 20)
+        Me.dtpThangBaoCaoTonTimKiem.TabIndex = 25
+        Me.dtpThangBaoCaoTonTimKiem.Value = New Date(2018, 5, 19, 0, 0, 0, 0)
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(6, 9)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(82, 13)
+        Me.Label3.TabIndex = 24
+        Me.Label3.Text = "Tháng Báo Cáo"
         '
         'dtpThangBaoCaoTon
         '
@@ -102,7 +125,7 @@ Partial Class frmQLBaoCaoTon
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 245)
+        Me.Label2.Location = New System.Drawing.Point(6, 242)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(82, 13)
         Me.Label2.TabIndex = 19
@@ -120,9 +143,9 @@ Partial Class frmQLBaoCaoTon
         'dgvListBaoCaoTon
         '
         Me.dgvListBaoCaoTon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvListBaoCaoTon.Location = New System.Drawing.Point(6, 6)
+        Me.dgvListBaoCaoTon.Location = New System.Drawing.Point(6, 36)
         Me.dgvListBaoCaoTon.Name = "dgvListBaoCaoTon"
-        Me.dgvListBaoCaoTon.Size = New System.Drawing.Size(234, 201)
+        Me.dgvListBaoCaoTon.Size = New System.Drawing.Size(234, 171)
         Me.dgvListBaoCaoTon.TabIndex = 0
         '
         'frmQLBaoCaoTon
@@ -151,4 +174,6 @@ Partial Class frmQLBaoCaoTon
     Friend WithEvents Label1 As Label
     Friend WithEvents dgvListBaoCaoTon As DataGridView
     Friend WithEvents dtpThangBaoCaoTon As DateTimePicker
+    Friend WithEvents dtpThangBaoCaoTonTimKiem As DateTimePicker
+    Friend WithEvents Label3 As Label
 End Class

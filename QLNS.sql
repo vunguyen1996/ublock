@@ -343,9 +343,9 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblPhieuNhap]([MAPHIEUNHAP],[NgayNhap])VALUES(1,convert(datetime,'05/10/2018 00:00:00',101))
+INSERT INTO [dbo].[tblPhieuNhap]([MAPHIEUNHAP],[NgayNhap])VALUES(1,convert(datetime,'05/10/2018',101))
 GO
-INSERT INTO [dbo].[tblPhieuNhap]([MAPHIEUNHAP],[NgayNhap])VALUES(2,convert(datetime,'05/11/2018 00:00:00',101))
+INSERT INTO [dbo].[tblPhieuNhap]([MAPHIEUNHAP],[NgayNhap])VALUES(2,convert(datetime,'05/11/2018',101))
 GO
 
 /******insert chi tiet phieu nhap sach******/
@@ -418,20 +418,20 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblBaoCaoTon]([MABAOCAOTON],[ThangBaoCaoTon])VALUES(1,convert(datetime,'03/12/2018 00:00:00',101))
+INSERT INTO [dbo].[tblBaoCaoTon]([MABAOCAOTON],[ThangBaoCaoTon])VALUES(1,convert(datetime,'03/19/2018',101))
 GO
-INSERT INTO [dbo].[tblBaoCaoTon]([MABAOCAOTON],[ThangBaoCaoTon])VALUES(2,convert(datetime,'04/13/2018 00:00:00',101))
+INSERT INTO [dbo].[tblBaoCaoTon]([MABAOCAOTON],[ThangBaoCaoTon])VALUES(2,convert(datetime,'04/19/2018',101))
 GO
-INSERT INTO [dbo].[tblBaoCaoTon]([MABAOCAOTON],[ThangBaoCaoTon])VALUES(3,convert(datetime,'05/14/2018 00:00:00',101))
+INSERT INTO [dbo].[tblBaoCaoTon]([MABAOCAOTON],[ThangBaoCaoTon])VALUES(3,convert(datetime,'05/19/2018',101))
 GO
 
 /******insert hoa don******/
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(1,convert(datetime,'05/14/2018 00:00:00',101),1,0)
+INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(1,convert(datetime,'05/14/2018',101),1,0)
 GO
-INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(2,convert(datetime,'05/15/2018 00:00:00',101),2,0)
+INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(2,convert(datetime,'05/15/2018',101),2,0)
 GO
 
 /******insert chi tiet hoa don******/
@@ -445,9 +445,9 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblPhieuThuTien]([MAPHIEUTHU],[MAKH],[NgayThuTien],[SoTienThu])VALUES(1,1,convert(datetime,'05/15/2018 00:00:00',101),500000)
+INSERT INTO [dbo].[tblPhieuThuTien]([MAPHIEUTHU],[MAKH],[NgayThuTien],[SoTienThu])VALUES(1,1,convert(datetime,'05/15/2018',101),500000)
 GO
-INSERT INTO [dbo].[tblPhieuThuTien]([MAPHIEUTHU],[MAKH],[NgayThuTien],[SoTienThu])VALUES(2,2,convert(datetime,'05/18/2018 00:00:00',101),198000)
+INSERT INTO [dbo].[tblPhieuThuTien]([MAPHIEUTHU],[MAKH],[NgayThuTien],[SoTienThu])VALUES(2,2,convert(datetime,'05/18/2018',101),198000)
 GO
 
 /******insert CT Bao Cao Ton******/
@@ -474,4 +474,21 @@ INSERT INTO [dbo].[tblCTBaoCaoTon]([MACTBAOCAOTON],[MASACH],[MABAOCAOTON],[SoLuo
 GO
 INSERT INTO [dbo].[tblCTBaoCaoTon]([MACTBAOCAOTON],[MASACH],[MABAOCAOTON],[SoLuongTonDau],[PhatSinh],[SoLuongTonCuoi])VALUES(9,19,3,300,2,50)
 GO
+
+/******insert CT Bao Cao Cong No******/
+USE [QLNS]
+GO
+
+INSERT INTO [dbo].[tblBaoCaoCongNo]([MABAOCAOCONGNO],[ThangBaoCaoCongNo])VALUES(1,convert(datetime,'01/19/2018',101))
+GO
+INSERT INTO [dbo].[tblBaoCaoCongNo]([MABAOCAOCONGNO],[ThangBaoCaoCongNo])VALUES(2,convert(datetime,'02/19/2018',101))
+GO
+INSERT INTO [dbo].[tblBaoCaoCongNo]([MABAOCAOCONGNO],[ThangBaoCaoCongNo])VALUES(3,convert(datetime,'03/19/2018',101))
+GO
+INSERT INTO [dbo].[tblBaoCaoCongNo]([MABAOCAOCONGNO],[ThangBaoCaoCongNo])VALUES(4,convert(datetime,'04/19/2018',101))
+GO
+
+select *
+from tblBaoCaoCongNo 
+where month(ThangBaoCaoCongNo) = '4'
 

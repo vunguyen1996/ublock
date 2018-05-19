@@ -52,4 +52,11 @@ Public Class BaoCaoTonBUS
         Return bctDAL.selectALL_byMaBaoCao(maBaoCao, listbct)
     End Function
 
+    Public Function selectAll_byThangBaoCao(thangBaoCao As DateTime, ByRef listbct As List(Of BaoCaoTonDTO)) As Result
+        '1. verify data here!!
+
+        '2. insert to DB
+        Return bctDAL.selectALL_byThangBaoCao(thangBaoCao, listbct)
+    End Function
+
 End Class

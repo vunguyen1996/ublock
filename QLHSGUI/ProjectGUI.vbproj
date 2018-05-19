@@ -244,17 +244,26 @@
     <EmbeddedResource Include="frmAbout.resx">
       <DependentUpon>frmAbout.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLapBaoCaoCongNo.resx">
+      <DependentUpon>frmLapBaoCaoCongNo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLapHoaDon.resx">
       <DependentUpon>frmLapHoaDon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLapPhieuThuTien.resx">
       <DependentUpon>frmLapPhieuThuTien.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQLBaoCaoCongNo.resx">
+      <DependentUpon>frmQLBaoCaoCongNo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmQLBaoCaoTon.resx">
       <DependentUpon>frmQLBaoCaoTon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQLCTBaoCaoTon.resx">
       <DependentUpon>frmQLCTBaoCaoTon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLCTHoaDon.resx">
+      <DependentUpon>frmQLCTHoaDon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQLCTPhieuNhap.resx">
       <DependentUpon>frmQLCTPhieuNhap.vb</DependentUpon>
