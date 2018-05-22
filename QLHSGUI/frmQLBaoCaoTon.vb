@@ -43,7 +43,7 @@ Public Class frmQLBaoCaoTon
 
     End Sub
 
-    Private Sub loadlistBaoCaoTon_byThangBaoCaoTon(thangBaoCao As DateTime)
+    Private Sub loadlistBaoCaoTon_byThangBaoCaoTon(thangBaoCao As Integer)
         ' Load danh sach bao cao ton len datagridview
         Dim listBaoCaoTon = New List(Of BaoCaoTonDTO)
         Dim result As Result
@@ -178,7 +178,7 @@ Public Class frmQLBaoCaoTon
 
     Private Sub dtpThangBaoCaoTonTimKiem_ValueChanged(sender As Object, e As EventArgs) Handles dtpThangBaoCaoTonTimKiem.ValueChanged
         Try
-            Dim thangBaoCao = dtpThangBaoCaoTonTimKiem.Value
+            Dim thangBaoCao = dtpThangBaoCaoTonTimKiem.Value.Month
             loadlistBaoCaoTon_byThangBaoCaoTon(thangBaoCao)
         Catch ex As Exception
 

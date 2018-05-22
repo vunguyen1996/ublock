@@ -74,9 +74,9 @@ Public Class CTBaoCaoCongNoDAL
                     .Connection = conn
                     .CommandType = CommandType.Text
                     .CommandText = query
-                    .Parameters.AddWithValue("@mact", ctbccn.MaChiTietBaoCaoCongNo)
+                    .Parameters.AddWithValue("@mactbccn", ctbccn.MaChiTietBaoCaoCongNo)
                     .Parameters.AddWithValue("@makh", ctbccn.MaKhachHang)
-                    .Parameters.AddWithValue("@mabc", ctbccn.MaBaoCaoCongNo)
+                    .Parameters.AddWithValue("@mabccn", ctbccn.MaBaoCaoCongNo)
                     .Parameters.AddWithValue("@nodau", ctbccn.SoTienNoDau)
                     .Parameters.AddWithValue("@phatsinh", ctbccn.SoTienPhatSinh)
                     .Parameters.AddWithValue("@nocuoi", ctbccn.SoTienNoCuoi)

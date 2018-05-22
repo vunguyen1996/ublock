@@ -39,7 +39,7 @@ Public Class frmQLBaoCaoCongNo
         dgvListBaoCaoCongNo.Columns.Add(clThangBaoCao)
     End Sub
 
-    Private Sub loadlistBaoCaoCongNo_byThangBaoCao(thangBaoCao As DateTime)
+    Private Sub loadlistBaoCaoCongNo_byThangBaoCao(thangBaoCao As Integer)
         Dim listBaoCaoCongNo = New List(Of BaoCaoCongNoDTO)
         Dim result As Result
         result = bccnBus.selectAll_byThangBaoCao(thangBaoCao, listBaoCaoCongNo)
@@ -104,7 +104,7 @@ Public Class frmQLBaoCaoCongNo
                 result = bccnBus.update(bccn)
                 If (result.FlagResult = True) Then
                     ' Re-Load phieu nhap
-                    loadlistBaoCaoCongNo_byThangBaoCao(dtpThangBaoCaoCongNo.Value)
+                    loadlistBaoCaoCongNo_byThangBaoCao(dtpThangBaoCaoCongNo.Value.Month)
                     ' Hightlight the row has been updated on table
                     dgvListBaoCaoCongNo.Rows(currentRowIndex).Selected = True
                     Try
@@ -172,7 +172,7 @@ Public Class frmQLBaoCaoCongNo
 
     Private Sub dtpThangBaoCaoCongNoTimKiem_ValueChanged(sender As Object, e As EventArgs) Handles dtpThangBaoCaoCongNoTimKiem.ValueChanged
         Try
-            Dim thangBaoCao = dtpThangBaoCaoCongNoTimKiem.Value
+            Dim thangBaoCao = dtpThangBaoCaoCongNoTimKiem.Value.Month
             loadlistBaoCaoCongNo_byThangBaoCao(thangBaoCao)
         Catch ex As Exception
 

@@ -33,7 +33,6 @@ Partial Class frmQLCTBaoCaoTon
         Me.txtTheLoai = New System.Windows.Forms.TextBox()
         Me.dtpThangBaoCaoTon = New System.Windows.Forms.DateTimePicker()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.txtMaBaoCaoTon = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txtTacGia = New System.Windows.Forms.TextBox()
         Me.txtTenSach = New System.Windows.Forms.TextBox()
@@ -43,7 +42,6 @@ Partial Class frmQLCTBaoCaoTon
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txtPhatSinh = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.txtMaCTBCT = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.dgvListChiTietBaoCaoTon = New System.Windows.Forms.DataGridView()
@@ -68,7 +66,7 @@ Partial Class frmQLCTBaoCaoTon
         Me.TabControl1.Location = New System.Drawing.Point(556, 77)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(395, 337)
+        Me.TabControl1.Size = New System.Drawing.Size(395, 312)
         Me.TabControl1.TabIndex = 2
         '
         'TabPage1
@@ -82,7 +80,6 @@ Partial Class frmQLCTBaoCaoTon
         Me.TabPage1.Controls.Add(Me.txtTheLoai)
         Me.TabPage1.Controls.Add(Me.dtpThangBaoCaoTon)
         Me.TabPage1.Controls.Add(Me.Label9)
-        Me.TabPage1.Controls.Add(Me.txtMaBaoCaoTon)
         Me.TabPage1.Controls.Add(Me.Label8)
         Me.TabPage1.Controls.Add(Me.txtTacGia)
         Me.TabPage1.Controls.Add(Me.txtTenSach)
@@ -92,20 +89,19 @@ Partial Class frmQLCTBaoCaoTon
         Me.TabPage1.Controls.Add(Me.Label7)
         Me.TabPage1.Controls.Add(Me.txtPhatSinh)
         Me.TabPage1.Controls.Add(Me.Label3)
-        Me.TabPage1.Controls.Add(Me.Label2)
         Me.TabPage1.Controls.Add(Me.txtMaCTBCT)
         Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(387, 311)
+        Me.TabPage1.Size = New System.Drawing.Size(387, 286)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Thông Tin Chi Tiết Báo Cáo Tồn"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
         'btXoaChiTietBaoCaoTon
         '
-        Me.btXoaChiTietBaoCaoTon.Location = New System.Drawing.Point(201, 282)
+        Me.btXoaChiTietBaoCaoTon.Location = New System.Drawing.Point(201, 256)
         Me.btXoaChiTietBaoCaoTon.Name = "btXoaChiTietBaoCaoTon"
         Me.btXoaChiTietBaoCaoTon.Size = New System.Drawing.Size(75, 23)
         Me.btXoaChiTietBaoCaoTon.TabIndex = 52
@@ -114,7 +110,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         'txtSoLuongTonCuoi
         '
-        Me.txtSoLuongTonCuoi.Location = New System.Drawing.Point(155, 240)
+        Me.txtSoLuongTonCuoi.Location = New System.Drawing.Point(155, 214)
         Me.txtSoLuongTonCuoi.Name = "txtSoLuongTonCuoi"
         Me.txtSoLuongTonCuoi.Size = New System.Drawing.Size(224, 20)
         Me.txtSoLuongTonCuoi.TabIndex = 51
@@ -122,7 +118,7 @@ Partial Class frmQLCTBaoCaoTon
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(5, 243)
+        Me.Label4.Location = New System.Drawing.Point(5, 217)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(99, 13)
         Me.Label4.TabIndex = 50
@@ -130,14 +126,14 @@ Partial Class frmQLCTBaoCaoTon
         '
         'txtSoLuongTonDau
         '
-        Me.txtSoLuongTonDau.Location = New System.Drawing.Point(155, 188)
+        Me.txtSoLuongTonDau.Location = New System.Drawing.Point(155, 162)
         Me.txtSoLuongTonDau.Name = "txtSoLuongTonDau"
         Me.txtSoLuongTonDau.Size = New System.Drawing.Size(224, 20)
         Me.txtSoLuongTonDau.TabIndex = 49
         '
         'btCapNhatChiTietBaoCaoTon
         '
-        Me.btCapNhatChiTietBaoCaoTon.Location = New System.Drawing.Point(120, 282)
+        Me.btCapNhatChiTietBaoCaoTon.Location = New System.Drawing.Point(120, 256)
         Me.btCapNhatChiTietBaoCaoTon.Name = "btCapNhatChiTietBaoCaoTon"
         Me.btCapNhatChiTietBaoCaoTon.Size = New System.Drawing.Size(75, 23)
         Me.btCapNhatChiTietBaoCaoTon.TabIndex = 1
@@ -147,7 +143,7 @@ Partial Class frmQLCTBaoCaoTon
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(6, 139)
+        Me.Label10.Location = New System.Drawing.Point(6, 113)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(49, 13)
         Me.Label10.TabIndex = 44
@@ -156,7 +152,7 @@ Partial Class frmQLCTBaoCaoTon
         'txtTheLoai
         '
         Me.txtTheLoai.Enabled = False
-        Me.txtTheLoai.Location = New System.Drawing.Point(155, 136)
+        Me.txtTheLoai.Location = New System.Drawing.Point(155, 110)
         Me.txtTheLoai.Name = "txtTheLoai"
         Me.txtTheLoai.ReadOnly = True
         Me.txtTheLoai.Size = New System.Drawing.Size(224, 20)
@@ -168,7 +164,7 @@ Partial Class frmQLCTBaoCaoTon
         Me.dtpThangBaoCaoTon.CustomFormat = "MM/yyyy"
         Me.dtpThangBaoCaoTon.Enabled = False
         Me.dtpThangBaoCaoTon.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpThangBaoCaoTon.Location = New System.Drawing.Point(155, 58)
+        Me.dtpThangBaoCaoTon.Location = New System.Drawing.Point(155, 32)
         Me.dtpThangBaoCaoTon.Name = "dtpThangBaoCaoTon"
         Me.dtpThangBaoCaoTon.Size = New System.Drawing.Size(224, 20)
         Me.dtpThangBaoCaoTon.TabIndex = 42
@@ -176,25 +172,16 @@ Partial Class frmQLCTBaoCaoTon
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(6, 61)
+        Me.Label9.Location = New System.Drawing.Point(6, 35)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(104, 13)
         Me.Label9.TabIndex = 41
         Me.Label9.Text = "Tháng Báo Cáo Tồn"
         '
-        'txtMaBaoCaoTon
-        '
-        Me.txtMaBaoCaoTon.Enabled = False
-        Me.txtMaBaoCaoTon.Location = New System.Drawing.Point(155, 32)
-        Me.txtMaBaoCaoTon.Name = "txtMaBaoCaoTon"
-        Me.txtMaBaoCaoTon.ReadOnly = True
-        Me.txtMaBaoCaoTon.Size = New System.Drawing.Size(224, 20)
-        Me.txtMaBaoCaoTon.TabIndex = 39
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(6, 165)
+        Me.Label8.Location = New System.Drawing.Point(6, 139)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(45, 13)
         Me.Label8.TabIndex = 38
@@ -203,7 +190,7 @@ Partial Class frmQLCTBaoCaoTon
         'txtTacGia
         '
         Me.txtTacGia.Enabled = False
-        Me.txtTacGia.Location = New System.Drawing.Point(155, 162)
+        Me.txtTacGia.Location = New System.Drawing.Point(155, 136)
         Me.txtTacGia.Name = "txtTacGia"
         Me.txtTacGia.ReadOnly = True
         Me.txtTacGia.Size = New System.Drawing.Size(224, 20)
@@ -213,7 +200,7 @@ Partial Class frmQLCTBaoCaoTon
         'txtTenSach
         '
         Me.txtTenSach.Enabled = False
-        Me.txtTenSach.Location = New System.Drawing.Point(155, 110)
+        Me.txtTenSach.Location = New System.Drawing.Point(155, 84)
         Me.txtTenSach.Name = "txtTenSach"
         Me.txtTenSach.ReadOnly = True
         Me.txtTenSach.Size = New System.Drawing.Size(224, 20)
@@ -223,7 +210,7 @@ Partial Class frmQLCTBaoCaoTon
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(6, 113)
+        Me.Label6.Location = New System.Drawing.Point(6, 87)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(54, 13)
         Me.Label6.TabIndex = 34
@@ -233,7 +220,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         Me.txtMaSach.BackColor = System.Drawing.SystemColors.Control
         Me.txtMaSach.Enabled = False
-        Me.txtMaSach.Location = New System.Drawing.Point(155, 84)
+        Me.txtMaSach.Location = New System.Drawing.Point(155, 58)
         Me.txtMaSach.Name = "txtMaSach"
         Me.txtMaSach.ReadOnly = True
         Me.txtMaSach.Size = New System.Drawing.Size(224, 20)
@@ -242,7 +229,7 @@ Partial Class frmQLCTBaoCaoTon
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(6, 190)
+        Me.Label5.Location = New System.Drawing.Point(6, 164)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(98, 13)
         Me.Label5.TabIndex = 32
@@ -251,7 +238,7 @@ Partial Class frmQLCTBaoCaoTon
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(6, 217)
+        Me.Label7.Location = New System.Drawing.Point(6, 191)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(53, 13)
         Me.Label7.TabIndex = 28
@@ -259,7 +246,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         'txtPhatSinh
         '
-        Me.txtPhatSinh.Location = New System.Drawing.Point(155, 214)
+        Me.txtPhatSinh.Location = New System.Drawing.Point(155, 188)
         Me.txtPhatSinh.Name = "txtPhatSinh"
         Me.txtPhatSinh.Size = New System.Drawing.Size(224, 20)
         Me.txtPhatSinh.TabIndex = 27
@@ -267,20 +254,11 @@ Partial Class frmQLCTBaoCaoTon
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 87)
+        Me.Label3.Location = New System.Drawing.Point(6, 61)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(50, 13)
         Me.Label3.TabIndex = 19
         Me.Label3.Text = "Mã Sách"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 35)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(88, 13)
-        Me.Label2.TabIndex = 17
-        Me.Label2.Text = "Mã Báo Cáo Tồn"
         '
         'txtMaCTBCT
         '
@@ -306,7 +284,7 @@ Partial Class frmQLCTBaoCaoTon
         Me.dgvListChiTietBaoCaoTon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvListChiTietBaoCaoTon.Location = New System.Drawing.Point(6, 6)
         Me.dgvListChiTietBaoCaoTon.Name = "dgvListChiTietBaoCaoTon"
-        Me.dgvListChiTietBaoCaoTon.Size = New System.Drawing.Size(522, 364)
+        Me.dgvListChiTietBaoCaoTon.Size = New System.Drawing.Size(522, 338)
         Me.dgvListChiTietBaoCaoTon.TabIndex = 3
         '
         'TabControl2
@@ -315,7 +293,7 @@ Partial Class frmQLCTBaoCaoTon
         Me.TabControl2.Location = New System.Drawing.Point(12, 12)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(542, 402)
+        Me.TabControl2.Size = New System.Drawing.Size(542, 377)
         Me.TabControl2.TabIndex = 4
         '
         'TabPage2
@@ -324,7 +302,7 @@ Partial Class frmQLCTBaoCaoTon
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(534, 376)
+        Me.TabPage2.Size = New System.Drawing.Size(534, 351)
         Me.TabPage2.TabIndex = 0
         Me.TabPage2.Text = "Danh Sách Chi Tiết Báo Cáo Tồn"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -370,7 +348,7 @@ Partial Class frmQLCTBaoCaoTon
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(961, 419)
+        Me.ClientSize = New System.Drawing.Size(961, 396)
         Me.Controls.Add(Me.TabControl3)
         Me.Controls.Add(Me.TabControl2)
         Me.Controls.Add(Me.TabControl1)
@@ -400,7 +378,6 @@ Partial Class frmQLCTBaoCaoTon
     Friend WithEvents txtTheLoai As TextBox
     Friend WithEvents dtpThangBaoCaoTon As DateTimePicker
     Friend WithEvents Label9 As Label
-    Friend WithEvents txtMaBaoCaoTon As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents txtTacGia As TextBox
     Friend WithEvents txtTenSach As TextBox
@@ -410,7 +387,6 @@ Partial Class frmQLCTBaoCaoTon
     Friend WithEvents Label7 As Label
     Friend WithEvents txtPhatSinh As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents txtMaCTBCT As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents dgvListChiTietBaoCaoTon As DataGridView

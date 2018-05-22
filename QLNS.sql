@@ -361,7 +361,7 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblSach]([MASACH],[TenSach],[MALOAISACH],[TacGia],[SoLuongTon])VALUES(1,N'Hành trình chính trị của tôi',1,N'Tony Blair',50)
+INSERT INTO [dbo].[tblSach]([MASACH],[TenSach],[MALOAISACH],[TacGia],[SoLuongTon])VALUES(1,N'Hành trình chính trị của tôi',1,N'Tony Blair',47)
 GO
 INSERT INTO [dbo].[tblSach]([MASACH],[TenSach],[MALOAISACH],[TacGia],[SoLuongTon])VALUES(2,N'Bush và quyền lực Nước Mỹ',1,N'XXX',50)
 GO
@@ -409,7 +409,7 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblKhachHang]([MAKH],[HoTenKH],[TienNoKH],[DiaChi],[Email],[SDT])VALUES(1,N'Nguyễn Thúy Vy','100000',N'15/96 Võ Duy Ninh, P.22, Q.Bình Thạnh, TP.HCM',N'thuyvy123@gmail.com','0123456789')
+INSERT INTO [dbo].[tblKhachHang]([MAKH],[HoTenKH],[TienNoKH],[DiaChi],[Email],[SDT])VALUES(1,N'Nguyễn Thúy Vy','0',N'15/96 Võ Duy Ninh, P.22, Q.Bình Thạnh, TP.HCM',N'thuyvy123@gmail.com','0123456789')
 GO
 INSERT INTO [dbo].[tblKhachHang]([MAKH],[HoTenKH],[TienNoKH],[DiaChi],[Email],[SDT])VALUES(2,N'Nguyễn Anh Tú','0',N'15/96 Võ Duy Ninh, P.22, Q.Bình Thạnh, TP.HCM',N'anhtu26396@gmail.com','0123456789')
 GO
@@ -429,9 +429,9 @@ GO
 USE [QLNS]
 GO
 
-INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(1,convert(datetime,'05/14/2018',101),1,0)
+INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(1,convert(datetime,'05/14/2018'),1,45000)
 GO
-INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(2,convert(datetime,'05/15/2018',101),2,0)
+INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(2,convert(datetime,'05/15/2018'),2,0)
 GO
 
 /******insert chi tiet hoa don******/

@@ -5,6 +5,7 @@ Imports Utility
 Public Class frmQLCTHoaDon
     Private hoadonBus As HoaDonBUS
     Private cthoadonBus As CTHoaDonBUS
+    Private sachBus As SachBUS
 
     Private hoadon As HoaDonDTO
     Private loaisach As LoaiSachDTO
@@ -15,6 +16,7 @@ Public Class frmQLCTHoaDon
     Private Sub frmQLCTHoaDon_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         hoadonBus = New HoaDonBUS()
         cthoadonBus = New CTHoaDonBUS()
+        sachBus = New SachBUS()
         Dim listhd = New List(Of HoaDonDTO)
         Dim result As Result
         result = hoadonBus.selectAll(listhd)
@@ -66,6 +68,12 @@ Public Class frmQLCTHoaDon
         clSLB.DataPropertyName = "SoLuongBan"
         dgvListCTHD.Columns.Add(clSLB)
 
+        Dim clDonGia = New DataGridViewTextBoxColumn()
+        clDonGia.Name = "DonGia"
+        clDonGia.HeaderText = "Đơn Giá"
+        clDonGia.DataPropertyName = "DonGia"
+        dgvListCTHD.Columns.Add(clDonGia)
+
         Dim clThanhTien = New DataGridViewTextBoxColumn()
         clThanhTien.Name = "ThanhTien"
         clThanhTien.HeaderText = "Thành Tiền"
@@ -114,6 +122,12 @@ Public Class frmQLCTHoaDon
         clSLB.HeaderText = "Số Lượng Bán"
         clSLB.DataPropertyName = "SoLuongBan"
         dgvListCTHD.Columns.Add(clSLB)
+
+        Dim clDonGia = New DataGridViewTextBoxColumn()
+        clDonGia.Name = "DonGia"
+        clDonGia.HeaderText = "Đơn Giá"
+        clDonGia.DataPropertyName = "DonGia"
+        dgvListCTHD.Columns.Add(clDonGia)
 
         Dim clThanhTien = New DataGridViewTextBoxColumn()
         clThanhTien.Name = "ThanhTien"
@@ -250,4 +264,143 @@ Public Class frmQLCTHoaDon
 
         End Try
     End Sub
+
+    Private Sub btCapNhatCTHD_Click(sender As Object, e As EventArgs) Handles btCapNhatCTHD.Click
+        ' Get the current cell location.
+        Dim currentRowIndex As Integer = dgvListCTHD.CurrentCellAddress.Y 'current row selected
+        'Verify that indexing OK
+        If (-1 < currentRowIndex And currentRowIndex < dgvListCTHD.RowCount) Then
+            Try
+                Dim cthd = New CTHoaDonDTO()
+                '1. Mapping data from GUI control
+                cthd.MaChiTietHD = Convert.ToInt32(txtMaCTHD.Text)
+                cthd.MaSach = Convert.ToInt32(txtMaSach.Text)
+                cthd.SoLuongBan = txtSoLuongBan.Text
+                cthd.DonGia = txtDonGia.Text
+                cthd.ThanhTien = txtThanhTien.Text
+                cthd.MaHD = Convert.ToInt32(txtMaHD.Text)
+                '2. Business .....
+                '3. Insert to DB
+                Dim result As Result
+                result = cthoadonBus.update(cthd)
+                If (result.FlagResult = True) Then
+                    ' Re-Load LoaiHocSinh list
+                    loadlistHD_byMaHD(txtMaHD.Text)
+                    ' Hightlight the row has been updated on table
+                    dgvListCTHD.Rows(currentRowIndex).Selected = True
+                    MessageBox.Show("Cập nhật chi tiết hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Else
+                    MessageBox.Show("Cập nhật chi tiết hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    System.Console.WriteLine(result.SystemMessage)
+                End If
+            Catch ex As Exception
+                Console.WriteLine(ex.StackTrace)
+            End Try
+        End If
+    End Sub
+
+    Private Sub btXoaCTHD_Click(sender As Object, e As EventArgs) Handles btXoaCTHD.Click
+        ' Get the current cell location.
+        Dim currentRowIndex As Integer = dgvListCTHD.CurrentCellAddress.Y 'current row selected
+        'Verify that indexing OK
+        If (-1 < currentRowIndex And currentRowIndex < dgvListCTHD.RowCount) Then
+            Select Case MsgBox("Bạn có thực sự muốn xóa chi tiết báo cáo có mã là  " + txtMaCTHD.Text, MsgBoxStyle.YesNo, "Information")
+                Case MsgBoxResult.Yes
+                    Dim tongTriGiaTruoc = txtTongTriGiaHD.Text
+                    Dim thanhTien = txtThanhTien.Text
+                    txtTongTriGiaHD.Text = tongTriGiaTruoc - thanhTien
+
+                    Dim soLuongBan = Convert.ToInt32(txtSoLuongBan.Text)
+                    Dim soluongton = Convert.ToInt32(txtSoLuongTon.Text)
+                    txtSoLuongTon.Text = soLuongBan + soluongton
+                    Try
+                        Dim sach As SachDTO
+                        sach = New SachDTO()
+
+                        '1. Mapping data from GUI control
+                        sach.MaSach = txtMaSach.Text
+                        sach.SoLuongTon = txtSoLuongTon.Text
+                        '2. Business .....
+                        '3. Insert to DB
+                        Dim result As Result
+                        result = sachBus.update_SoLuongTon(sach)
+                        If (result.FlagResult = False) Then
+                            MessageBox.Show("Cập nhật số lượng tồn của sách sau khi xóa không thành công")
+                        End If
+                    Catch ex As Exception
+                        Console.WriteLine(ex.StackTrace)
+                    End Try
+
+                    Try
+                        '1. Delete from DB
+                        Dim result As Result
+                        result = cthoadonBus.delete(Convert.ToInt32(txtMaCTHD.Text))
+                        If (result.FlagResult = True) Then
+                            ' Re-Load LoaiHocSinh list
+                            loadListCTHoaDon()
+                            ' Hightlight the next row on table
+                            If (currentRowIndex >= dgvListCTHD.Rows.Count) Then
+                                currentRowIndex = currentRowIndex - 1
+                            End If
+                            If (currentRowIndex >= 0) Then
+                                dgvListCTHD.Rows(currentRowIndex).Selected = True
+                                Try
+                                    Dim cthd = CType(dgvListCTHD.Rows(currentRowIndex).DataBoundItem, CTHoaDonDTO)
+                                    txtMaCTHD.Text = cthd.MaChiTietHD
+                                    txtMaHD.Text = txtMaHD.Text
+                                    txtMaSach.Text = cthd.MaSach
+                                    txtSoLuongBan.Text = cthd.SoLuongBan
+                                    txtDonGia.Text = cthd.DonGia
+                                    txtThanhTien.Text = cthd.ThanhTien
+                                Catch ex As Exception
+                                    Console.WriteLine(ex.StackTrace)
+                                End Try
+                            End If
+                            MessageBox.Show("Xóa chi tiết hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        Else
+                            MessageBox.Show("Xóa chi tiết hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                            System.Console.WriteLine(result.SystemMessage)
+                        End If
+                    Catch ex As Exception
+                        Console.WriteLine(ex.StackTrace)
+                    End Try
+                Case MsgBoxResult.No
+                    Return
+            End Select
+        End If
+    End Sub
+
+    Private Sub txtDonGia_TextChanged(sender As Object, e As EventArgs) Handles txtDonGia.TextChanged
+        Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)
+        Dim dongia = Convert.ToInt32(txtDonGia.Text)
+        Dim thanhtien = (soluongban * dongia)
+        txtThanhTien.Text = Convert.ToInt32(thanhtien)
+    End Sub
+
+    Private Sub txtSoLuongBan_TextChanged(sender As Object, e As EventArgs) Handles txtSoLuongBan.TextChanged
+        Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)
+        Dim dongia = Convert.ToInt32(txtDonGia.Text)
+        Dim thanhtien = (soluongban * dongia)
+        txtThanhTien.Text = Convert.ToInt32(thanhtien)
+    End Sub
+
+    Private Sub btUpdateTriGiaHD_Click(sender As Object, e As EventArgs) Handles btXoaCTHD.Click
+        Try
+            Dim hoadon As HoaDonDTO
+            hoadon = New HoaDonDTO()
+
+            hoadon.MaHoaDon = txtMaHD.Text
+            hoadon.TongTriGia = txtTongTriGiaHD.Text
+
+            Dim result As Result
+            result = hoadonBus.update_TriGiaHoaDon(hoadon)
+            If (result.FlagResult = False) Then
+                MessageBox.Show("Cập nhật tổng trị giá hóa đơn không thành công")
+            Else
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
 End Class

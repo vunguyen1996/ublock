@@ -164,7 +164,6 @@ Public Class frmQLCTBaoCaoTon
                 Dim ctbct = CType(dgvListChiTietBaoCaoTon.Rows(currentRowIndex).DataBoundItem, CTBaoCaoTonDTO)
                 txtMaCTBCT.Text = ctbct.MaChiTietBaoCaoTon
                 txtMaSach.Text = ctbct.MaSach
-                txtMaBaoCaoTon.Text = ctbct.MaBaoCaoTon
                 txtSoLuongTonDau.Text = ctbct.TonDau
                 txtPhatSinh.Text = ctbct.PhatSinh
                 txtSoLuongTonCuoi.Text = ctbct.TonCuoi
@@ -209,9 +208,9 @@ Public Class frmQLCTBaoCaoTon
         End Try
     End Sub
 
-    Private Sub txtMaBaoCaoTon_TextChanged(sender As Object, e As EventArgs) Handles txtMaBaoCaoTon.TextChanged
+    Private Sub txtMaBaoCaoTon_TextChanged(sender As Object, e As EventArgs)
         Try
-            Dim maBaoCaoTon = txtMaBaoCaoTon.Text
+            Dim maBaoCaoTon = txtMaBaoCaoTonTimKiem.Text
             loadlistBaoCaoTon(maBaoCaoTon)
         Catch ex As Exception
 
@@ -242,27 +241,20 @@ Public Class frmQLCTBaoCaoTon
         'Verify that indexing OK
         If (-1 < currentRowIndex And currentRowIndex < dgvListChiTietBaoCaoTon.RowCount) Then
             Try
-                Dim ct As CTBaoCaoTonDTO
-                ct = New CTBaoCaoTonDTO()
-
+                Dim listCTBCT = New List(Of CTBaoCaoTonDTO)
                 '1. Mapping data from GUI control
-                ct.MaChiTietBaoCaoTon = txtMaCTBCT.Text
-                ct.TonDau = txtSoLuongTonDau.Text
-                ct.PhatSinh = txtPhatSinh.Text
-                ct.TonCuoi = txtSoLuongTonCuoi.Text
                 '2. Business .....
                 '3. Insert to DB
                 Dim result As Result
-                result = ctbaocaotonBus.update(ct)
+                result = ctbaocaotonBus.update(txtMaCTBCT.Text, txtSoLuongTonDau.Text, txtPhatSinh.Text, txtSoLuongTonCuoi.Text, listCTBCT)
                 If (result.FlagResult = True) Then
-                    ' Re-Load khlist
+                    ' Re-Load LoaiHocSinh list
                     loadlistBaoCao_ByMaBaoCaoTon(txtMaBaoCaoTonTimKiem.Text)
                     ' Hightlight the row has been updated on table
                     dgvListChiTietBaoCaoTon.Rows(currentRowIndex).Selected = True
-
-                    MessageBox.Show("Cập nhật thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    MessageBox.Show("Cập nhật chi tiết báo cáo thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                 Else
-                    MessageBox.Show("Cập nhật không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    MessageBox.Show("Cập nhật chi tiết báo cáo không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                     System.Console.WriteLine(result.SystemMessage)
                 End If
             Catch ex As Exception
@@ -295,7 +287,6 @@ Public Class frmQLCTBaoCaoTon
                                     Dim ctbct = CType(dgvListChiTietBaoCaoTon.Rows(currentRowIndex).DataBoundItem, CTBaoCaoTonDTO)
                                     txtMaCTBCT.Text = ctbct.MaChiTietBaoCaoTon
                                     txtMaSach.Text = ctbct.MaSach
-                                    txtMaBaoCaoTon.Text = ctbct.MaBaoCaoTon
                                     txtSoLuongTonDau.Text = ctbct.TonDau
                                     txtPhatSinh.Text = ctbct.PhatSinh
                                     txtSoLuongTonCuoi.Text = ctbct.TonCuoi

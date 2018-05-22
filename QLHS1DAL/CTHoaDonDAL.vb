@@ -36,7 +36,7 @@ Public Class CTHoaDonDAL
                     idOnDB = Nothing
                     If reader.HasRows = True Then
                         While reader.Read()
-                            idOnDB = reader("MActhd")
+                            idOnDB = reader("MACTHD")
                         End While
                     End If
                     ' new ID = current ID + 1
@@ -206,7 +206,7 @@ Public Class CTHoaDonDAL
         Dim query As String = String.Empty
         query &= " DELETE FROM [tblCTHoaDon] "
         query &= " WHERE "
-        query &= " [MActhd] = @MActhd "
+        query &= " [MACTHD] = @macthd "
 
         Using conn As New SqlConnection(connectionString)
             Using comm As New SqlCommand()
@@ -214,7 +214,7 @@ Public Class CTHoaDonDAL
                     .Connection = conn
                     .CommandType = CommandType.Text
                     .CommandText = query
-                    .Parameters.AddWithValue("@MActhd", macthd)
+                    .Parameters.AddWithValue("@macthd", macthd)
                 End With
                 Try
                     conn.Open()

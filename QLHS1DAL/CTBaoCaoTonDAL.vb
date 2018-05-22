@@ -93,14 +93,49 @@ Public Class CTBaoCaoTonDAL
         Return New Result(True) ' thanh cong
     End Function
 
-    Public Function update(ctBCT As CTBaoCaoTonDTO) As Result
+    'Public Function update(ctBCT As CTBaoCaoTonDTO) As Result
+
+    '    Dim query As String = String.Empty
+    '    query &= " UPDATE [tblCTBaoCaoTon] SET"
+    '    query &= "[SoLuongTonDau] = @tondau"
+    '    query &= ",[PhatSinh] = @phatsinh"
+    '    query &= ",[SoLuongTonCuoi] = @toncuoi"
+    '    query &= " WHERE "
+    '    query &= " [MACTBAOCAOTON] = @machitietbaocao "
+
+    '    Using conn As New SqlConnection(connectionString)
+    '        Using comm As New SqlCommand()
+    '            With comm
+    '                .Connection = conn
+    '                .CommandType = CommandType.Text
+    '                .CommandText = query
+    '                .Parameters.AddWithValue("@tondau", ctBCT.TonDau)
+    '                .Parameters.AddWithValue("@phatsinh", ctBCT.PhatSinh)
+    '                .Parameters.AddWithValue("@toncuoi", ctBCT.TonCuoi)
+    '                .Parameters.AddWithValue("@machitietbaocao", ctBCT.MaChiTietBaoCaoTon)
+    '            End With
+    '            Try
+    '                conn.Open()
+    '                comm.ExecuteNonQuery()
+    '            Catch ex As Exception
+    '                Console.WriteLine(ex.StackTrace)
+    '                conn.Close()
+    '                ' them that bai!!!
+    '                Return New Result(False, "Cập nhật báo cáo không thành công", ex.StackTrace)
+    '            End Try
+    '        End Using
+    '    End Using
+    '    Return New Result(True) ' thanh cong
+    'End Function
+
+    Public Function update(mact As Integer, tonDau As Integer, phatSinh As Integer, tonCuoi As Integer, listCTBCT As List(Of CTBaoCaoTonDTO)) As Result
 
         Dim query As String = String.Empty
         query &= " UPDATE [tblCTBaoCaoTon] SET"
         query &= "[SoLuongTonDau] = @tondau"
         query &= ",[PhatSinh] = @phatsinh"
         query &= ",[SoLuongTonCuoi] = @toncuoi"
-        query &= "WHERE "
+        query &= " WHERE "
         query &= " [MACTBAOCAOTON] = @machitietbaocao "
 
         Using conn As New SqlConnection(connectionString)
@@ -109,10 +144,10 @@ Public Class CTBaoCaoTonDAL
                     .Connection = conn
                     .CommandType = CommandType.Text
                     .CommandText = query
-                    .Parameters.AddWithValue("@tondau", ctBCT.TonDau)
-                    .Parameters.AddWithValue("@phatsinh", ctBCT.PhatSinh)
-                    .Parameters.AddWithValue("@toncuoi", ctBCT.TonCuoi)
-                    .Parameters.AddWithValue("@machitietbaocao", ctBCT.MaChiTietBaoCaoTon)
+                    .Parameters.AddWithValue("@tondau", tonDau)
+                    .Parameters.AddWithValue("@phatsinh", phatSinh)
+                    .Parameters.AddWithValue("@toncuoi", tonCuoi)
+                    .Parameters.AddWithValue("@machitietbaocao", mact)
                 End With
                 Try
                     conn.Open()

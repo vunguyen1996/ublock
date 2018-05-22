@@ -74,7 +74,7 @@ Partial Class frmLapBaoCaoCongNo
         Me.dtpThangBaoCaoCongNo.Name = "dtpThangBaoCaoCongNo"
         Me.dtpThangBaoCaoCongNo.Size = New System.Drawing.Size(201, 20)
         Me.dtpThangBaoCaoCongNo.TabIndex = 18
-        Me.dtpThangBaoCaoCongNo.Value = New Date(2018, 5, 19, 0, 0, 0, 0)
+        Me.dtpThangBaoCaoCongNo.Value = New Date(2018, 5, 21, 13, 21, 46, 0)
         '
         'Label2
         '

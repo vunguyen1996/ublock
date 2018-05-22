@@ -92,11 +92,10 @@ Public Class PhieuThuTienDAL
 
         Dim query As String = String.Empty
         query &= " UPDATE [tblPhieuThuTien] SET"
-        query &= " [MAKH] = @MAKH"
-        query &= " ,[NgayThuTien] = @NgayThuTien "
+        query &= " [NgayThuTien] = @NgayThuTien "
         query &= " ,[SoTienThu] = @SoTienThu"
-        query &= "WHERE "
-        query &= " [MAPHIEUTHU] = @MAPHIEUTHU"
+        query &= " WHERE "
+        query &= " [MAPHIEUTHU] = @maphieu"
 
         Using conn As New SqlConnection(connectionString)
             Using comm As New SqlCommand()
@@ -105,10 +104,9 @@ Public Class PhieuThuTienDAL
                     .CommandType = CommandType.Text
                     .CommandText = query
 
-                    .Parameters.AddWithValue("@MAKH", phieuthutien.MaKhachHang)
                     .Parameters.AddWithValue("@NgayThuTien", phieuthutien.NgayThu)
                     .Parameters.AddWithValue("@SoTienThu", phieuthutien.SoTienThu)
-                    .Parameters.AddWithValue("@MAPHIEUTHU", phieuthutien.MaPhieuThu)
+                    .Parameters.AddWithValue("@maphieu", phieuthutien.MaPhieuThu)
                 End With
                 Try
                     conn.Open()

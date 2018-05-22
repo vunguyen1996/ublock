@@ -136,9 +136,9 @@ Public Class frmThemCTHoaDon
     End Sub
 
     Private Sub txtDonGia_TextChanged(sender As Object, e As EventArgs) Handles txtDonGia.TextChanged
-        Dim soluongban = txtSoLuongBan.Text
-        Dim dongia = txtDonGia.Text
-        Dim thanhtien = soluongban * dongia
+        Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)
+        Dim dongia = Convert.ToInt32(txtDonGia.Text)
+        Dim thanhtien = (soluongban * dongia)
         txtThanhTien.Text = Convert.ToInt32(thanhtien)
     End Sub
 
@@ -202,6 +202,9 @@ Public Class frmThemCTHoaDon
             '3. Insert to DB
             Dim result As Result
             result = sachBus.update_SoLuongTon(sach)
+            If (result.FlagResult = False) Then
+                MessageBox.Show("Cập nhật số lượng tồn của sách sau khi bán không thành công")
+            End If
         Catch ex As Exception
             Console.WriteLine(ex.StackTrace)
         End Try
@@ -214,10 +217,11 @@ Public Class frmThemCTHoaDon
 
             hoadon.MaHoaDon = txtMaHD.Text
             hoadon.TongTriGia = txtTongTriGiaHD.Text
+
             Dim result As Result
             result = hoadonBus.update_TriGiaHoaDon(hoadon)
             If (result.FlagResult = False) Then
-                MessageBox.Show("Code Ngu")
+                MessageBox.Show("Cập nhật tổng trị giá hóa đơn không thành công")
             End If
         Catch ex As Exception
 

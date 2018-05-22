@@ -52,7 +52,7 @@ Public Class BaoCaoCongNoBUS
         Return bccnDAL.selectALL_byMaBaoCao(maBaoCao, listBaoCaoCongNo)
     End Function
 
-    Public Function selectAll_byThangBaoCao(thangBaoCao As DateTime, ByRef listBaoCaoCongNo As List(Of BaoCaoCongNoDTO)) As Result
+    Public Function selectAll_byThangBaoCao(thangBaoCao As Integer, ByRef listBaoCaoCongNo As List(Of BaoCaoCongNoDTO)) As Result
         '1. verify data here!!
 
         '2. insert to DB

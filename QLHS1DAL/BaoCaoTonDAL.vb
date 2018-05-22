@@ -190,13 +190,13 @@ Public Class BaoCaoTonDAL
         Return New Result(True) ' thanh cong
     End Function
 
-    Public Function selectALL_byThangBaoCao(thangBaoCao As DateTime, ByRef listBaoCaoTon As List(Of BaoCaoTonDTO)) As Result
+    Public Function selectALL_byThangBaoCao(thangBaoCao As Integer, ByRef listBaoCaoTon As List(Of BaoCaoTonDTO)) As Result
 
         Dim query As String = String.Empty
         query &= " SELECT *"
         query &= " FROM [tblBaoCaoTon]"
         query &= " WHERE "
-        query &= " [ThangBaoCaoTon] = @thang"
+        query &= " month([ThangBaoCaoTon]) = @thang"
 
 
         Using conn As New SqlConnection(connectionString)

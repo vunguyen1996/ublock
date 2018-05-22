@@ -25,7 +25,7 @@ Public Class frmLapBaoCaoTon
 
         '1. Mapping data from GUI control
         bct.MaBaoCaoTon = Convert.ToInt32(txtMaBaoCaoTon.Text)
-        bct.ThangBaoCao = dtbThangBaoCaoTon.Value
+        bct.ThangBaoCao = dtbThangBaoCaoTon.Value.ToShortDateString
         '2. Business .....
         '3. Insert to DB
         Dim result As Result

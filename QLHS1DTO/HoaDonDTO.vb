@@ -8,11 +8,11 @@
 
     End Sub
 
-    Public Sub New(mahd As Integer, ngayhd As DateTime, makh As Integer, tongtrigia As Integer)
-        Me.iMaHD = mahd
-        Me.NgayHoaDon = ngayhd
-        Me.iMaKH = makh
-        Me.iTongTriGia = tongtrigia
+    Public Sub New(iMaHD As Integer, dateNgayHoaDon As DateTime, iMaKH As Integer, iTongTriGia As Integer)
+        Me.iMaHD = iMaHD
+        Me.NgayHoaDon = dateNgayHoaDon
+        Me.iMaKH = iMaKH
+        Me.iTongTriGia = iTongTriGia
     End Sub
 
     Property MaHoaDon() As Integer

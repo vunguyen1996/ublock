@@ -2,9 +2,9 @@
     Private iMaCTBCCN As Integer
     Private iMaKH As Integer
     Private iMaBCCN As Integer
-    Private strSoTienNoDau As String
-    Private strSoTienPhatSinh As String
-    Private strSoTienNoCuoi As String
+    Private txtSoTienNoDau As String
+    Private txtSoTienPhatSinh As String
+    Private txtSoTienNoCuoi As String
 
     Public Sub New()
 
@@ -14,9 +14,9 @@
         Me.iMaCTBCCN = iMaCTBCCN
         Me.iMaKH = iMaKH
         Me.iMaBCCN = iMaBCCN
-        Me.strSoTienNoDau = strSoTienNoDau
-        Me.strSoTienPhatSinh = strSoTienPhatSinh
-        Me.strSoTienNoCuoi = strSoTienNoCuoi
+        Me.txtSoTienNoDau = strSoTienNoDau
+        Me.txtSoTienPhatSinh = strSoTienPhatSinh
+        Me.txtSoTienNoCuoi = strSoTienNoCuoi
     End Sub
 
     Property MaChiTietBaoCaoCongNo() As Integer
@@ -46,30 +46,30 @@
         End Set
     End Property
 
-    Property SoTienNoDau() As Integer
+    Property SoTienNoDau() As String
         Get
-            Return strSoTienNoDau
+            Return txtSoTienNoDau
         End Get
-        Set(ByVal Value As Integer)
-            strSoTienNoDau = Value
+        Set(ByVal Value As String)
+            txtSoTienNoDau = Value
         End Set
     End Property
 
-    Property SoTienPhatSinh() As Integer
+    Property SoTienPhatSinh() As String
         Get
-            Return strSoTienPhatSinh
+            Return txtSoTienPhatSinh
         End Get
-        Set(ByVal Value As Integer)
-            strSoTienPhatSinh = Value
+        Set(ByVal Value As String)
+            txtSoTienPhatSinh = Value
         End Set
     End Property
 
-    Property SoTienNoCuoi() As Integer
+    Property SoTienNoCuoi() As String
         Get
-            Return strSoTienNoCuoi
+            Return txtSoTienNoCuoi
         End Get
-        Set(ByVal Value As Integer)
-            strSoTienNoCuoi = Value
+        Set(ByVal Value As String)
+            txtSoTienNoCuoi = Value
         End Set
     End Property
 End Class

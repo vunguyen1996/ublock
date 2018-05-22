@@ -184,15 +184,6 @@ Public Class frmQLHoaDon
         End If
     End Sub
 
-    Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles dtpNgayHoaDonTimKiem.ValueChanged
-        Try
-            Dim ngayHD = dtpNgayHoaDonTimKiem.Value
-            loadlistHoaDon_ByNgayHoaDon(ngayHD)
-        Catch ex As Exception
-
-        End Try
-    End Sub
-
     Private Sub txtMaKH_TextChanged(sender As Object, e As EventArgs) Handles txtMaKH.TextChanged
         Try
             Dim maKH = txtMaKH.Text
@@ -203,45 +194,37 @@ Public Class frmQLHoaDon
     End Sub
 
     Private Sub btCapNhatHoaDon_Click(sender As Object, e As EventArgs) Handles btCapNhatHoaDon.Click
-        ' Get the current cell location.
-        Dim currentRowIndex As Integer = dgvListHoaDon.CurrentCellAddress.Y 'current row selected
-        'Verify that indexing OK
+        Dim currentRowIndex As Integer = dgvListHoaDon.CurrentCellAddress.Y
+        'current row selected
         If (-1 < currentRowIndex And currentRowIndex < dgvListHoaDon.RowCount) Then
             Try
                 Dim hoadon As HoaDonDTO
-                hoadon = New HoaDonDTO()
+                hoadon = New HoaDonDTO
 
-                '1. Mapping data from GUI control
-                hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
                 hoadon.NgayHoaDon = dtpNgayLapHD.Value
-                hoadon.MaKhachHang = Convert.ToInt32(txtMaKH.Text)
                 hoadon.TongTriGia = txtTriGia.Text
-                '2. Business .....
-                '3. Insert to DB
+                hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
+
                 Dim result As Result
                 result = hdBus.update(hoadon)
                 If (result.FlagResult = True) Then
-                    ' Re-Load phieu nhap
                     loadlistHoaDon_ByNgayHoaDon(dtpNgayLapHD.Value)
-                    ' Hightlight the row has been updated on table
-                    dgvListHoaDon.Rows(currentRowIndex).Selected = True
-                    Try
-                        hoadon = CType(dgvListHoaDon.Rows(currentRowIndex).DataBoundItem, HoaDonDTO)
-                        txtMaHD.Text = hoadon.MaHoaDon
-                        dtpNgayLapHD.Value = hoadon.NgayHoaDon
-                        txtMaKH.Text = hoadon.MaKhachHang
-                        txtTriGia.Text = hoadon.TongTriGia
-                    Catch ex As Exception
-                        Console.WriteLine(ex.StackTrace)
-                    End Try
                     MessageBox.Show("Cập nhật hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                Else
-                    MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                    System.Console.WriteLine(result.SystemMessage)
                 End If
+                MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                System.Console.WriteLine(result.SystemMessage)
             Catch ex As Exception
                 Console.WriteLine(ex.StackTrace)
             End Try
         End If
+    End Sub
+
+    Private Sub dtpNgayHDTimKiem_ValueChanged(sender As Object, e As EventArgs) Handles dtpNgayHDTimKiem.ValueChanged
+        Try
+            Dim ngayHD = dtpNgayHDTimKiem.Value.ToShortDateString
+            loadlistHoaDon_ByNgayHoaDon(ngayHD)
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class

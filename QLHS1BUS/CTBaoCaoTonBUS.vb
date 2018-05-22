@@ -20,11 +20,18 @@ Public Class CTBaoCaoTonBUS
         Return ctbctDAL.insert(ct)
     End Function
 
-    Public Function update(ct As CTBaoCaoTonDTO) As Result
+    'Public Function update(ctBCT As CTBaoCaoTonDTO) As Result
+    '    '1. verify data here!!
+
+    '    '2. insert to DB
+    '    Return ctbctDAL.update(ctBCT)
+    'End Function
+
+    Public Function update(mact As Integer, tonDau As Integer, phatSinh As Integer, tonCuoi As Integer, listCTBCT As List(Of CTBaoCaoTonDTO)) As Result
         '1. verify data here!!
 
         '2. insert to DB
-        Return ctbctDAL.update(ct)
+        Return ctbctDAL.update(mact, tonDau, phatSinh, tonCuoi, listCTBCT)
     End Function
 
     Public Function delete(mact As Integer) As Result

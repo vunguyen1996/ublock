@@ -49,8 +49,8 @@ Partial Class frmQLHoaDon
         Me.txtMaHD = New System.Windows.Forms.TextBox()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.dtpNgayHoaDonTimKiem = New System.Windows.Forms.DateTimePicker()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.dtpNgayHDTimKiem = New System.Windows.Forms.DateTimePicker()
         CType(Me.dgvListHoaDon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -324,7 +324,7 @@ Partial Class frmQLHoaDon
         '
         'TabPage3
         '
-        Me.TabPage3.Controls.Add(Me.dtpNgayHoaDonTimKiem)
+        Me.TabPage3.Controls.Add(Me.dtpNgayHDTimKiem)
         Me.TabPage3.Controls.Add(Me.Label4)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
@@ -334,16 +334,6 @@ Partial Class frmQLHoaDon
         Me.TabPage3.Text = "Tìm Kiếm"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'dtpNgayHoaDonTimKiem
-        '
-        Me.dtpNgayHoaDonTimKiem.CustomFormat = "MM/dd/yyyy"
-        Me.dtpNgayHoaDonTimKiem.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpNgayHoaDonTimKiem.Location = New System.Drawing.Point(97, 6)
-        Me.dtpNgayHoaDonTimKiem.Name = "dtpNgayHoaDonTimKiem"
-        Me.dtpNgayHoaDonTimKiem.Size = New System.Drawing.Size(246, 20)
-        Me.dtpNgayHoaDonTimKiem.TabIndex = 25
-        Me.dtpNgayHoaDonTimKiem.Value = New Date(2018, 5, 16, 0, 0, 0, 0)
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -352,6 +342,15 @@ Partial Class frmQLHoaDon
         Me.Label4.Size = New System.Drawing.Size(78, 13)
         Me.Label4.TabIndex = 24
         Me.Label4.Text = "Ngày Hóa Đơn"
+        '
+        'dtpNgayHDTimKiem
+        '
+        Me.dtpNgayHDTimKiem.CustomFormat = "MM/dd/yyyy"
+        Me.dtpNgayHDTimKiem.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtpNgayHDTimKiem.Location = New System.Drawing.Point(90, 7)
+        Me.dtpNgayHDTimKiem.Name = "dtpNgayHDTimKiem"
+        Me.dtpNgayHDTimKiem.Size = New System.Drawing.Size(246, 20)
+        Me.dtpNgayHDTimKiem.TabIndex = 37
         '
         'frmQLHoaDon
         '
@@ -392,7 +391,6 @@ Partial Class frmQLHoaDon
     Friend WithEvents txtMaKH As TextBox
     Friend WithEvents TabControl3 As TabControl
     Friend WithEvents TabPage3 As TabPage
-    Friend WithEvents dtpNgayHoaDonTimKiem As DateTimePicker
     Friend WithEvents Label4 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents txtEmail As TextBox
@@ -406,4 +404,5 @@ Partial Class frmQLHoaDon
     Friend WithEvents txtDiaChi As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents txtTriGia As TextBox
+    Friend WithEvents dtpNgayHDTimKiem As DateTimePicker
 End Class

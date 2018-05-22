@@ -153,42 +153,30 @@ Public Class frmQLPhieuThuTien
         Dim currentRowIndex As Integer = dgvListPhieuThuTien.CurrentCellAddress.Y 'current row selected
         'Verify that indexing OK
         If (-1 < currentRowIndex And currentRowIndex < dgvListPhieuThuTien.RowCount) Then
-
+            Try
+                Dim phieuthutien = New PhieuThuTienDTO()
+                '1. Mapping data from GUI control
+                phieuthutien.MaPhieuThu = txtMaPhieuThuTienTimKiem.Text
+                phieuthutien.NgayThu = dtpNgayThu.Value
+                phieuthutien.SoTienThu = txtSoTienThu.Text
+                '2. Business .....
+                '3. Insert to DB
+                Dim result As Result
+                result = phieuThuBus.update(phieuthutien)
+                If (result.FlagResult = True) Then
+                    ' Re-Load LoaiHocSinh list
+                    loadListPhieuThu_byMaPhieuThu(txtMaPhieuThuTienTimKiem.Text)
+                    ' Hightlight the row has been updated on table
+                    dgvListPhieuThuTien.Rows(currentRowIndex).Selected = True
+                    MessageBox.Show("Cập nhật phiếu thu tiền thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Else
+                    MessageBox.Show("Cập nhật phiếu thu tiền không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    System.Console.WriteLine(result.SystemMessage)
+                End If
+            Catch ex As Exception
+                Console.WriteLine(ex.StackTrace)
+            End Try
         End If
-        Try
-            Dim phieuthutien As PhieuThuTienDTO
-            phieuthutien = New PhieuThuTienDTO()
-
-            '1. Mapping data from GUI control
-            phieuthutien.MaPhieuThu = Convert.ToInt32(txtMaPhieuThuTienTimKiem.Text)
-            phieuthutien.MaKhachHang = Convert.ToInt32(txtMaKH.Text)
-            phieuthutien.NgayThu = dtpNgayThu.Value
-            phieuthutien.SoTienThu = txtSoTienThu.Text
-            '2. Business .....
-            '3. Insert to DB
-            Dim result As Result
-            result = phieuThuBus.update(phieuthutien)
-            If (result.FlagResult = True) Then
-                ' Re-Load phieuThuTien list
-                loadListPhieuThu_byMaPhieuThu(txtMaPhieuThuTienTimKiem.Text)
-                ' Hightlight the row has been updated on table
-                dgvListPhieuThuTien.Rows(currentRowIndex).Selected = True
-                Try
-                    phieuthutien = CType(dgvListPhieuThuTien.Rows(currentRowIndex).DataBoundItem, PhieuThuTienDTO)
-                    txtMaPhieuThuTienTimKiem.Text = phieuthutien.MaPhieuThu
-                    txtMaKH.Text = phieuthutien.MaKhachHang
-                    dtpNgayThu.Value = phieuthutien.NgayThu
-                Catch ex As Exception
-                    Console.WriteLine(ex.StackTrace)
-                End Try
-                MessageBox.Show("Cập nhật thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            Else
-                MessageBox.Show("Cập nhật không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                System.Console.WriteLine(result.SystemMessage)
-            End If
-        Catch ex As Exception
-            Console.WriteLine(ex.StackTrace)
-        End Try
     End Sub
 
     Private Sub btXoaPhieuThuTien_Click(sender As Object, e As EventArgs) Handles btXoaPhieuThuTien.Click

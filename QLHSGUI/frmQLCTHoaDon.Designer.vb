@@ -63,6 +63,8 @@ Partial Class frmQLCTHoaDon
         Me.dgvListCTHD = New System.Windows.Forms.DataGridView()
         Me.TabControl6 = New System.Windows.Forms.TabControl()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.btXoaCTHD = New System.Windows.Forms.Button()
+        Me.btCapNhatCTHD = New System.Windows.Forms.Button()
         Me.txtThanhTien = New System.Windows.Forms.TextBox()
         Me.txtDonGia = New System.Windows.Forms.TextBox()
         Me.txtSoLuongBan = New System.Windows.Forms.TextBox()
@@ -91,7 +93,7 @@ Partial Class frmQLCTHoaDon
         'TabControl4
         '
         Me.TabControl4.Controls.Add(Me.TabPage4)
-        Me.TabControl4.Location = New System.Drawing.Point(453, 338)
+        Me.TabControl4.Location = New System.Drawing.Point(453, 400)
         Me.TabControl4.Name = "TabControl4"
         Me.TabControl4.SelectedIndex = 0
         Me.TabControl4.Size = New System.Drawing.Size(351, 166)
@@ -210,10 +212,10 @@ Partial Class frmQLCTHoaDon
         'TabControl3
         '
         Me.TabControl3.Controls.Add(Me.TabPage3)
-        Me.TabControl3.Location = New System.Drawing.Point(453, 126)
+        Me.TabControl3.Location = New System.Drawing.Point(453, 188)
         Me.TabControl3.Name = "TabControl3"
         Me.TabControl3.SelectedIndex = 0
-        Me.TabControl3.Size = New System.Drawing.Size(349, 210)
+        Me.TabControl3.Size = New System.Drawing.Size(351, 210)
         Me.TabControl3.TabIndex = 5
         '
         'TabPage3
@@ -231,7 +233,7 @@ Partial Class frmQLCTHoaDon
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(341, 184)
+        Me.TabPage3.Size = New System.Drawing.Size(343, 184)
         Me.TabPage3.TabIndex = 0
         Me.TabPage3.Text = "Thông Tin Khách Hàng"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -330,7 +332,7 @@ Partial Class frmQLCTHoaDon
         'TabControl2
         '
         Me.TabControl2.Controls.Add(Me.TabPage2)
-        Me.TabControl2.Location = New System.Drawing.Point(453, 12)
+        Me.TabControl2.Location = New System.Drawing.Point(453, 74)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
         Me.TabControl2.Size = New System.Drawing.Size(351, 112)
@@ -410,10 +412,10 @@ Partial Class frmQLCTHoaDon
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Location = New System.Drawing.Point(12, 12)
+        Me.TabControl1.Location = New System.Drawing.Point(453, 12)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(439, 57)
+        Me.TabControl1.Size = New System.Drawing.Size(351, 57)
         Me.TabControl1.TabIndex = 7
         '
         'TabPage1
@@ -423,7 +425,7 @@ Partial Class frmQLCTHoaDon
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(431, 31)
+        Me.TabPage1.Size = New System.Drawing.Size(343, 31)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Tìm Kiếm"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -432,7 +434,7 @@ Partial Class frmQLCTHoaDon
         '
         Me.txtMaHD.Location = New System.Drawing.Point(124, 6)
         Me.txtMaHD.Name = "txtMaHD"
-        Me.txtMaHD.Size = New System.Drawing.Size(218, 20)
+        Me.txtMaHD.Size = New System.Drawing.Size(213, 20)
         Me.txtMaHD.TabIndex = 8
         '
         'Label1
@@ -447,10 +449,10 @@ Partial Class frmQLCTHoaDon
         'TabControl5
         '
         Me.TabControl5.Controls.Add(Me.TabPage5)
-        Me.TabControl5.Location = New System.Drawing.Point(12, 74)
+        Me.TabControl5.Location = New System.Drawing.Point(12, 12)
         Me.TabControl5.Name = "TabControl5"
         Me.TabControl5.SelectedIndex = 0
-        Me.TabControl5.Size = New System.Drawing.Size(439, 262)
+        Me.TabControl5.Size = New System.Drawing.Size(439, 339)
         Me.TabControl5.TabIndex = 8
         '
         'TabPage5
@@ -459,7 +461,7 @@ Partial Class frmQLCTHoaDon
         Me.TabPage5.Location = New System.Drawing.Point(4, 22)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(431, 236)
+        Me.TabPage5.Size = New System.Drawing.Size(431, 313)
         Me.TabPage5.TabIndex = 0
         Me.TabPage5.Text = "Danh Sách Chi Tiết Hóa Đơn Theo Mã Hóa Đơn"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -469,20 +471,22 @@ Partial Class frmQLCTHoaDon
         Me.dgvListCTHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvListCTHD.Location = New System.Drawing.Point(6, 6)
         Me.dgvListCTHD.Name = "dgvListCTHD"
-        Me.dgvListCTHD.Size = New System.Drawing.Size(419, 223)
+        Me.dgvListCTHD.Size = New System.Drawing.Size(419, 301)
         Me.dgvListCTHD.TabIndex = 0
         '
         'TabControl6
         '
         Me.TabControl6.Controls.Add(Me.TabPage6)
-        Me.TabControl6.Location = New System.Drawing.Point(12, 338)
+        Me.TabControl6.Location = New System.Drawing.Point(12, 357)
         Me.TabControl6.Name = "TabControl6"
         Me.TabControl6.SelectedIndex = 0
-        Me.TabControl6.Size = New System.Drawing.Size(439, 166)
+        Me.TabControl6.Size = New System.Drawing.Size(439, 209)
         Me.TabControl6.TabIndex = 9
         '
         'TabPage6
         '
+        Me.TabPage6.Controls.Add(Me.btXoaCTHD)
+        Me.TabPage6.Controls.Add(Me.btCapNhatCTHD)
         Me.TabPage6.Controls.Add(Me.txtThanhTien)
         Me.TabPage6.Controls.Add(Me.txtDonGia)
         Me.TabPage6.Controls.Add(Me.txtSoLuongBan)
@@ -496,17 +500,33 @@ Partial Class frmQLCTHoaDon
         Me.TabPage6.Location = New System.Drawing.Point(4, 22)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(431, 140)
+        Me.TabPage6.Size = New System.Drawing.Size(431, 183)
         Me.TabPage6.TabIndex = 0
         Me.TabPage6.Text = "Thông Tin Chi Tiết Hóa Đơn"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
+        'btXoaCTHD
+        '
+        Me.btXoaCTHD.Location = New System.Drawing.Point(218, 151)
+        Me.btXoaCTHD.Name = "btXoaCTHD"
+        Me.btXoaCTHD.Size = New System.Drawing.Size(75, 23)
+        Me.btXoaCTHD.TabIndex = 23
+        Me.btXoaCTHD.Text = "Xóa"
+        Me.btXoaCTHD.UseVisualStyleBackColor = True
+        '
+        'btCapNhatCTHD
+        '
+        Me.btCapNhatCTHD.Location = New System.Drawing.Point(137, 151)
+        Me.btCapNhatCTHD.Name = "btCapNhatCTHD"
+        Me.btCapNhatCTHD.Size = New System.Drawing.Size(75, 23)
+        Me.btCapNhatCTHD.TabIndex = 22
+        Me.btCapNhatCTHD.Text = "Cập nhật"
+        Me.btCapNhatCTHD.UseVisualStyleBackColor = True
+        '
         'txtThanhTien
         '
-        Me.txtThanhTien.Enabled = False
         Me.txtThanhTien.Location = New System.Drawing.Point(124, 111)
         Me.txtThanhTien.Name = "txtThanhTien"
-        Me.txtThanhTien.ReadOnly = True
         Me.txtThanhTien.Size = New System.Drawing.Size(218, 20)
         Me.txtThanhTien.TabIndex = 21
         '
@@ -591,7 +611,7 @@ Partial Class frmQLCTHoaDon
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(816, 513)
+        Me.ClientSize = New System.Drawing.Size(816, 573)
         Me.Controls.Add(Me.TabControl6)
         Me.Controls.Add(Me.TabControl5)
         Me.Controls.Add(Me.TabControl1)
@@ -674,4 +694,6 @@ Partial Class frmQLCTHoaDon
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents btXoaCTHD As Button
+    Friend WithEvents btCapNhatCTHD As Button
 End Class
