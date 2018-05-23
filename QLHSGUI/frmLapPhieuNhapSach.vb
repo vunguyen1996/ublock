@@ -24,7 +24,7 @@ Public Class frmLapPhieuNhapSach
 
         '1. Mapping data from GUI control
         phieunhap.MaPhieuNhap = Convert.ToInt32(txtMaPhieuNhapSach.Text)
-        phieunhap.NgayNhap = dtpNgayLapPhieu.Value
+        phieunhap.NgayNhap = dtpNgayLapPhieu.Value.ToShortDateString
         '2. Business .....
         '3. Insert to DB
         Dim result As Result

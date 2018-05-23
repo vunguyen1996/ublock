@@ -49,8 +49,8 @@ Partial Class frmQLHoaDon
         Me.txtMaHD = New System.Windows.Forms.TextBox()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.dtpNgayHDTimKiem = New System.Windows.Forms.DateTimePicker()
+        Me.Label4 = New System.Windows.Forms.Label()
         CType(Me.dgvListHoaDon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -270,11 +270,12 @@ Partial Class frmQLHoaDon
         'dtpNgayLapHD
         '
         Me.dtpNgayLapHD.CustomFormat = "MM/dd/yyyy"
-        Me.dtpNgayLapHD.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dtpNgayLapHD.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpNgayLapHD.Location = New System.Drawing.Point(118, 237)
         Me.dtpNgayLapHD.Name = "dtpNgayLapHD"
         Me.dtpNgayLapHD.Size = New System.Drawing.Size(246, 20)
         Me.dtpNgayLapHD.TabIndex = 22
+        Me.dtpNgayLapHD.Value = New Date(2018, 5, 23, 20, 3, 39, 0)
         '
         'Label3
         '
@@ -334,6 +335,15 @@ Partial Class frmQLHoaDon
         Me.TabPage3.Text = "Tìm Kiếm"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
+        'dtpNgayHDTimKiem
+        '
+        Me.dtpNgayHDTimKiem.CustomFormat = "MM/dd/yyyy"
+        Me.dtpNgayHDTimKiem.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpNgayHDTimKiem.Location = New System.Drawing.Point(90, 7)
+        Me.dtpNgayHDTimKiem.Name = "dtpNgayHDTimKiem"
+        Me.dtpNgayHDTimKiem.Size = New System.Drawing.Size(246, 20)
+        Me.dtpNgayHDTimKiem.TabIndex = 37
+        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -342,15 +352,6 @@ Partial Class frmQLHoaDon
         Me.Label4.Size = New System.Drawing.Size(78, 13)
         Me.Label4.TabIndex = 24
         Me.Label4.Text = "Ngày Hóa Đơn"
-        '
-        'dtpNgayHDTimKiem
-        '
-        Me.dtpNgayHDTimKiem.CustomFormat = "MM/dd/yyyy"
-        Me.dtpNgayHDTimKiem.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpNgayHDTimKiem.Location = New System.Drawing.Point(90, 7)
-        Me.dtpNgayHDTimKiem.Name = "dtpNgayHDTimKiem"
-        Me.dtpNgayHDTimKiem.Size = New System.Drawing.Size(246, 20)
-        Me.dtpNgayHDTimKiem.TabIndex = 37
         '
         'frmQLHoaDon
         '

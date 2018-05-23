@@ -64,7 +64,7 @@ Public Class frmLapHoaDon
         '1. Mapping data from GUI control
         hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
         hoadon.NgayHoaDon = dtpNgayLapHD.Value.ToShortDateString
-        hoadon.MaKhachHang = txtMaKH.Text
+        hoadon.MaKhachHang = Convert.ToInt32(txtMaKH.Text)
         '2. Business .....
         '3. Insert to DB
         Dim tiennoKH = Integer.Parse(txtTienNo.Text)

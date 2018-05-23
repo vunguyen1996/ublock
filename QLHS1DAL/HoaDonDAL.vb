@@ -90,11 +90,8 @@ Public Class HoaDonDAL
     Public Function update(hoadon As HoaDonDTO) As Result
 
         Dim query As String = String.Empty
-        query &= " UPDATE [tblHoaDon] SET"
-        query &= " [NgayHoaDon] = @ngayhoadon"
-        query &= ",[TongTriGiaHD] = @trigia"
-        query &= "WHERE"
-        query &= " [MAHD] = @mahd "
+        query &= " UPDATE [tblHoaDon] SET [NgayHoaDon] = @ngayhoadon, [TongTriGiaHD] = @trigiahd"
+        query &= " WHERE [MAHD] = @mahd"
 
         Using conn As New SqlConnection(connectionString)
             Using comm As New SqlCommand()
@@ -103,7 +100,7 @@ Public Class HoaDonDAL
                     .CommandType = CommandType.Text
                     .CommandText = query
                     .Parameters.AddWithValue("@ngayhoadon", hoadon.NgayHoaDon)
-                    .Parameters.AddWithValue("@trigia", hoadon.TongTriGia)
+                    .Parameters.AddWithValue("@trigiahd", hoadon.TongTriGia)
                     .Parameters.AddWithValue("@mahd", hoadon.MaHoaDon)
                 End With
                 Try

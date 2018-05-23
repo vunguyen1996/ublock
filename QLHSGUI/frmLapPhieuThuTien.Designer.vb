@@ -112,6 +112,7 @@ Partial Class frmLapPhieuThuTien
         'cbqd
         '
         Me.cbqd.AutoSize = True
+        Me.cbqd.Enabled = False
         Me.cbqd.Location = New System.Drawing.Point(206, 290)
         Me.cbqd.Name = "cbqd"
         Me.cbqd.Size = New System.Drawing.Size(192, 17)

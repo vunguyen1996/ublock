@@ -255,7 +255,8 @@ Public Class frmQLSach
                 result = sachBus.update(sach)
                 If (result.FlagResult = True) Then
                     ' Re-Load sach list
-                    loadListSach_ByMaLoaiSach(cbbLoaiSach.SelectedValue)
+                    'loadListSach_ByMaLoaiSach(cbbLoaiSach.SelectedValue)
+                    loadListSach_ByTenSach(txtTenSach.Text)
                     ' Hightlight the row has been updated on table
                     dgvListSach.Rows(currentRowIndex).Selected = True
 

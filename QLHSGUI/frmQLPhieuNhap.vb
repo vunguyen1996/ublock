@@ -10,7 +10,7 @@ Public Class frmQLPhieuNhap
     Private Sub frmQLPhieuNhap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pnBus = New PhieuNhapBUS()
         ' Load list phieu nhap
-        ' loadlistPhieuNhap()
+        loadlistPhieuNhap()
     End Sub
 
     Private Sub loadlistPhieuNhap()

@@ -184,5 +184,4 @@ Public Class frmThemCTPhieuNhap
         Dim soluongtoncuoi = soluongtontruockhinhap + soluongnhap
         txtSoLuongTonSauKhiNhap.Text = soluongtoncuoi
     End Sub
-
 End Class

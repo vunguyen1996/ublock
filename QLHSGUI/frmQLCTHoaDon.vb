@@ -266,6 +266,21 @@ Public Class frmQLCTHoaDon
     End Sub
 
     Private Sub btCapNhatCTHD_Click(sender As Object, e As EventArgs) Handles btCapNhatCTHD.Click
+        Dim tongTriGia = Convert.ToInt32(txtTongTriGiaHD.Text)
+        Dim thanhtienTruoc = Convert.ToInt32(txtThanhTien.Text)
+        Dim thanhtienSau = Convert.ToInt32(txtThanhTienSauKhiCapNhat.Text)
+
+        If (thanhtienSau > thanhtienTruoc) Then
+            txtTongTriGiaHD.Text = tongTriGia + thanhtienSau - thanhtienTruoc
+        End If
+
+        If (thanhtienSau < thanhtienTruoc) Then
+            txtTongTriGiaHD.Text = tongTriGia - thanhtienTruoc + thanhtienSau
+        End If
+
+        If (thanhtienSau = thanhtienTruoc) Then
+            txtTongTriGiaHD.Text = tongTriGia
+        End If
         ' Get the current cell location.
         Dim currentRowIndex As Integer = dgvListCTHD.CurrentCellAddress.Y 'current row selected
         'Verify that indexing OK
@@ -391,37 +406,24 @@ Public Class frmQLCTHoaDon
         End Try
     End Sub
 
-    'Private Sub btUpdateTriGiaHD_CapNhat_Click(sender As Object, e As EventArgs) Handles btCapNhatCTHD.Click
-    '    Try
-    '        Dim hoadon As HoaDonDTO
-    '        hoadon = New HoaDonDTO()
-    '        If (txtThanhTienSauKhiCapNhat.Text > txtThanhTien.Text) Then
-    '            txtTongTriGiaHD.Text = txtTongTriGiaHD.Text + txtThanhTienSauKhiCapNhat.Text - txtThanhTien.Text
-    '            hoadon.TongTriGia = txtTongTriGiaHD.Text
-    '        End If
+    Private Sub btUpdateTriGiaHD_CapNhat_Click(sender As Object, e As EventArgs) Handles btCapNhatCTHD.Click
+        Try
+            Dim hoadon As HoaDonDTO
+            hoadon = New HoaDonDTO()
 
-    '        If (txtThanhTienSauKhiCapNhat.Text < txtThanhTien.Text) Then
-    '            txtTongTriGiaHD.Text = txtTongTriGiaHD.Text + txtThanhTienSauKhiCapNhat.Text - txtThanhTien.Text
-    '            hoadon.TongTriGia = txtTongTriGiaHD.Text
-    '        End If
+            '1. Mapping data from GUI control
+            hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
+            hoadon.TongTriGia = txtTongTriGiaHD.Text
 
-    '        If (txtThanhTienSauKhiCapNhat.Text = txtThanhTien.Text) Then
-    '            txtTongTriGiaHD.Text = txtTongTriGiaHD.Text
-    '            hoadon.TongTriGia = txtTongTriGiaHD.Text
-    '        End If
-    '        '1. Mapping data from GUI control
-    '        hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
+            Dim result As Result
+            result = hoadonBus.update_TriGiaHoaDon(hoadon)
+            If (result.FlagResult = False) Then
+                MessageBox.Show("Cập nhật trị giá hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        Catch ex As Exception
 
-
-    '        Dim result As Result
-    '        result = hoadonBus.update_TriGiaHoaDon(hoadon)
-    '        If (result.FlagResult = False) Then
-    '            MessageBox.Show("Cập nhật trị giá hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-    '        End If
-    '    Catch ex As Exception
-
-    '    End Try
-    'End Sub
+        End Try
+    End Sub
 
     Private Sub txtDonGia_TextChanged(sender As Object, e As EventArgs) Handles txtDonGia.TextChanged
         Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)

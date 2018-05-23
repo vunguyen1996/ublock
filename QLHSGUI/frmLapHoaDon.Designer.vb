@@ -275,13 +275,12 @@ Partial Class frmLapHoaDon
         '
         'dtpNgayLapHD
         '
-        Me.dtpNgayLapHD.CustomFormat = "MM/dd/yyy"
+        Me.dtpNgayLapHD.CustomFormat = "MM/dd/yyyy"
         Me.dtpNgayLapHD.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpNgayLapHD.Location = New System.Drawing.Point(118, 263)
         Me.dtpNgayLapHD.Name = "dtpNgayLapHD"
         Me.dtpNgayLapHD.Size = New System.Drawing.Size(246, 20)
         Me.dtpNgayLapHD.TabIndex = 40
-        Me.dtpNgayLapHD.Value = New Date(2018, 5, 21, 13, 1, 56, 0)
         '
         'frmLapHoaDon
         '

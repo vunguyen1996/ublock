@@ -193,22 +193,31 @@ Public Class frmQLHoaDon
         End Try
     End Sub
 
+    Private Sub dtpNgayHDTimKiem_ValueChanged(sender As Object, e As EventArgs) Handles dtpNgayHDTimKiem.ValueChanged
+        Try
+            Dim ngayHD = dtpNgayHDTimKiem.Value.ToShortDateString
+            loadlistHoaDon_ByNgayHoaDon(ngayHD)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
     Private Sub btCapNhatHoaDon_Click(sender As Object, e As EventArgs) Handles btCapNhatHoaDon.Click
         Dim currentRowIndex As Integer = dgvListHoaDon.CurrentCellAddress.Y
         'current row selected
         If (-1 < currentRowIndex And currentRowIndex < dgvListHoaDon.RowCount) Then
             Try
                 Dim hoadon As HoaDonDTO
-                hoadon = New HoaDonDTO
+                hoadon = New HoaDonDTO()
 
-                hoadon.NgayHoaDon = dtpNgayLapHD.Value
+                hoadon.NgayHoaDon = dtpNgayLapHD.Value.ToShortDateString
                 hoadon.TongTriGia = txtTriGia.Text
                 hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
 
                 Dim result As Result
                 result = hdBus.update(hoadon)
                 If (result.FlagResult = True) Then
-                    loadlistHoaDon_ByNgayHoaDon(dtpNgayLapHD.Value)
+                    loadlistHoaDon_ByNgayHoaDon(dtpNgayLapHD.Value.ToShortDateString)
                     MessageBox.Show("Cập nhật hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                 End If
                 MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
@@ -217,14 +226,5 @@ Public Class frmQLHoaDon
                 Console.WriteLine(ex.StackTrace)
             End Try
         End If
-    End Sub
-
-    Private Sub dtpNgayHDTimKiem_ValueChanged(sender As Object, e As EventArgs) Handles dtpNgayHDTimKiem.ValueChanged
-        Try
-            Dim ngayHD = dtpNgayHDTimKiem.Value.ToShortDateString
-            loadlistHoaDon_ByNgayHoaDon(ngayHD)
-        Catch ex As Exception
-
-        End Try
     End Sub
 End Class
