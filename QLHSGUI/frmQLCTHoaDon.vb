@@ -273,11 +273,12 @@ Public Class frmQLCTHoaDon
             Try
                 Dim cthd = New CTHoaDonDTO()
                 '1. Mapping data from GUI control
+
                 cthd.MaChiTietHD = Convert.ToInt32(txtMaCTHD.Text)
                 cthd.MaSach = Convert.ToInt32(txtMaSach.Text)
                 cthd.SoLuongBan = txtSoLuongBan.Text
                 cthd.DonGia = txtDonGia.Text
-                cthd.ThanhTien = txtThanhTien.Text
+                cthd.ThanhTien = txtThanhTienSauKhiCapNhat.Text
                 cthd.MaHD = Convert.ToInt32(txtMaHD.Text)
                 '2. Business .....
                 '3. Insert to DB
@@ -285,7 +286,7 @@ Public Class frmQLCTHoaDon
                 result = cthoadonBus.update(cthd)
                 If (result.FlagResult = True) Then
                     ' Re-Load LoaiHocSinh list
-                    loadlistHD_byMaHD(txtMaHD.Text)
+                    loadListCTHoaDon_byMaHD(txtMaHD.Text)
                     ' Hightlight the row has been updated on table
                     dgvListCTHD.Rows(currentRowIndex).Selected = True
                     MessageBox.Show("Cập nhật chi tiết hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -293,6 +294,7 @@ Public Class frmQLCTHoaDon
                     MessageBox.Show("Cập nhật chi tiết hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                     System.Console.WriteLine(result.SystemMessage)
                 End If
+
             Catch ex As Exception
                 Console.WriteLine(ex.StackTrace)
             End Try
@@ -370,21 +372,7 @@ Public Class frmQLCTHoaDon
         End If
     End Sub
 
-    Private Sub txtDonGia_TextChanged(sender As Object, e As EventArgs) Handles txtDonGia.TextChanged
-        Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)
-        Dim dongia = Convert.ToInt32(txtDonGia.Text)
-        Dim thanhtien = (soluongban * dongia)
-        txtThanhTien.Text = Convert.ToInt32(thanhtien)
-    End Sub
-
-    Private Sub txtSoLuongBan_TextChanged(sender As Object, e As EventArgs) Handles txtSoLuongBan.TextChanged
-        Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)
-        Dim dongia = Convert.ToInt32(txtDonGia.Text)
-        Dim thanhtien = (soluongban * dongia)
-        txtThanhTien.Text = Convert.ToInt32(thanhtien)
-    End Sub
-
-    Private Sub btUpdateTriGiaHD_Click(sender As Object, e As EventArgs) Handles btXoaCTHD.Click
+    Private Sub btUpdateTriGiaHD_Xoa_Click(sender As Object, e As EventArgs) Handles btXoaCTHD.Click
         Try
             Dim hoadon As HoaDonDTO
             hoadon = New HoaDonDTO()
@@ -401,6 +389,52 @@ Public Class frmQLCTHoaDon
         Catch ex As Exception
 
         End Try
+    End Sub
+
+    'Private Sub btUpdateTriGiaHD_CapNhat_Click(sender As Object, e As EventArgs) Handles btCapNhatCTHD.Click
+    '    Try
+    '        Dim hoadon As HoaDonDTO
+    '        hoadon = New HoaDonDTO()
+    '        If (txtThanhTienSauKhiCapNhat.Text > txtThanhTien.Text) Then
+    '            txtTongTriGiaHD.Text = txtTongTriGiaHD.Text + txtThanhTienSauKhiCapNhat.Text - txtThanhTien.Text
+    '            hoadon.TongTriGia = txtTongTriGiaHD.Text
+    '        End If
+
+    '        If (txtThanhTienSauKhiCapNhat.Text < txtThanhTien.Text) Then
+    '            txtTongTriGiaHD.Text = txtTongTriGiaHD.Text + txtThanhTienSauKhiCapNhat.Text - txtThanhTien.Text
+    '            hoadon.TongTriGia = txtTongTriGiaHD.Text
+    '        End If
+
+    '        If (txtThanhTienSauKhiCapNhat.Text = txtThanhTien.Text) Then
+    '            txtTongTriGiaHD.Text = txtTongTriGiaHD.Text
+    '            hoadon.TongTriGia = txtTongTriGiaHD.Text
+    '        End If
+    '        '1. Mapping data from GUI control
+    '        hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
+
+
+    '        Dim result As Result
+    '        result = hoadonBus.update_TriGiaHoaDon(hoadon)
+    '        If (result.FlagResult = False) Then
+    '            MessageBox.Show("Cập nhật trị giá hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '        End If
+    '    Catch ex As Exception
+
+    '    End Try
+    'End Sub
+
+    Private Sub txtDonGia_TextChanged(sender As Object, e As EventArgs) Handles txtDonGia.TextChanged
+        Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)
+        Dim dongia = Convert.ToInt32(txtDonGia.Text)
+        Dim thanhtienSau = (soluongban * dongia)
+        txtThanhTienSauKhiCapNhat.Text = Convert.ToInt32(thanhtienSau)
+    End Sub
+
+    Private Sub txtSoLuongBan_TextChanged(sender As Object, e As EventArgs) Handles txtSoLuongBan.TextChanged
+        Dim soluongban = Convert.ToInt32(txtSoLuongBan.Text)
+        Dim dongia = Convert.ToInt32(txtDonGia.Text)
+        Dim thanhtienSau = (soluongban * dongia)
+        txtThanhTienSauKhiCapNhat.Text = Convert.ToInt32(thanhtienSau)
     End Sub
 
 End Class

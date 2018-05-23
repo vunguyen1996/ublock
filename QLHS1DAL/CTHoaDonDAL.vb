@@ -93,13 +93,8 @@ Public Class CTHoaDonDAL
     Public Function update(cthd As CTHoaDonDTO) As Result
 
         Dim query As String = String.Empty
-        query &= " UPDATE [tblCTHoaDon] SET"
-        query &= " [MAHD] = @mahd"
-        query &= ",[MASACH] = @masach"
-        query &= ",[SoLuongBan] = @soluongban"
-        query &= ",[DonGiaBan] = @dongia"
-        query &= ",[ThanhTien] = @thanhtien"
-        query &= "WHERE "
+        query &= " UPDATE [tblCTHoaDon] SET [MAHD] = @mahd, [MASACH] = @masach, [SoLuongBan] = @soluongban, [DonGiaBan] = @dongia, [ThanhTien] = @thanhtien"
+        query &= " WHERE "
         query &= " [MACTHD] = @macthd "
 
         Using conn As New SqlConnection(connectionString)

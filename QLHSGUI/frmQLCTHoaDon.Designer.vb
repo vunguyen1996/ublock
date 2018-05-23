@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmQLCTHoaDon
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmQLCTHoaDon
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.TabControl4 = New System.Windows.Forms.TabControl()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
@@ -63,6 +63,8 @@ Partial Class frmQLCTHoaDon
         Me.dgvListCTHD = New System.Windows.Forms.DataGridView()
         Me.TabControl6 = New System.Windows.Forms.TabControl()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.txtThanhTienSauKhiCapNhat = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
         Me.btXoaCTHD = New System.Windows.Forms.Button()
         Me.btCapNhatCTHD = New System.Windows.Forms.Button()
         Me.txtThanhTien = New System.Windows.Forms.TextBox()
@@ -452,7 +454,7 @@ Partial Class frmQLCTHoaDon
         Me.TabControl5.Location = New System.Drawing.Point(12, 12)
         Me.TabControl5.Name = "TabControl5"
         Me.TabControl5.SelectedIndex = 0
-        Me.TabControl5.Size = New System.Drawing.Size(439, 339)
+        Me.TabControl5.Size = New System.Drawing.Size(439, 312)
         Me.TabControl5.TabIndex = 8
         '
         'TabPage5
@@ -461,7 +463,7 @@ Partial Class frmQLCTHoaDon
         Me.TabPage5.Location = New System.Drawing.Point(4, 22)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(431, 313)
+        Me.TabPage5.Size = New System.Drawing.Size(431, 286)
         Me.TabPage5.TabIndex = 0
         Me.TabPage5.Text = "Danh Sách Chi Tiết Hóa Đơn Theo Mã Hóa Đơn"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -471,20 +473,22 @@ Partial Class frmQLCTHoaDon
         Me.dgvListCTHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvListCTHD.Location = New System.Drawing.Point(6, 6)
         Me.dgvListCTHD.Name = "dgvListCTHD"
-        Me.dgvListCTHD.Size = New System.Drawing.Size(419, 301)
+        Me.dgvListCTHD.Size = New System.Drawing.Size(419, 274)
         Me.dgvListCTHD.TabIndex = 0
         '
         'TabControl6
         '
         Me.TabControl6.Controls.Add(Me.TabPage6)
-        Me.TabControl6.Location = New System.Drawing.Point(12, 357)
+        Me.TabControl6.Location = New System.Drawing.Point(12, 330)
         Me.TabControl6.Name = "TabControl6"
         Me.TabControl6.SelectedIndex = 0
-        Me.TabControl6.Size = New System.Drawing.Size(439, 209)
+        Me.TabControl6.Size = New System.Drawing.Size(439, 236)
         Me.TabControl6.TabIndex = 9
         '
         'TabPage6
         '
+        Me.TabPage6.Controls.Add(Me.txtThanhTienSauKhiCapNhat)
+        Me.TabPage6.Controls.Add(Me.Label20)
         Me.TabPage6.Controls.Add(Me.btXoaCTHD)
         Me.TabPage6.Controls.Add(Me.btCapNhatCTHD)
         Me.TabPage6.Controls.Add(Me.txtThanhTien)
@@ -500,14 +504,30 @@ Partial Class frmQLCTHoaDon
         Me.TabPage6.Location = New System.Drawing.Point(4, 22)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(431, 183)
+        Me.TabPage6.Size = New System.Drawing.Size(431, 210)
         Me.TabPage6.TabIndex = 0
         Me.TabPage6.Text = "Thông Tin Chi Tiết Hóa Đơn"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
+        'txtThanhTienSauKhiCapNhat
+        '
+        Me.txtThanhTienSauKhiCapNhat.Location = New System.Drawing.Point(144, 137)
+        Me.txtThanhTienSauKhiCapNhat.Name = "txtThanhTienSauKhiCapNhat"
+        Me.txtThanhTienSauKhiCapNhat.Size = New System.Drawing.Size(198, 20)
+        Me.txtThanhTienSauKhiCapNhat.TabIndex = 25
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(6, 139)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(132, 13)
+        Me.Label20.TabIndex = 24
+        Me.Label20.Text = "Thành Tiền Sau Cập Nhật"
+        '
         'btXoaCTHD
         '
-        Me.btXoaCTHD.Location = New System.Drawing.Point(218, 151)
+        Me.btXoaCTHD.Location = New System.Drawing.Point(218, 181)
         Me.btXoaCTHD.Name = "btXoaCTHD"
         Me.btXoaCTHD.Size = New System.Drawing.Size(75, 23)
         Me.btXoaCTHD.TabIndex = 23
@@ -516,7 +536,7 @@ Partial Class frmQLCTHoaDon
         '
         'btCapNhatCTHD
         '
-        Me.btCapNhatCTHD.Location = New System.Drawing.Point(137, 151)
+        Me.btCapNhatCTHD.Location = New System.Drawing.Point(137, 181)
         Me.btCapNhatCTHD.Name = "btCapNhatCTHD"
         Me.btCapNhatCTHD.Size = New System.Drawing.Size(75, 23)
         Me.btCapNhatCTHD.TabIndex = 22
@@ -525,41 +545,43 @@ Partial Class frmQLCTHoaDon
         '
         'txtThanhTien
         '
-        Me.txtThanhTien.Location = New System.Drawing.Point(124, 111)
+        Me.txtThanhTien.Enabled = False
+        Me.txtThanhTien.Location = New System.Drawing.Point(144, 111)
         Me.txtThanhTien.Name = "txtThanhTien"
-        Me.txtThanhTien.Size = New System.Drawing.Size(218, 20)
+        Me.txtThanhTien.ReadOnly = True
+        Me.txtThanhTien.Size = New System.Drawing.Size(198, 20)
         Me.txtThanhTien.TabIndex = 21
         '
         'txtDonGia
         '
-        Me.txtDonGia.Location = New System.Drawing.Point(124, 85)
+        Me.txtDonGia.Location = New System.Drawing.Point(144, 85)
         Me.txtDonGia.Name = "txtDonGia"
-        Me.txtDonGia.Size = New System.Drawing.Size(218, 20)
+        Me.txtDonGia.Size = New System.Drawing.Size(198, 20)
         Me.txtDonGia.TabIndex = 20
         '
         'txtSoLuongBan
         '
-        Me.txtSoLuongBan.Location = New System.Drawing.Point(124, 59)
+        Me.txtSoLuongBan.Location = New System.Drawing.Point(144, 59)
         Me.txtSoLuongBan.Name = "txtSoLuongBan"
-        Me.txtSoLuongBan.Size = New System.Drawing.Size(218, 20)
+        Me.txtSoLuongBan.Size = New System.Drawing.Size(198, 20)
         Me.txtSoLuongBan.TabIndex = 19
         '
         'txtMaSach
         '
         Me.txtMaSach.Enabled = False
-        Me.txtMaSach.Location = New System.Drawing.Point(124, 32)
+        Me.txtMaSach.Location = New System.Drawing.Point(144, 32)
         Me.txtMaSach.Name = "txtMaSach"
         Me.txtMaSach.ReadOnly = True
-        Me.txtMaSach.Size = New System.Drawing.Size(218, 20)
+        Me.txtMaSach.Size = New System.Drawing.Size(198, 20)
         Me.txtMaSach.TabIndex = 18
         '
         'txtMaCTHD
         '
         Me.txtMaCTHD.Enabled = False
-        Me.txtMaCTHD.Location = New System.Drawing.Point(124, 6)
+        Me.txtMaCTHD.Location = New System.Drawing.Point(144, 6)
         Me.txtMaCTHD.Name = "txtMaCTHD"
         Me.txtMaCTHD.ReadOnly = True
-        Me.txtMaCTHD.Size = New System.Drawing.Size(218, 20)
+        Me.txtMaCTHD.Size = New System.Drawing.Size(198, 20)
         Me.txtMaCTHD.TabIndex = 13
         '
         'Label6
@@ -696,4 +718,6 @@ Partial Class frmQLCTHoaDon
     Friend WithEvents Label2 As Label
     Friend WithEvents btXoaCTHD As Button
     Friend WithEvents btCapNhatCTHD As Button
+    Friend WithEvents txtThanhTienSauKhiCapNhat As TextBox
+    Friend WithEvents Label20 As Label
 End Class
