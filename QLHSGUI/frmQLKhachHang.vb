@@ -283,7 +283,7 @@ Public Class frmQLKhachHang
                         result = khBus.delete(txtMaKH.Text)
                         If (result.FlagResult = True) Then
                             ' Re-Load LoaiHocSinh list
-                            loadListKH_ByMaKH(txtMaKH.Text)
+                            loadListKH()
                             ' Hightlight the next row on table
                             If (currentRowIndex >= dgvListKhachHang.Rows.Count) Then
                                 currentRowIndex = currentRowIndex - 1

@@ -17,18 +17,11 @@ Public Class HoaDonBUS
         Return hdDAL.getNextID(nextID)
     End Function
 
-    Public Function insert(pn As HoaDonDTO) As Result
+    Public Function insert(hd As HoaDonDTO) As Result
         '1. verify data here!!
 
         '2. insert to DB
-        Return hdDAL.insert(pn)
-    End Function
-
-    Public Function update(hoadon As HoaDonDTO) As Result
-        '1. verify data here!!
-
-        '2. insert to DB
-        Return hdDAL.update(hoadon)
+        Return hdDAL.insert(hd)
     End Function
 
     Public Function update_TriGiaHoaDon(hoadon As HoaDonDTO) As Result
@@ -64,5 +57,9 @@ Public Class HoaDonBUS
 
         '2. insert to DB
         Return hdDAL.selectALL_ByMaHD(maHD, listhd)
+    End Function
+
+    Public Function update(hoadon As HoaDonDTO) As Result
+        Return hdDAL.update(hoadon)
     End Function
 End Class

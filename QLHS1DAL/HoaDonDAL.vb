@@ -50,6 +50,7 @@ Public Class HoaDonDAL
         End Using
         Return New Result(True) ' thanh cong
     End Function
+
     Public Function insert(hd As HoaDonDTO) As Result
 
         Dim query As String = String.Empty
@@ -87,36 +88,6 @@ Public Class HoaDonDAL
         Return New Result(True) ' thanh cong
     End Function
 
-    Public Function update(hoadon As HoaDonDTO) As Result
-
-        Dim query As String = String.Empty
-        query &= " UPDATE [tblHoaDon] SET [NgayHoaDon] = @ngayhoadon, [TongTriGiaHD] = @trigiahd"
-        query &= " WHERE [MAHD] = @mahd"
-
-        Using conn As New SqlConnection(connectionString)
-            Using comm As New SqlCommand()
-                With comm
-                    .Connection = conn
-                    .CommandType = CommandType.Text
-                    .CommandText = query
-                    .Parameters.AddWithValue("@ngayhoadon", hoadon.NgayHoaDon)
-                    .Parameters.AddWithValue("@trigiahd", hoadon.TongTriGia)
-                    .Parameters.AddWithValue("@mahd", hoadon.MaHoaDon)
-                End With
-                Try
-                    conn.Open()
-                    comm.ExecuteNonQuery()
-                Catch ex As Exception
-                    Console.WriteLine(ex.StackTrace)
-                    conn.Close()
-                    ' them that bai!!!
-                    Return New Result(False, "Cập nhật phiếu hóa đơn không thành công", ex.StackTrace)
-                End Try
-            End Using
-        End Using
-        Return New Result(True) ' thanh cong
-    End Function
-
     Public Function update_TriGiaHoaDon(hoadon As HoaDonDTO) As Result
 
         Dim query As String = String.Empty
@@ -141,6 +112,35 @@ Public Class HoaDonDAL
                     conn.Close()
                     ' them that bai!!!
                     Return New Result(False, "Cập nhật phiếu hóa đơn không thành công", ex.StackTrace)
+                End Try
+            End Using
+        End Using
+        Return New Result(True) ' thanh cong
+    End Function
+
+    Public Function update(hoadon As HoaDonDTO) As Result
+        Dim query As String = String.Empty
+        query &= " UPDATE [tblHoaDon] SET [NgayHoaDon] = @ngayhd, [TongTriGiaHD] = @trigia "
+        query &= " WHERE [MAHD] = @mahd"
+
+        Using conn As New SqlConnection(connectionString)
+            Using comm As New SqlCommand()
+                With comm
+                    .Connection = conn
+                    .CommandType = CommandType.Text
+                    .CommandText = query
+                    .Parameters.AddWithValue("@ngayhd", hoadon.NgayHoaDon)
+                    .Parameters.AddWithValue("@trigia", hoadon.TongTriGia)
+                    .Parameters.AddWithValue("@mahd", hoadon.MaHoaDon)
+                End With
+                Try
+                    conn.Open()
+                    comm.ExecuteNonQuery()
+                Catch ex As Exception
+                    Console.WriteLine(ex.StackTrace)
+                    conn.Close()
+                    ' them that bai!!!
+                    Return New Result(False, "Cập nhật hóa đơn không thành công", ex.StackTrace)
                 End Try
             End Using
         End Using

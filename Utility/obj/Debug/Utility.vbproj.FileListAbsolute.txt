@@ -145,3 +145,4 @@ C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.vbpr
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.dll
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.xml
 C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.pdb
+C:\Users\Nguyen Anh Tu\Desktop\Project_QLNS_Final\Utility\obj\Debug\Utility.vbprojResolveAssemblyReference.cache

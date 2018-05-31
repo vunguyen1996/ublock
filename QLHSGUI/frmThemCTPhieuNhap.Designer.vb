@@ -33,7 +33,6 @@ Partial Class frmThemCTPhieuNhap
         Me.txtTheLoai = New System.Windows.Forms.TextBox()
         Me.dtpNgayLapPhieu = New System.Windows.Forms.DateTimePicker()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.txtMaPhieuNhap = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txtTacGia = New System.Windows.Forms.TextBox()
         Me.txtTenSach = New System.Windows.Forms.TextBox()
@@ -49,6 +48,7 @@ Partial Class frmThemCTPhieuNhap
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtMaCTPN = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.cbbMaPN = New System.Windows.Forms.ComboBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.SuspendLayout()
@@ -64,6 +64,7 @@ Partial Class frmThemCTPhieuNhap
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.cbbMaPN)
         Me.TabPage1.Controls.Add(Me.Label12)
         Me.TabPage1.Controls.Add(Me.txtSoLuongTonSauKhiNhap)
         Me.TabPage1.Controls.Add(Me.btThemCTPN)
@@ -73,7 +74,6 @@ Partial Class frmThemCTPhieuNhap
         Me.TabPage1.Controls.Add(Me.txtTheLoai)
         Me.TabPage1.Controls.Add(Me.dtpNgayLapPhieu)
         Me.TabPage1.Controls.Add(Me.Label9)
-        Me.TabPage1.Controls.Add(Me.txtMaPhieuNhap)
         Me.TabPage1.Controls.Add(Me.Label8)
         Me.TabPage1.Controls.Add(Me.txtTacGia)
         Me.TabPage1.Controls.Add(Me.txtTenSach)
@@ -181,13 +181,6 @@ Partial Class frmThemCTPhieuNhap
         Me.Label9.Size = New System.Drawing.Size(83, 13)
         Me.Label9.TabIndex = 41
         Me.Label9.Text = "Ngày Lập Phiếu"
-        '
-        'txtMaPhieuNhap
-        '
-        Me.txtMaPhieuNhap.Location = New System.Drawing.Point(155, 32)
-        Me.txtMaPhieuNhap.Name = "txtMaPhieuNhap"
-        Me.txtMaPhieuNhap.Size = New System.Drawing.Size(224, 20)
-        Me.txtMaPhieuNhap.TabIndex = 39
         '
         'Label8
         '
@@ -325,6 +318,15 @@ Partial Class frmThemCTPhieuNhap
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Mã Chi Tiết Phiếu Nhập"
         '
+        'cbbMaPN
+        '
+        Me.cbbMaPN.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbbMaPN.FormattingEnabled = True
+        Me.cbbMaPN.Location = New System.Drawing.Point(155, 31)
+        Me.cbbMaPN.Name = "cbbMaPN"
+        Me.cbbMaPN.Size = New System.Drawing.Size(224, 21)
+        Me.cbbMaPN.TabIndex = 49
+        '
         'frmThemCTPhieuNhap
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -359,7 +361,6 @@ Partial Class frmThemCTPhieuNhap
     Friend WithEvents txtMaSach As TextBox
     Friend WithEvents txtTacGia As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents txtMaPhieuNhap As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents dtpNgayLapPhieu As DateTimePicker
     Friend WithEvents Label10 As Label
@@ -368,4 +369,5 @@ Partial Class frmThemCTPhieuNhap
     Friend WithEvents Label11 As Label
     Friend WithEvents txtSoLuongTonSauKhiNhap As TextBox
     Friend WithEvents Label12 As Label
+    Friend WithEvents cbbMaPN As ComboBox
 End Class

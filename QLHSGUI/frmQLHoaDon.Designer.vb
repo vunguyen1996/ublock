@@ -27,12 +27,12 @@ Partial Class frmQLHoaDon
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.btCapNhatHD = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.txtTriGia = New System.Windows.Forms.TextBox()
         Me.txtDiaChi = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.btXoaHoaDon = New System.Windows.Forms.Button()
-        Me.btCapNhatHoaDon = New System.Windows.Forms.Button()
         Me.txtTienNo = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txtSDT = New System.Windows.Forms.TextBox()
@@ -99,12 +99,12 @@ Partial Class frmQLHoaDon
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.btCapNhatHD)
         Me.TabPage2.Controls.Add(Me.Label10)
         Me.TabPage2.Controls.Add(Me.txtTriGia)
         Me.TabPage2.Controls.Add(Me.txtDiaChi)
         Me.TabPage2.Controls.Add(Me.Label9)
         Me.TabPage2.Controls.Add(Me.btXoaHoaDon)
-        Me.TabPage2.Controls.Add(Me.btCapNhatHoaDon)
         Me.TabPage2.Controls.Add(Me.txtTienNo)
         Me.TabPage2.Controls.Add(Me.Label8)
         Me.TabPage2.Controls.Add(Me.txtSDT)
@@ -126,6 +126,15 @@ Partial Class frmQLHoaDon
         Me.TabPage2.TabIndex = 0
         Me.TabPage2.Text = "Thông Tin Hóa Đơn"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'btCapNhatHD
+        '
+        Me.btCapNhatHD.Location = New System.Drawing.Point(121, 292)
+        Me.btCapNhatHD.Name = "btCapNhatHD"
+        Me.btCapNhatHD.Size = New System.Drawing.Size(75, 23)
+        Me.btCapNhatHD.TabIndex = 37
+        Me.btCapNhatHD.Text = "Cập nhật"
+        Me.btCapNhatHD.UseVisualStyleBackColor = True
         '
         'Label10
         '
@@ -171,15 +180,6 @@ Partial Class frmQLHoaDon
         Me.btXoaHoaDon.TabIndex = 5
         Me.btXoaHoaDon.Text = "Xóa"
         Me.btXoaHoaDon.UseVisualStyleBackColor = True
-        '
-        'btCapNhatHoaDon
-        '
-        Me.btCapNhatHoaDon.Location = New System.Drawing.Point(121, 292)
-        Me.btCapNhatHoaDon.Name = "btCapNhatHoaDon"
-        Me.btCapNhatHoaDon.Size = New System.Drawing.Size(75, 23)
-        Me.btCapNhatHoaDon.TabIndex = 4
-        Me.btCapNhatHoaDon.Text = "Cập nhật"
-        Me.btCapNhatHoaDon.UseVisualStyleBackColor = True
         '
         'txtTienNo
         '
@@ -275,7 +275,7 @@ Partial Class frmQLHoaDon
         Me.dtpNgayLapHD.Name = "dtpNgayLapHD"
         Me.dtpNgayLapHD.Size = New System.Drawing.Size(246, 20)
         Me.dtpNgayLapHD.TabIndex = 22
-        Me.dtpNgayLapHD.Value = New Date(2018, 5, 23, 20, 3, 39, 0)
+        Me.dtpNgayLapHD.Value = New Date(2018, 5, 28, 23, 6, 39, 0)
         '
         'Label3
         '
@@ -343,11 +343,12 @@ Partial Class frmQLHoaDon
         Me.dtpNgayHDTimKiem.Name = "dtpNgayHDTimKiem"
         Me.dtpNgayHDTimKiem.Size = New System.Drawing.Size(246, 20)
         Me.dtpNgayHDTimKiem.TabIndex = 37
+        Me.dtpNgayHDTimKiem.Value = New Date(2018, 5, 28, 23, 6, 28, 0)
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 12)
+        Me.Label4.Location = New System.Drawing.Point(6, 10)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(78, 13)
         Me.Label4.TabIndex = 24
@@ -387,7 +388,6 @@ Partial Class frmQLHoaDon
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents txtMaHD As TextBox
-    Friend WithEvents btCapNhatHoaDon As Button
     Friend WithEvents btXoaHoaDon As Button
     Friend WithEvents txtMaKH As TextBox
     Friend WithEvents TabControl3 As TabControl
@@ -406,4 +406,5 @@ Partial Class frmQLHoaDon
     Friend WithEvents Label10 As Label
     Friend WithEvents txtTriGia As TextBox
     Friend WithEvents dtpNgayHDTimKiem As DateTimePicker
+    Friend WithEvents btCapNhatHD As Button
 End Class

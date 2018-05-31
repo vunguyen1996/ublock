@@ -31,6 +31,27 @@ Public Class frmThemCTPhieuNhap
         End If
     End Sub
 
+    Private Sub frmLoadMaPhieuNhap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        phieunhapBus = New PhieuNhapBUS()
+        Dim listPhieuNhap = New List(Of PhieuNhapDTO)
+        Dim result As Result
+        result = phieunhapBus.selectAll(listPhieuNhap)
+        If (result.FlagResult = False) Then
+            MessageBox.Show("Lấy danh sách sách không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            System.Console.WriteLine(result.SystemMessage)
+            Me.Close()
+            Return
+        End If
+        cbbMaPN.DataSource = New BindingSource(listPhieuNhap, String.Empty)
+        cbbMaPN.DisplayMember = "MAPHIEUNHAP"
+        cbbMaPN.ValueMember = "MAPHIEUNHAP"
+        Dim myCurrencyManager As CurrencyManager = Me.BindingContext(cbbMaPN.DataSource)
+        myCurrencyManager.Refresh()
+        If (listPhieuNhap.Count > 0) Then
+            cbbMaPN.SelectedIndex = 0
+        End If
+    End Sub
+
     Private Sub frmSoLuongNhapToiThieuAndTonToiDa_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         qdBus = New QuyDinhBUS()
         Dim listQuyDinh = New List(Of QuyDinhDTO)
@@ -90,7 +111,7 @@ Public Class frmThemCTPhieuNhap
 
         '1. Mapping data from GUI control
         ctphieunhap.MaChiTietPhieuNhap = Convert.ToInt32(txtMaCTPN.Text)
-        ctphieunhap.MaPhieuNhap = txtMaPhieuNhap.Text
+        ctphieunhap.MaPhieuNhap = cbbMaPN.Text
         ctphieunhap.MaSach = txtMaSach.Text
         ctphieunhap.SoLuongNhap = txtSoLuongNhap.Text
         '2. Business .....
@@ -160,15 +181,6 @@ Public Class frmThemCTPhieuNhap
         End Try
     End Sub
 
-    Private Sub txtMaPhieuNhap_TextChanged(sender As Object, e As EventArgs) Handles txtMaPhieuNhap.TextChanged
-        Try
-            Dim maPhieu = txtMaPhieuNhap.Text
-            loadListPhieuNhap(maPhieu)
-        Catch ex As Exception
-
-        End Try
-    End Sub
-
     Private Sub txtTheLoai_TextChanged(sender As Object, e As EventArgs) Handles txtTheLoai.TextChanged
         Try
             Dim maLoai = txtTheLoai.Text
@@ -183,5 +195,14 @@ Public Class frmThemCTPhieuNhap
         Dim soluongnhap = Integer.Parse(txtSoLuongNhap.Text)
         Dim soluongtoncuoi = soluongtontruockhinhap + soluongnhap
         txtSoLuongTonSauKhiNhap.Text = soluongtoncuoi
+    End Sub
+
+    Private Sub cbbMaPN_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbMaPN.SelectedIndexChanged
+        Try
+            Dim maPhieu = cbbMaPN.Text
+            loadListPhieuNhap(maPhieu)
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class

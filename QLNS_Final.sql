@@ -428,9 +428,9 @@ GO
 USE [QLNS_Final]
 GO
 
-INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(1,convert(datetime,'05/14/2018'),1,45000)
+INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(1,convert(datetime,'05/14/2018',101),1,45000)
 GO
-INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(2,convert(datetime,'05/15/2018'),2,0)
+INSERT INTO [dbo].[tblHoaDon]([MAHD],[NgayHoaDon],[MAKH],[TongTriGiaHD])VALUES(2,convert(datetime,'05/15/2018',101),2,0)
 GO
 
 /******insert chi tiet hoa don******/
@@ -500,4 +500,7 @@ GO
 
 --select max(MASACH)
 --from tblSach 
+
+--update tblHoaDon set NgayHoaDon = '1/1/2018', TongTriGiaHD = '10000'
+--where MAHD = '2'
 

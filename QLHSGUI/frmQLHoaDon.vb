@@ -202,26 +202,34 @@ Public Class frmQLHoaDon
         End Try
     End Sub
 
-    Private Sub btCapNhatHoaDon_Click(sender As Object, e As EventArgs) Handles btCapNhatHoaDon.Click
-        Dim currentRowIndex As Integer = dgvListHoaDon.CurrentCellAddress.Y
-        'current row selected
+    Private Sub btCapNhatHD_Click(sender As Object, e As EventArgs) Handles btCapNhatHD.Click
+        ' Get the current cell location.
+        Dim currentRowIndex As Integer = dgvListHoaDon.CurrentCellAddress.Y 'current row selected
+        'Verify that indexing OK
         If (-1 < currentRowIndex And currentRowIndex < dgvListHoaDon.RowCount) Then
             Try
                 Dim hoadon As HoaDonDTO
                 hoadon = New HoaDonDTO()
-
+                '1. Mapping data from GUI control
                 hoadon.NgayHoaDon = dtpNgayLapHD.Value.ToShortDateString
                 hoadon.TongTriGia = txtTriGia.Text
                 hoadon.MaHoaDon = Convert.ToInt32(txtMaHD.Text)
-
+                '2. Business .....
+                '3. Insert to DB
                 Dim result As Result
                 result = hdBus.update(hoadon)
                 If (result.FlagResult = True) Then
-                    loadlistHoaDon_ByNgayHoaDon(dtpNgayLapHD.Value.ToShortDateString)
+                    ' Re-Load sach list
+                    'loadListSach_ByMaLoaiSach(cbbLoaiSach.SelectedValue)
+                    loadlistHoaDon()
+                    ' Hightlight the row has been updated on table
+                    dgvListHoaDon.Rows(currentRowIndex).Selected = True
+
                     MessageBox.Show("Cập nhật hóa đơn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Else
+                    MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    System.Console.WriteLine(result.SystemMessage)
                 End If
-                MessageBox.Show("Cập nhật hóa đơn không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                System.Console.WriteLine(result.SystemMessage)
             Catch ex As Exception
                 Console.WriteLine(ex.StackTrace)
             End Try

@@ -143,7 +143,7 @@ Public Class frmQLPhieuNhap
                         result = pnBus.delete(txtMaPhieuNhap.Text)
                         If (result.FlagResult = True) Then
                             ' Re-Load LoaiHocSinh list
-                            loadlistPhieuNhap_ByNgayNhap(dtpNgayNhap.Value)
+                            loadlistPhieuNhap()
                             ' Hightlight the next row on table
                             If (currentRowIndex >= dgvListPhieuNhap.Rows.Count) Then
                                 currentRowIndex = currentRowIndex - 1
